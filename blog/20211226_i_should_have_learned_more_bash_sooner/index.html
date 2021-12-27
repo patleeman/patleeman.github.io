@@ -81,53 +81,58 @@
     <section class="section main">
       <div class="container">
         <div class="content">
-          <p>Bash tools are super powerful once you get a hang of using it. This whole blog is pretty much <a href="https://github.com/patleeman/patricklee.nyc/">a bunch of scripts and Pandoc</a>. Its pretty cool what you can build once you get over the learning curve.</p>
-          <p>I'm a few years into my career now and I've only really used shell scripts when working with CI. I've never felt totally comfortable with it, maybe it's because it feels like casting spells by uttering some obscure incantations? I mean look at one of the lines I put together to sort an array for this blog:</p>
-          <div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">IFS</span><span class="op">=</span><span class="st">$&#39;</span><span class="dt">\n</span><span class="st">&#39;</span> <span class="va">SORTED_POSTS</span><span class="op">=</span><span class="va">(</span> <span class="va">$(</span><span class="cf">for</span> j <span class="kw">in</span> <span class="st">&quot;</span><span class="va">${POSTS</span><span class="op">[@]</span><span class="va">}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="cf">do</span> <span class="bu">echo</span> <span class="va">$j</span><span class="kw">;</span> <span class="cf">done</span> <span class="kw">|</span> <span class="fu">sort</span> <span class="at">-t</span> <span class="st">&quot;;&quot;</span> <span class="at">-k</span> 1 <span class="at">-nr</span><span class="va">)</span> <span class="va">)</span></span></code></pre></div>
-          <p>What does all this mean? <code>IFS=$'\n'</code> Hackily set the internal separator to newline so it stops breaking my strings up by spaces <code>$(for j in "${POSTS[@]}"; do echo $j; done | sort -t ";" -k 1 -nr)</code> Loop through the $POSTS array (not shown) and sort by the first column delineated by ; <code>SORTED_POSTS=( ... )</code> Create an array from the output of the previous command</p>
-          <p>Hell, this probably isn't even the right way to do what I wanted it to do, but it works for my use case. What's really cool though is just how powerful and terse it is. The difficulty lies in getting started with it.</p>
-          <p>Some of the Pros and Cons I've encountered so far:</p>
-          <p>Pros</p>
-          <ul>
-          <li>Portable between many different systems</li>
-          <li>Plenty of information available online</li>
-          <li>Very powerful and terse</li>
-          </ul>
-          <p>Cons</p>
-          <ul>
-          <li>Learning curve is steep</li>
-          <li>Lots of different ways to do X but somebody on the internet will tell you you're wrong</li>
-          <li>Readability is not very good. If you want to share scripts with a team, you might want to choose something like Python.</li>
-          </ul>
-          <p>So if I were to advise my slightly younger self:</p>
-          <ul>
-          <li>Take a few days and learn how to write bash scripts.</li>
-          <li>Read up on the basics of bash scripting.
-          <ul>
-          <li><a href="https://learnxinyminutes.com/docs/bash/">Learn X in Y seconds</a></li>
-          <li><a href="http://mywiki.wooledge.org/BashGuide">Bash Guide</a></li>
-          </ul></li>
-          <li>Try writing some scripts to automate things (like setting up your <a href="https://github.com/patleeman/dotfiles">dotfiles repo</a> sooner)</li>
-          <li>If you find yourself reaching to some programming language to do something, try doing it in bash first.</li>
-          <li>Don't bother with anything complicated interactively. Create a script file and execute it if its anything more than a one liner.</li>
-          </ul>
+          <div class="block">
+            <p>Bash tools are super powerful once you get a hang of using it. This whole blog is pretty much <a href="https://github.com/patleeman/patricklee.nyc/">a bunch of scripts and Pandoc</a>. Its pretty cool what you can build once you get over the learning curve.</p>
+            <p>I'm a few years into my career now and I've only really used shell scripts when working with CI. I've never felt totally comfortable with it, maybe it's because it feels like casting spells by uttering some obscure incantations? I mean look at one of the lines I put together to sort an array for this blog:</p>
+            <div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">IFS</span><span class="op">=</span><span class="st">$&#39;</span><span class="dt">\n</span><span class="st">&#39;</span> <span class="va">SORTED_POSTS</span><span class="op">=</span><span class="va">(</span> <span class="va">$(</span><span class="cf">for</span> j <span class="kw">in</span> <span class="st">&quot;</span><span class="va">${POSTS</span><span class="op">[@]</span><span class="va">}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="cf">do</span> <span class="bu">echo</span> <span class="va">$j</span><span class="kw">;</span> <span class="cf">done</span> <span class="kw">|</span> <span class="fu">sort</span> <span class="at">-t</span> <span class="st">&quot;;&quot;</span> <span class="at">-k</span> 1 <span class="at">-nr</span><span class="va">)</span> <span class="va">)</span></span></code></pre></div>
+            <p>What does all this mean? <code>IFS=$'\n'</code> Hackily set the internal separator to newline so it stops breaking my strings up by spaces <code>$(for j in "${POSTS[@]}"; do echo $j; done | sort -t ";" -k 1 -nr)</code> Loop through the $POSTS array (not shown) and sort by the first column delineated by ; <code>SORTED_POSTS=( ... )</code> Create an array from the output of the previous command</p>
+            <p>Hell, this probably isn't even the right way to do what I wanted it to do, but it works for my use case. What's really cool though is just how powerful and terse it is. The difficulty lies in getting started with it.</p>
+            <p>Some of the Pros and Cons I've encountered so far:</p>
+            <p>Pros</p>
+            <ul>
+            <li>Portable between many different systems</li>
+            <li>Plenty of information available online</li>
+            <li>Very powerful and terse</li>
+            </ul>
+            <p>Cons</p>
+            <ul>
+            <li>Learning curve is steep</li>
+            <li>Lots of different ways to do X but somebody on the internet will tell you you're wrong</li>
+            <li>Readability is not very good. If you want to share scripts with a team, you might want to choose something like Python.</li>
+            </ul>
+            <p>So if I were to advise my slightly younger self:</p>
+            <ul>
+            <li>Take a few days and learn how to write bash scripts.</li>
+            <li>Read up on the basics of bash scripting.
+            <ul>
+            <li><a href="https://learnxinyminutes.com/docs/bash/">Learn X in Y seconds</a></li>
+            <li><a href="http://mywiki.wooledge.org/BashGuide">Bash Guide</a></li>
+            </ul></li>
+            <li>Try writing some scripts to automate things (like setting up your <a href="https://github.com/patleeman/dotfiles">dotfiles repo</a> sooner)</li>
+            <li>If you find yourself reaching to some programming language to do something, try doing it in bash first.</li>
+            <li>Don't bother with anything complicated interactively. Create a script file and execute it if its anything more than a one liner.</li>
+            </ul>
+          </div>
+
 
           
           
-                      <nav class="level">
-                          <div class="level-left">
-                              <div class="level-item">
-                                  <a id="email-feedback" href="" target="_blank" title="Send me some feedback">
-                                      📧  Feedback</a>
-                              </div>
-                              <div class="level-item">
-                                  <a id="tweet-at" href="" target="_blank" title="Tweet at me">🐦 @patleeman</a>
-                              </div>
-                              <div class="level-item">
-                                  <a id="share-with" href="" target="_blank" title="Share this post">🐦 Share</a>
-                              </div>
-                          </div>
-                      </nav>                  </div>
+                      <div class="block">
+              <nav class="level">
+                  <div class="level-left">
+                      <div class="level-item">
+                          <a id="email-feedback" href="" target="_blank" title="Send me some feedback">
+                              📧  Feedback</a>
+                      </div>
+                      <div class="level-item">
+                          <a id="tweet-at" href="" target="_blank" title="Tweet at me">🐦 @patleeman</a>
+                      </div>
+                      <div class="level-item">
+                          <a id="share-with" href="" target="_blank" title="Share this post">🐦 Share</a>
+                      </div>
+                  </div>
+              </nav>            </div>
+                  </div>
       </div>
     </section>
 
