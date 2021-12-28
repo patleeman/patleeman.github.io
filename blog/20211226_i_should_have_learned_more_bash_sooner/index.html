@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Lessons learned from dabbling in the stock market</title>
+    <title>I should have learned more bash sooner</title>
     <!-- Primary Meta Tags -->
     <title>Patrick Lee — Software Engineer</title>
     <meta name="title" content="Patrick Lee — Software Engineer">
@@ -41,7 +41,7 @@
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
     />
     <link rel="stylesheet" href="/styles/styles.css" />
-    <script>window.shortLink="https://patricklee.nyc/s/68b3"</script>
+    <script>window.shortLink="https://patricklee.nyc/s/418a"</script>
   </head>
 
   <body>
@@ -85,7 +85,7 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <div class="title-box">
-            <p class="title">Lessons learned from dabbling in the stock market</p>
+            <p class="title">I should have learned more bash sooner</p>
 
                       </div>
         </div>
@@ -94,7 +94,7 @@
       <div class="hero-footer">
         <div class="container has-text-centered">
                     <div class="date">
-            <p class="is-7"><strong>2021-12-27</strong></p>
+            <p class="is-7"><strong>2021-12-26</strong></p>
           </div>
                   </div>
       </div>
@@ -104,19 +104,35 @@
       <div class="container">
         <div class="content">
           <div class="block">
-            <p>I've dabbled in investing in the past but over the last two years I've really gotten involved heavily with managing my portfolio. I'm still a complete amateur but I did pick up some very valuable lessons:</p>
+            <p>Bash tools are super powerful once you get a hang of using it. This whole blog is pretty much <a href="https://github.com/patleeman/patricklee.nyc/">a bunch of scripts and Pandoc</a>. Its pretty cool what you can build once you get over the learning curve.</p>
+            <p>I'm a few years into my career now and I've only really used shell scripts when working with CI. I've never felt totally comfortable with it, maybe it's because it feels like casting spells by uttering some obscure incantations? I mean look at one of the lines I put together to sort an array for this blog:</p>
+            <div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">IFS</span><span class="op">=</span><span class="st">$&#39;</span><span class="dt">\n</span><span class="st">&#39;</span> <span class="va">SORTED_POSTS</span><span class="op">=</span><span class="va">(</span> <span class="va">$(</span><span class="cf">for</span> j <span class="kw">in</span> <span class="st">&quot;</span><span class="va">${POSTS</span><span class="op">[@]</span><span class="va">}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="cf">do</span> <span class="bu">echo</span> <span class="va">$j</span><span class="kw">;</span> <span class="cf">done</span> <span class="kw">|</span> <span class="fu">sort</span> <span class="at">-t</span> <span class="st">&quot;;&quot;</span> <span class="at">-k</span> 1 <span class="at">-nr</span><span class="va">)</span> <span class="va">)</span></span></code></pre></div>
+            <p>What does all this mean? <code>IFS=$'\n'</code> Hackily set the internal separator to newline so it stops breaking my strings up by spaces <code>$(for j in "${POSTS[@]}"; do echo $j; done | sort -t ";" -k 1 -nr)</code> Loop through the $POSTS array (not shown) and sort by the first column delineated by ; <code>SORTED_POSTS=( ... )</code> Create an array from the output of the previous command</p>
+            <p>Hell, this probably isn't even the right way to do what I wanted it to do, but it works for my use case. What's really cool though is just how powerful and terse it is. The difficulty lies in getting started with it.</p>
+            <p>Some of the Pros and Cons I've encountered so far:</p>
+            <p>Pros</p>
             <ul>
-            <li>I've started to attach probabilities to events way more than I used to. This has the benefit of helping me think about potential events more objectively.</li>
-            <li>There is a zen to riding the highs and lows of the market. It takes confidence in a long term game plan, diversification, and some good ole detachment in order to psychologically bear the swings.</li>
-            <li>I learned not to go into a trade without an exit plan (still working on actualizing this one).</li>
-            <li>The more you risk, the more you could potentially be rewarded.</li>
-            <li>You could also lose everything in one bad trade. Don't put all your eggs in one basket.</li>
-            <li>Leverage is a powerful and dangerous tool. Use it with extreme caution.</li>
-            <li>A stock's price usually reached an equilibrium until some catalyst occurs. The same could be said about life, usually we reach some steady state until a catalyzing life event occurs.
+            <li>Portable between many different systems</li>
+            <li>Plenty of information available online</li>
+            <li>Very powerful and terse</li>
+            </ul>
+            <p>Cons</p>
             <ul>
-            <li><strong>TODO: explore how to introduce catalysts in a more consistent manner.</strong></li>
+            <li>Learning curve is steep</li>
+            <li>Lots of different ways to do X but somebody on the internet will tell you you're wrong</li>
+            <li>Readability is not very good. If you want to share scripts with a team, you might want to choose something like Python.</li>
+            </ul>
+            <p>So if I were to advise my slightly younger self:</p>
+            <ul>
+            <li>Take a few days and learn how to write bash scripts.</li>
+            <li>Read up on the basics of bash scripting.
+            <ul>
+            <li><a href="https://learnxinyminutes.com/docs/bash/">Learn X in Y seconds</a></li>
+            <li><a href="http://mywiki.wooledge.org/BashGuide">Bash Guide</a></li>
             </ul></li>
-            <li>Companies rise and fall on a regular basis. What seems like a juggernaut one year may implode the next. Same for companies that seem to be worthless can be turned around and brought back from the grave.</li>
+            <li>Try writing some scripts to automate things (like setting up your <a href="https://github.com/patleeman/dotfiles">dotfiles repo</a> sooner)</li>
+            <li>If you find yourself reaching to some programming language to do something, try doing it in bash first.</li>
+            <li>Don't bother with anything complicated interactively. Create a script file and execute it if its anything more than a one liner.</li>
             </ul>
           </div>
 
@@ -137,7 +153,7 @@
                           <a id="share-with" href="" target="_blank" title="Share this post">🐦 Share</a>
                       </div>
                       <div class="level-item">
-                          <a id="share-with" href="https://patricklee.nyc/s/68b3" target="_blank" title="Short Link">🔗 Link</a>
+                          <a id="share-with" href="https://patricklee.nyc/s/418a" target="_blank" title="Short Link">🔗 Link</a>
                       </div>
                   </div>
               </nav>            </div>
