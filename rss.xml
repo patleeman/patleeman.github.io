@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Patricklee.nyc</title>
+    <link>https://patricklee.nyc/</link>
+    <description>Software engineering and general geekery</description>
+    <language>en-us</language>
+    <pubDate>Wed, 15 Jun 2022 14:22:47 +0000</pubDate>
+    
+    <item>
+      <title>My walking desk setup</title>
+      <description>My walking desk setup</description>
+      <link>https://patricklee.nyc/blog/20211228_my_walking_desk_setup</link>
+      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lessons learned from dabbling in the stock market</title>
+      <description>Lessons learned from dabbling in the stock market</description>
+      <link>https://patricklee.nyc/blog/20211227_lessons_learned_from_dabbling_in_the_stock_market</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hot takes</title>
+      <description>Hot takes</description>
+      <link>https://patricklee.nyc/blog/20211226_hot_takes</link>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>I should have learned more bash sooner</title>
+      <description>I should have learned more bash sooner</description>
+      <link>https://patricklee.nyc/blog/20211226_i_should_have_learned_more_bash_sooner</link>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>iOS shortcut</title>
+      <description>iOS shortcut</description>
+      <link>https://patricklee.nyc/blog/20211227_ios_shortcut</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Note taking hell</title>
+      <description>Note taking hell</description>
+      <link>https://patricklee.nyc/blog/20220520_note_taking_hell</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dotfiles</title>
+      <description>Dotfiles</description>
+      <link>https://patricklee.nyc/blog/20211229_dotfiles</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Goodbye iterm2</title>
+      <description>Goodbye iterm2</description>
+      <link>https://patricklee.nyc/blog/20220107_goodbye_iterm2</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Striving for dispassionateness</title>
+      <description>Striving for dispassionateness</description>
+      <link>https://patricklee.nyc/blog/20220321_striving_for_dispassionateness</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lessons learned from starting a business while working full time.</title>
+      <description>Lessons learned from starting a business while working full time.</description>
+      <link>https://patricklee.nyc/blog/20170819_lessons_learned_from_starting_a_business</link>
+      <pubDate>Sat, 19 Aug 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Community College to Columbia</title>
+      <description>From Community College to Columbia</description>
+      <link>https://patricklee.nyc/blog/20161212_community_college_to_columbia</link>
+      <pubDate>Mon, 12 Dec 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quick capture</title>
+      <description>Quick capture</description>
+      <link>https://patricklee.nyc/blog/20211226_quick_capture</link>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An ode to my linter</title>
+      <description>An ode to my linter</description>
+      <link>https://patricklee.nyc/blog/20211230_an_ode_to_my_linter</link>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
