@@ -5,219 +5,8 @@
     <link>https://patricklee.nyc/</link>
     <description>Software engineering and general geekery</description>
     <language>en-us</language>
-    <pubDate>Wed, 15 Jun 2022 18:58:10 +0000</pubDate>
+    <pubDate>Wed, 15 Jun 2022 20:54:59 +0000</pubDate>
     
-    <item>
-      <title>Goodbye iterm2</title>
-      <description><![CDATA[<p>I’ve used iTerm 2 for a few years now but came to the realization that I don’t actually use any of its features. Mac’s built in terminal is more than enough for my needs. See ya later iTerm 2 and thanks for being rock solid all these years.</p>]]></description>
-      <link>https://patricklee.nyc/blog/20220107_goodbye_iterm2</link>
-      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>iOS shortcut</title>
-      <description><![CDATA[<p>Here is <a href="https://www.icloud.com/shortcuts/373c82b44f2c41b69f627a83a2ff7979">the iOS Shortcut</a> that adds a new Hot Take markdown file to this <a href="github.com/patleeman/patricklee.nyc/">repo</a>. Requires <a href="https://workingcopyapp.com/">Working Copy</a> w/ Pro. It works pretty well!</p>]]></description>
-      <link>https://patricklee.nyc/blog/20211227_ios_shortcut</link>
-      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Resurrecting RSS feeds</title>
-      <description><![CDATA[<p>Back when I was a young lad, RSS feeds were <em>the</em> way to stay up to date on news, blogs, and other content. You’d find sites you liked, then add their content to your RSS feed reader and then you’d be able to go to a single place to view all your news and content. You’d be able to curate a large number of sites and read new items on a daily basis. Those were the days!</p>
-<p>Then digital advertising got big, there was real money to be made from eyeballs on your website, so slowly sites began guarding their RSS feed content, ultimately getting rid of them altogether. You wanted people engaging with your site, not with your content, and slowly content began shifting to social media.</p>
-<p>Back then, all you needed was your Google Reader feed. These days, content is gated within small walled gardens. If you aren’t a member of these walled gardens, forget seeing the content! When my feeds started dying, I switched to Digg and then Reddit and Hacker News.</p>
-<p>The thing I miss most about syndicated feeds, is that it was so much easier to receive updates for smaller bloggers and news sources. Social media and Reddit are great at surfacing new content, but if I want to follow along with a small time writer, there isn’t much recourse. These days you’d have to follow somebody’s Twitter or their Substack, but it just isn’t as easy as it used to be.</p>
-<p>Today I set up a RSS reader and I’m going to attempt to curate my feed with authors I’m interested in hearing from. I also added a RSS feed to this blog, so others can subscribe to my feed and read what I’m writing about. It won’t replace Reddit or Hacker news for me, but I hope I can supplement that content!</p>]]></description>
-      <link>https://patricklee.nyc/blog/20220615_resurrecting_rss_feeds</link>
-      <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lessons learned from starting a business while working full time.</title>
-      <description><![CDATA[<p>I started working on <a href="http://collatenotes.com/">Collate</a> in December of 2016. I was dissatisfied with the note taking apps on the market and wanted a tool that would work for my needs. I had been toying with the idea and finally started writing code over the Christmas holiday. I had a basic prototype built with Electron, bootstrap and jQuery by February, then rebuilt it with Electron, Vue.js and Bulma from scratch because the code base was terrible. Today, Collate is profitable, has a couple hundred users, was featured on <a href="http://lifehacker.com/collate-is-a-privacy-focused-evernote-style-notes-app-1794500652">Lifehacker</a> and is doing well by my standards. Here are some hard learned lessons from the last 8 months of working on Collate while maintaining a full time job:</p>
-<ol type="1">
-<li>Have a tight scope — I made the mistake of saying yes to everything and pretty soon Collate began heading in a direction I wasn’t happy with. Users will ask for features, it’s only natural. It’s extremely easy to bloat the scope of your project if you say yes to everything. Having an extremely tight scope of what your project does and provides is essential to focus the small amount of time you have to devote to the project. I’m working on the next iteration of Collate and it will be extremely pared down.</li>
-<li>Use what you know — Use technology you know like the back of your hand. This advice is given a lot and for good reason. If you need to spend time learning a new piece of tech, it’s time away from making your product more stable. I use Wordpress in my day job, so it’s only natural I use it for my product’s site. It’s not sexy but it works.</li>
-<li>If you have to learn new tech, experiment and choose what works for you — Other times you might not know how to use the right technology for the job. In these cases experiment and see what works best for your needs. I went with Vue.js for the second iteration of Collate because I was working on a project at work that utilized it. Using it in both places helped both projects immensely.</li>
-<li>Charge money — This is one thing I’m glad I got right from the start thanks to advice from <a href="https://www.indiehackers.com/">Indie Hackers</a> and other startup founders. Charge money from the get-go and get customers comfortable paying for your product. Collate was profitable the second week out of release. The money gives you a cushion to experiment and grow the business. Since I’m working full time, all profits go back into the project to pay for things like servers, lawyers, and third party services I may use.</li>
-<li>It’s okay to not respond to emails — Customer service is a very time consuming task. I made the mistake of replying to each and every email in the beginning, usually with long explanations of what I was doing and my plans. With limited time, choose your service requests carefully and try to minimize time spent on it. It doesn’t mean you don’t care, you’re just prioritizing. I got to a point where I would dread opening up my inbox, after I stopped responding to everything, things got a lot more manageable.</li>
-<li>Get your legal ducks in a row — If you’re going to collect money for your project, spend a little up front as soon as you can afford to and get all your legal stuff squared away. I started my corporate entity (Collate, LLC) through a corporate filing company in my state. Opened a bank account with the same bank I use for my personal accounts. Then, got my End User License Agreement and Privacy Policy looked at by an attorney I found on <a href="https://www.upcounsel.com/rf/pQ3CZlfu">Upcounsel</a>.</li>
-<li>Think about marketing — You don’t have to be a marketing wiz but consider it while building out the product. At the very minimum, start early by building a email list of people interested in your product. You don’t have to constantly market to your list but its useful to have people to notify when you have something to announce.</li>
-<li>Pace yourself — I wish I had learned this lesson sooner. I worked on Collate furiously for the first six months, pumping out feature after feature and release after release. I was putting in close to 40 hours a week on nights and weekends working on Collate after work for a while. I got so burnt out that I had to step away from the project and try working on something else (and even not working on anything!). I’m back on it now, but working on it at a much slower pace. Take the time to decompress each day, get exercise and make sure to sleep.</li>
-</ol>
-<p>Side projects while working full time are a lot of work but also very rewarding. The best part for me was building something from scratch that I’m passionate about building, something that I don’t get at my day job. It’s also pretty great to build something and then watch other people get excited about it.</p>]]></description>
-      <link>https://patricklee.nyc/blog/20170819_lessons_learned_from_starting_a_business</link>
-      <pubDate>Sat, 19 Aug 2017 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>I should have learned more bash sooner</title>
-      <description><![CDATA[<p>Bash tools are super powerful once you get a hang of using it. This whole blog is pretty much <a href="https://github.com/patleeman/patricklee.nyc/">a bunch of scripts and Pandoc</a>. Its pretty cool what you can build once you get over the learning curve.</p>
-<p>I’m a few years into my career now and I’ve only really used shell scripts when working with CI. I’ve never felt totally comfortable with it, maybe it’s because it feels like casting spells by uttering some obscure incantations? I mean look at one of the lines I put together to sort an array for this blog:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">IFS</span><span class="op">=</span><span class="st">$&#39;</span><span class="dt">
-</span><span class="st">&#39;</span> <span class="va">SORTED_POSTS</span><span class="op">=</span><span class="va">(</span> <span class="va">$(</span><span class="cf">for</span> j <span class="kw">in</span> <span class="st">&quot;</span><span class="va">${POSTS</span><span class="op">[@]</span><span class="va">}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="cf">do</span> <span class="bu">echo</span> <span class="va">$j</span><span class="kw">;</span> <span class="cf">done</span> <span class="kw">|</span> <span class="fu">sort</span> <span class="at">-t</span> <span class="st">&quot;;&quot;</span> <span class="at">-k</span> 1 <span class="at">-nr</span><span class="va">)</span> <span class="va">)</span></span></code></pre></div>
-<p>What does all this mean? <code>IFS=$'
-'</code> Hackily set the internal separator to newline so it stops breaking my strings up by spaces <code>$(for j in "${POSTS[@]}"; do echo $j; done | sort -t ";" -k 1 -nr)</code> Loop through the $POSTS array (not shown) and sort by the first column delineated by ; <code>SORTED_POSTS=( ... )</code> Create an array from the output of the previous command</p>
-<p>Hell, this probably isn’t even the right way to do what I wanted it to do, but it works for my use case. What’s really cool though is just how powerful and terse it is. The difficulty lies in getting started with it.</p>
-<p>Some of the Pros and Cons I’ve encountered so far:</p>
-<p>Pros</p>
-<ul>
-<li>Portable between many different systems</li>
-<li>Plenty of information available online</li>
-<li>Very powerful and terse</li>
-</ul>
-<p>Cons</p>
-<ul>
-<li>Learning curve is steep</li>
-<li>Lots of different ways to do X but somebody on the internet will tell you you’re wrong</li>
-<li>Readability is not very good. If you want to share scripts with a team, you might want to choose something like Python.</li>
-</ul>
-<p>So if I were to advise my slightly younger self:</p>
-<ul>
-<li>Take a few days and learn how to write bash scripts.</li>
-<li>Read up on the basics of bash scripting.
-<ul>
-<li><a href="https://learnxinyminutes.com/docs/bash/">Learn X in Y seconds</a></li>
-<li><a href="http://mywiki.wooledge.org/BashGuide">Bash Guide</a></li>
-</ul></li>
-<li>Try writing some scripts to automate things (like setting up your <a href="https://github.com/patleeman/dotfiles">dotfiles repo</a> sooner)</li>
-<li>If you find yourself reaching to some programming language to do something, try doing it in bash first.</li>
-<li>Don’t bother with anything complicated interactively. Create a script file and execute it if its anything more than a one liner.</li>
-</ul>]]></description>
-      <link>https://patricklee.nyc/blog/20211226_i_should_have_learned_more_bash_sooner</link>
-      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lessons learned from dabbling in the stock market</title>
-      <description><![CDATA[<p>I’ve dabbled in investing in the past but over the last two years I’ve really gotten involved heavily with managing my portfolio. I’m still a complete amateur but I did pick up some very valuable lessons:</p>
-<ul>
-<li>I’ve started to attach probabilities to events way more than I used to. This has the benefit of helping me think about potential events more objectively.</li>
-<li>There is a zen to riding the highs and lows of the market. It takes confidence in a long term game plan, diversification, and some good ole detachment in order to psychologically bear the swings.</li>
-<li>I learned not to go into a trade without an exit plan (still working on actualizing this one).</li>
-<li>The more you risk, the more you could potentially be rewarded.</li>
-<li>You could also lose everything in one bad trade. Don’t put all your eggs in one basket.</li>
-<li>Leverage is a powerful and dangerous tool. Use it with extreme caution.</li>
-<li>A stock’s price usually reached an equilibrium until some catalyst occurs. The same could be said about life, usually we reach some steady state until a catalyzing life event occurs.
-<ul>
-<li><strong>TODO: explore how to introduce catalysts in a more consistent manner.</strong></li>
-</ul></li>
-<li>Companies rise and fall on a regular basis. What seems like a juggernaut one year may implode the next. Same for companies that seem to be worthless can be turned around and brought back from the grave.</li>
-</ul>]]></description>
-      <link>https://patricklee.nyc/blog/20211227_lessons_learned_from_dabbling_in_the_stock_market</link>
-      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hot takes</title>
-      <description><![CDATA[<p>In an effort to reduce the barrier to entry to writing blog posts, I’m introducing hot takes. A low effort way for me to put unpolished thoughts into the wild. It’s like twitter but without having to deal with any baggage.</p>]]></description>
-      <link>https://patricklee.nyc/blog/20211226_hot_takes</link>
-      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Striving for dispassionateness</title>
-      <description><![CDATA[<h1 id="striving-for-dispassionateness">Striving for dispassionateness</h1>
-<blockquote>
-<p>Not influenced by strong feelings or emotions; impartial</p>
-</blockquote>
-<p><a href="https://www.thefreedictionary.com/dispassionateness#:~:text=dispassionateness-,noun,%2C%20nonpartisanship%2C%20objectiveness%2C%20objectivity.">Definition</a></p>
-<p>As I continue on my leadership journey managing the Growth engineering team at Noom, one aspect of my personality I’ve been trying to work on is detachment. I have a mantra “Strive for dispassionateness” that I plastered on top of my personal goals to remind me to continue to detach myself from emotions. Dispassionateness or detachment as I’ve defined it is the process of removing emotion from the decision making process to reduce the impact of bias and to try to make the best decisions possible.</p>
-<p>My coworker Nikhil, the VP of Growth at Noom is my model for dispassionateness. I’ve worked with him for four years now and in this time I’ve had a glimpse into how he handles making difficult decisions and accepting hard feedback. He does it with thoughtfulness, without ego, and kindness. Its quite impressive to see.</p>
-<p>I’m an emotional person, I feel strong emotions which can bias my decision making process. This personality trait has hurt me in the past. I’ve been in situations where I have a hard time forming sentences, breathing gets difficult, vision blurs. Getting overwhelmed by emotions is truly an awful experience. The adrenaline pumps as the fight or flight response kicks in, paralyzing your mind in indecision, and impairing your ability to think. I’m a conflict-adverse introvert. I hate conflict, but as a people manager and leader there is no avoiding conflict sometimes. You will eventually get pulled into it, especially in a fast moving organization with many different people with their own biases, goals, and opinions.</p>
-<p>Disconnecting yourself from emotions isn’t burying your emotions. Its a process of introspection and learning what your current emotional state is, and either working to return to my baseline state, or removing myself from the situation. A few things that I’ve learned:</p>
-<h1 id="understanding-what-affects-my-mood">Understanding what affects my mood</h1>
-<ul>
-<li>If I’m hungry or if I didn’t get enough sleep, I’ll often become irritable.</li>
-<li>When I exercise regularly in the mornings, I set myself up to be in a better head space.</li>
-<li>I burn out if I don’t take vacations often or there are other compounding stressors. How close to burnout is important for me to keep tabs on. The closer I am, the more erratic my behavior will be and the less passionate I will be about work.</li>
-<li>As it gets closer to the end of the day, I get tired and can more easily get irritable.</li>
-</ul>
-<h1 id="understanding-when-to-stop-and-take-a-breather">Understanding when to stop and take a breather</h1>
-<p>Sometimes people send me a message or email that spike my blood pressure. I’ve found that if something triggers me, taking a step back to think about it or let it bake helps a lot. I’ve found a lot of success putting something down, then picking it up again the next morning when I’m fresh and in a better head space. The scope of problems tend to be smaller the farther you get from it and initial reactions are usually overblown.</p>
-<h1 id="understanding-when-to-dig-in">Understanding when to dig in</h1>
-<p>Speaking of initial reactions, one of my flaws is overreacting based on my initial reaction. Its easy to do so, but generally taking some time to investigate and dig in before gauging the severity of it is beneficial and something I actively work on. Its very easy to experience something, scream “WHAT?”, go on a tear and make things works. It takes discipline and detachment to stop, investigate, and ask questions, then thoughtfully determine the impact and next steps.</p>
-<h1 id="understanding-when-to-let-things-fall-by-the-wayside.">Understanding when to let things fall by the wayside.</h1>
-<p>If you’re doing a good job, people are going to want you to do more. Knowing when to let things fall by the wayside (which is different from letting things slip through the cracks) is an invaluable skill.</p>]]></description>
-      <link>https://patricklee.nyc/blog/20220321_striving_for_dispassionateness</link>
-      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dotfiles</title>
-      <description><![CDATA[<p>Finally got my <a href="https://github.com/patleeman/dotfiles">dotfiles</a> set up. Now I can have a consistent environment across both Mac and Linux. Really only using it for managing initial environment setup scripts and to manage my terminal environment. Will continue to evolve it as I need to but glad to have built out the basic scaffolding.</p>]]></description>
-      <link>https://patricklee.nyc/blog/20211229_dotfiles</link>
-      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>An ode to my linter</title>
-      <description><![CDATA[<pre><code>Oh my dearest linter,
-adding squiggly lines under my mistake.
-Gently teaching me why I&#39;m wrong.
-How do I fix it?
-Some help would be nice.
-You autocorrected it! Thank you twice!
-
-The documentation is right at hand:
-&quot;you idiot, don&#39;t add an ampersand!&quot;
-But I think you might be wrong,
-my dear linter this is an edge case!
-Well then I&#39;ll just have to add
-a little comment to disable that
-tiny check on line 35.
-I&#39;m sorry my linter,
-you&#39;ll have to abide.
-</code></pre>]]></description>
-      <link>https://patricklee.nyc/blog/20211230_an_ode_to_my_linter</link>
-      <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Note taking hell</title>
-      <description><![CDATA[<h1 id="note-taking-hell">Note taking hell</h1>
-<p>I have a hard time sticking with a note taking system. I think at this point I’ve tested all the major note taking tools:</p>
-<ul>
-<li>Evernote</li>
-<li>OneNote</li>
-<li>Simple note</li>
-<li>Turtl</li>
-<li>Google keep</li>
-<li>Standard Notes</li>
-<li>Workflowy</li>
-<li>Bear</li>
-<li>todo.txt</li>
-<li>plain text markdown files</li>
-<li>Omni notes</li>
-<li>Apple Notes</li>
-<li>Obsidian</li>
-<li>Notion</li>
-<li>Roam Research</li>
-<li>Athens Resarch</li>
-<li>Coda</li>
-<li>Mem.ai (currently trying out)</li>
-</ul>
-<p>I’ve also built and sold a now defunct note taking app called <a href="https://github.com/Collateapp/CollateNotes">Collate Notes</a> as well as a VS Code plugin called <a href="https://marketplace.visualstudio.com/items?itemName=patricklee.vsnotes">VSNotes</a>.</p>
-<p>I can’t settle on anything! My notes, tasks, etc are scattered across various services and no one service seems to be able to keep my attention for long. I keep looking for that note taking panacea that will organize my life and help me become more productive, however everything I try always seems to come up short in some way, shape or form.</p>
-<p>Notion is a favorite of mine, it had really great flexibility… but too much flexibility. It functioned great for writing nice looking documents, but failed at jotting down small tidbits quickly. I felt like I spent too much time making documents look nice instead of actually using the tool.</p>
-<p>Roam Research was really nice. It introduced me to <a href="https://en.wikipedia.org/wiki/Zettelkasten">Zettelkasten</a> which is a neat concept. However I dropped it because Roam was expensive and lacked polish. In it’s stead I tried Athens Research and Obsidian, both were pretty meh.</p>
-<p>Plain text note taking is all the rage with minimalists. I’m a big fan of markdown for documentation (this blog is written in markdown). For notes, it was okay. Interoperability between services usually sucks. Pasting raw markdown into a Google doc will just result in a bunch of markdown formatting in a google doc, so that doesn’t work. Syncing data is also a bigger pain with plain text. Do you use Git? A service like dropbox? Then on mobile your tool needs to work with these services.</p>
-<p>It’s a nightmare!</p>
-<h2 id="i-have-no-idea-what-i-want">I have no idea what I want</h2>
-<p>Do I want a writing tool? Do I want a way to manage tasks? Do I want a way to be reminded of things? Do I want a way to manage a knowledge base? Do I need a bookmarking tool? Will I ever look at these notes ever again? How do I reconcile the Google Docs heavy world that my work org operates in? Do I want a dashboard that I can keep up all day to jot down notes, see my meetings, etc?</p>
-<p>I would love having all these things in a single tool, but that’s not feasible. Its basically an operating system at that point. The services that try end up sucking. The services that don’t end up lacking. Damned if you do, damned if you don’t.</p>
-<h2 id="im-so-lazy">I’m so lazy</h2>
-<p>I would love to be able to just automate stuff too. Click a button in slack and a todo item pops up in my tool or bookmark this link and it shows up in my notes. Integrations are great, interoperability between services means that I can pipe data from this service into my online brain. However very rarely does it do what you actually want. APIs don’t play nice, data isn’t available, hell a lot of these services don’t even have APIs. What is one to do?</p>
-<p>The promise of a 2nd brain, in the cloud, ready to be queried that offloads the work of thinking. Isn’t that the dream? To be able to think a thought and have it appear in a personal knowledge base to be ingested and understood by a machine? Then spat back out to you at the appropriate time and place? Barring having a hyper intelligent machine, what is one to do?</p>
-<h2 id="i-think-i-need-to-designate-scopes">I think I need to designate scopes</h2>
-<p>I need to pick several tools and keep them in their lanes:</p>
-<ol type="1">
-<li>Calendar: Google Calendar</li>
-<li>Reminders: Apple Reminders</li>
-<li>Jotting down ideas: Whatever is nearby?</li>
-<li>Writing: Google Docs / Markdown (depends on context)</li>
-<li>Bookmarking: Raindrop.io</li>
-</ol>
-<p>I think leveraging a tool like raindrop.io will help me keep all these various notes organized in a central location… at least until I get bored of maintaining it…</p>]]></description>
-      <link>https://patricklee.nyc/blog/20220520_note_taking_hell</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quick capture</title>
-      <description><![CDATA[<p>If hot takes are going to be of any use then quickly capturing thoughts is going to be important. This is a test, using iOS shortcuts to quickly capture thoughts and upload it.</p>]]></description>
-      <link>https://patricklee.nyc/blog/20211226_quick_capture</link>
-      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
-    </item>
     <item>
       <title>My walking desk setup</title>
       <description><![CDATA[<p>Over the course of 2020 and 2021 I’ve become increasingly sedentary with lockdown and full remote work. Having gone from commuting into the office 1-2 times a week down to zero meant I had less opportunity to walk. Along with the birth of my son and having less time and energy to exercise I needed to find a way to integrate more walking into my routine. If I could figure out how to exercise while working then I would have more time to spend on more interesting things, a win-win situation!</p>
@@ -274,6 +63,179 @@ you&#39;ll have to abide.
       <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Lessons learned from dabbling in the stock market</title>
+      <description><![CDATA[<p>I’ve dabbled in investing in the past but over the last two years I’ve really gotten involved heavily with managing my portfolio. I’m still a complete amateur but I did pick up some very valuable lessons:</p>
+<ul>
+<li>I’ve started to attach probabilities to events way more than I used to. This has the benefit of helping me think about potential events more objectively.</li>
+<li>There is a zen to riding the highs and lows of the market. It takes confidence in a long term game plan, diversification, and some good ole detachment in order to psychologically bear the swings.</li>
+<li>I learned not to go into a trade without an exit plan (still working on actualizing this one).</li>
+<li>The more you risk, the more you could potentially be rewarded.</li>
+<li>You could also lose everything in one bad trade. Don’t put all your eggs in one basket.</li>
+<li>Leverage is a powerful and dangerous tool. Use it with extreme caution.</li>
+<li>A stock’s price usually reached an equilibrium until some catalyst occurs. The same could be said about life, usually we reach some steady state until a catalyzing life event occurs.
+<ul>
+<li><strong>TODO: explore how to introduce catalysts in a more consistent manner.</strong></li>
+</ul></li>
+<li>Companies rise and fall on a regular basis. What seems like a juggernaut one year may implode the next. Same for companies that seem to be worthless can be turned around and brought back from the grave.</li>
+</ul>]]></description>
+      <link>https://patricklee.nyc/blog/20211227_lessons_learned_from_dabbling_in_the_stock_market</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hot takes</title>
+      <description><![CDATA[<p>In an effort to reduce the barrier to entry to writing blog posts, I’m introducing hot takes. A low effort way for me to put unpolished thoughts into the wild. It’s like twitter but without having to deal with any baggage.</p>]]></description>
+      <link>https://patricklee.nyc/blog/20211226_hot_takes</link>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>I should have learned more bash sooner</title>
+      <description><![CDATA[<p>Bash tools are super powerful once you get a hang of using it. This whole blog is pretty much <a href="https://github.com/patleeman/patricklee.nyc/">a bunch of scripts and Pandoc</a>. Its pretty cool what you can build once you get over the learning curve.</p>
+<p>I’m a few years into my career now and I’ve only really used shell scripts when working with CI. I’ve never felt totally comfortable with it, maybe it’s because it feels like casting spells by uttering some obscure incantations? I mean look at one of the lines I put together to sort an array for this blog:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">IFS</span><span class="op">=</span><span class="st">$&#39;</span><span class="dt">
+</span><span class="st">&#39;</span> <span class="va">SORTED_POSTS</span><span class="op">=</span><span class="va">(</span> <span class="va">$(</span><span class="cf">for</span> j <span class="kw">in</span> <span class="st">&quot;</span><span class="va">${POSTS</span><span class="op">[@]</span><span class="va">}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="cf">do</span> <span class="bu">echo</span> <span class="va">$j</span><span class="kw">;</span> <span class="cf">done</span> <span class="kw">|</span> <span class="fu">sort</span> <span class="at">-t</span> <span class="st">&quot;;&quot;</span> <span class="at">-k</span> 1 <span class="at">-nr</span><span class="va">)</span> <span class="va">)</span></span></code></pre></div>
+<p>What does all this mean? <code>IFS=$'
+'</code> Hackily set the internal separator to newline so it stops breaking my strings up by spaces <code>$(for j in "${POSTS[@]}"; do echo $j; done | sort -t ";" -k 1 -nr)</code> Loop through the $POSTS array (not shown) and sort by the first column delineated by ; <code>SORTED_POSTS=( ... )</code> Create an array from the output of the previous command</p>
+<p>Hell, this probably isn’t even the right way to do what I wanted it to do, but it works for my use case. What’s really cool though is just how powerful and terse it is. The difficulty lies in getting started with it.</p>
+<p>Some of the Pros and Cons I’ve encountered so far:</p>
+<p>Pros</p>
+<ul>
+<li>Portable between many different systems</li>
+<li>Plenty of information available online</li>
+<li>Very powerful and terse</li>
+</ul>
+<p>Cons</p>
+<ul>
+<li>Learning curve is steep</li>
+<li>Lots of different ways to do X but somebody on the internet will tell you you’re wrong</li>
+<li>Readability is not very good. If you want to share scripts with a team, you might want to choose something like Python.</li>
+</ul>
+<p>So if I were to advise my slightly younger self:</p>
+<ul>
+<li>Take a few days and learn how to write bash scripts.</li>
+<li>Read up on the basics of bash scripting.
+<ul>
+<li><a href="https://learnxinyminutes.com/docs/bash/">Learn X in Y seconds</a></li>
+<li><a href="http://mywiki.wooledge.org/BashGuide">Bash Guide</a></li>
+</ul></li>
+<li>Try writing some scripts to automate things (like setting up your <a href="https://github.com/patleeman/dotfiles">dotfiles repo</a> sooner)</li>
+<li>If you find yourself reaching to some programming language to do something, try doing it in bash first.</li>
+<li>Don’t bother with anything complicated interactively. Create a script file and execute it if its anything more than a one liner.</li>
+</ul>]]></description>
+      <link>https://patricklee.nyc/blog/20211226_i_should_have_learned_more_bash_sooner</link>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>iOS shortcut</title>
+      <description><![CDATA[<p>Here is <a href="https://www.icloud.com/shortcuts/373c82b44f2c41b69f627a83a2ff7979">the iOS Shortcut</a> that adds a new Hot Take markdown file to this <a href="github.com/patleeman/patricklee.nyc/">repo</a>. Requires <a href="https://workingcopyapp.com/">Working Copy</a> w/ Pro. It works pretty well!</p>]]></description>
+      <link>https://patricklee.nyc/blog/20211227_ios_shortcut</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Note taking hell</title>
+      <description><![CDATA[<h1 id="note-taking-hell">Note taking hell</h1>
+<p>I have a hard time sticking with a note taking system. I think at this point I’ve tested all the major note taking tools:</p>
+<ul>
+<li>Evernote</li>
+<li>OneNote</li>
+<li>Simple note</li>
+<li>Turtl</li>
+<li>Google keep</li>
+<li>Standard Notes</li>
+<li>Workflowy</li>
+<li>Bear</li>
+<li>todo.txt</li>
+<li>plain text markdown files</li>
+<li>Omni notes</li>
+<li>Apple Notes</li>
+<li>Obsidian</li>
+<li>Notion</li>
+<li>Roam Research</li>
+<li>Athens Resarch</li>
+<li>Coda</li>
+<li>Mem.ai (currently trying out)</li>
+</ul>
+<p>I’ve also built and sold a now defunct note taking app called <a href="https://github.com/Collateapp/CollateNotes">Collate Notes</a> as well as a VS Code plugin called <a href="https://marketplace.visualstudio.com/items?itemName=patricklee.vsnotes">VSNotes</a>.</p>
+<p>I can’t settle on anything! My notes, tasks, etc are scattered across various services and no one service seems to be able to keep my attention for long. I keep looking for that note taking panacea that will organize my life and help me become more productive, however everything I try always seems to come up short in some way, shape or form.</p>
+<p>Notion is a favorite of mine, it had really great flexibility… but too much flexibility. It functioned great for writing nice looking documents, but failed at jotting down small tidbits quickly. I felt like I spent too much time making documents look nice instead of actually using the tool.</p>
+<p>Roam Research was really nice. It introduced me to <a href="https://en.wikipedia.org/wiki/Zettelkasten">Zettelkasten</a> which is a neat concept. However I dropped it because Roam was expensive and lacked polish. In it’s stead I tried Athens Research and Obsidian, both were pretty meh.</p>
+<p>Plain text note taking is all the rage with minimalists. I’m a big fan of markdown for documentation (this blog is written in markdown). For notes, it was okay. Interoperability between services usually sucks. Pasting raw markdown into a Google doc will just result in a bunch of markdown formatting in a google doc, so that doesn’t work. Syncing data is also a bigger pain with plain text. Do you use Git? A service like dropbox? Then on mobile your tool needs to work with these services.</p>
+<p>It’s a nightmare!</p>
+<h2 id="i-have-no-idea-what-i-want">I have no idea what I want</h2>
+<p>Do I want a writing tool? Do I want a way to manage tasks? Do I want a way to be reminded of things? Do I want a way to manage a knowledge base? Do I need a bookmarking tool? Will I ever look at these notes ever again? How do I reconcile the Google Docs heavy world that my work org operates in? Do I want a dashboard that I can keep up all day to jot down notes, see my meetings, etc?</p>
+<p>I would love having all these things in a single tool, but that’s not feasible. Its basically an operating system at that point. The services that try end up sucking. The services that don’t end up lacking. Damned if you do, damned if you don’t.</p>
+<h2 id="im-so-lazy">I’m so lazy</h2>
+<p>I would love to be able to just automate stuff too. Click a button in slack and a todo item pops up in my tool or bookmark this link and it shows up in my notes. Integrations are great, interoperability between services means that I can pipe data from this service into my online brain. However very rarely does it do what you actually want. APIs don’t play nice, data isn’t available, hell a lot of these services don’t even have APIs. What is one to do?</p>
+<p>The promise of a 2nd brain, in the cloud, ready to be queried that offloads the work of thinking. Isn’t that the dream? To be able to think a thought and have it appear in a personal knowledge base to be ingested and understood by a machine? Then spat back out to you at the appropriate time and place? Barring having a hyper intelligent machine, what is one to do?</p>
+<h2 id="i-think-i-need-to-designate-scopes">I think I need to designate scopes</h2>
+<p>I need to pick several tools and keep them in their lanes:</p>
+<ol type="1">
+<li>Calendar: Google Calendar</li>
+<li>Reminders: Apple Reminders</li>
+<li>Jotting down ideas: Whatever is nearby?</li>
+<li>Writing: Google Docs / Markdown (depends on context)</li>
+<li>Bookmarking: Raindrop.io</li>
+</ol>
+<p>I think leveraging a tool like raindrop.io will help me keep all these various notes organized in a central location… at least until I get bored of maintaining it…</p>]]></description>
+      <link>https://patricklee.nyc/blog/20220520_note_taking_hell</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dotfiles</title>
+      <description><![CDATA[<p>Finally got my <a href="https://github.com/patleeman/dotfiles">dotfiles</a> set up. Now I can have a consistent environment across both Mac and Linux. Really only using it for managing initial environment setup scripts and to manage my terminal environment. Will continue to evolve it as I need to but glad to have built out the basic scaffolding.</p>]]></description>
+      <link>https://patricklee.nyc/blog/20211229_dotfiles</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Goodbye iterm2</title>
+      <description><![CDATA[<p>I’ve used iTerm 2 for a few years now but came to the realization that I don’t actually use any of its features. Mac’s built in terminal is more than enough for my needs. See ya later iTerm 2 and thanks for being rock solid all these years.</p>]]></description>
+      <link>https://patricklee.nyc/blog/20220107_goodbye_iterm2</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Striving for dispassionateness</title>
+      <description><![CDATA[<h1 id="striving-for-dispassionateness">Striving for dispassionateness</h1>
+<blockquote>
+<p>Not influenced by strong feelings or emotions; impartial</p>
+</blockquote>
+<p><a href="https://www.thefreedictionary.com/dispassionateness#:~:text=dispassionateness-,noun,%2C%20nonpartisanship%2C%20objectiveness%2C%20objectivity.">Definition</a></p>
+<p>As I continue on my leadership journey managing the Growth engineering team at Noom, one aspect of my personality I’ve been trying to work on is detachment. I have a mantra “Strive for dispassionateness” that I plastered on top of my personal goals to remind me to continue to detach myself from emotions. Dispassionateness or detachment as I’ve defined it is the process of removing emotion from the decision making process to reduce the impact of bias and to try to make the best decisions possible.</p>
+<p>My coworker Nikhil, the VP of Growth at Noom is my model for dispassionateness. I’ve worked with him for four years now and in this time I’ve had a glimpse into how he handles making difficult decisions and accepting hard feedback. He does it with thoughtfulness, without ego, and kindness. Its quite impressive to see.</p>
+<p>I’m an emotional person, I feel strong emotions which can bias my decision making process. This personality trait has hurt me in the past. I’ve been in situations where I have a hard time forming sentences, breathing gets difficult, vision blurs. Getting overwhelmed by emotions is truly an awful experience. The adrenaline pumps as the fight or flight response kicks in, paralyzing your mind in indecision, and impairing your ability to think. I’m a conflict-adverse introvert. I hate conflict, but as a people manager and leader there is no avoiding conflict sometimes. You will eventually get pulled into it, especially in a fast moving organization with many different people with their own biases, goals, and opinions.</p>
+<p>Disconnecting yourself from emotions isn’t burying your emotions. Its a process of introspection and learning what your current emotional state is, and either working to return to my baseline state, or removing myself from the situation. A few things that I’ve learned:</p>
+<h1 id="understanding-what-affects-my-mood">Understanding what affects my mood</h1>
+<ul>
+<li>If I’m hungry or if I didn’t get enough sleep, I’ll often become irritable.</li>
+<li>When I exercise regularly in the mornings, I set myself up to be in a better head space.</li>
+<li>I burn out if I don’t take vacations often or there are other compounding stressors. How close to burnout is important for me to keep tabs on. The closer I am, the more erratic my behavior will be and the less passionate I will be about work.</li>
+<li>As it gets closer to the end of the day, I get tired and can more easily get irritable.</li>
+</ul>
+<h1 id="understanding-when-to-stop-and-take-a-breather">Understanding when to stop and take a breather</h1>
+<p>Sometimes people send me a message or email that spike my blood pressure. I’ve found that if something triggers me, taking a step back to think about it or let it bake helps a lot. I’ve found a lot of success putting something down, then picking it up again the next morning when I’m fresh and in a better head space. The scope of problems tend to be smaller the farther you get from it and initial reactions are usually overblown.</p>
+<h1 id="understanding-when-to-dig-in">Understanding when to dig in</h1>
+<p>Speaking of initial reactions, one of my flaws is overreacting based on my initial reaction. Its easy to do so, but generally taking some time to investigate and dig in before gauging the severity of it is beneficial and something I actively work on. Its very easy to experience something, scream “WHAT?”, go on a tear and make things works. It takes discipline and detachment to stop, investigate, and ask questions, then thoughtfully determine the impact and next steps.</p>
+<h1 id="understanding-when-to-let-things-fall-by-the-wayside.">Understanding when to let things fall by the wayside.</h1>
+<p>If you’re doing a good job, people are going to want you to do more. Knowing when to let things fall by the wayside (which is different from letting things slip through the cracks) is an invaluable skill.</p>]]></description>
+      <link>https://patricklee.nyc/blog/20220321_striving_for_dispassionateness</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lessons learned from starting a business while working full time.</title>
+      <description><![CDATA[<p>I started working on <a href="http://collatenotes.com/">Collate</a> in December of 2016. I was dissatisfied with the note taking apps on the market and wanted a tool that would work for my needs. I had been toying with the idea and finally started writing code over the Christmas holiday. I had a basic prototype built with Electron, bootstrap and jQuery by February, then rebuilt it with Electron, Vue.js and Bulma from scratch because the code base was terrible. Today, Collate is profitable, has a couple hundred users, was featured on <a href="http://lifehacker.com/collate-is-a-privacy-focused-evernote-style-notes-app-1794500652">Lifehacker</a> and is doing well by my standards. Here are some hard learned lessons from the last 8 months of working on Collate while maintaining a full time job:</p>
+<ol type="1">
+<li>Have a tight scope — I made the mistake of saying yes to everything and pretty soon Collate began heading in a direction I wasn’t happy with. Users will ask for features, it’s only natural. It’s extremely easy to bloat the scope of your project if you say yes to everything. Having an extremely tight scope of what your project does and provides is essential to focus the small amount of time you have to devote to the project. I’m working on the next iteration of Collate and it will be extremely pared down.</li>
+<li>Use what you know — Use technology you know like the back of your hand. This advice is given a lot and for good reason. If you need to spend time learning a new piece of tech, it’s time away from making your product more stable. I use Wordpress in my day job, so it’s only natural I use it for my product’s site. It’s not sexy but it works.</li>
+<li>If you have to learn new tech, experiment and choose what works for you — Other times you might not know how to use the right technology for the job. In these cases experiment and see what works best for your needs. I went with Vue.js for the second iteration of Collate because I was working on a project at work that utilized it. Using it in both places helped both projects immensely.</li>
+<li>Charge money — This is one thing I’m glad I got right from the start thanks to advice from <a href="https://www.indiehackers.com/">Indie Hackers</a> and other startup founders. Charge money from the get-go and get customers comfortable paying for your product. Collate was profitable the second week out of release. The money gives you a cushion to experiment and grow the business. Since I’m working full time, all profits go back into the project to pay for things like servers, lawyers, and third party services I may use.</li>
+<li>It’s okay to not respond to emails — Customer service is a very time consuming task. I made the mistake of replying to each and every email in the beginning, usually with long explanations of what I was doing and my plans. With limited time, choose your service requests carefully and try to minimize time spent on it. It doesn’t mean you don’t care, you’re just prioritizing. I got to a point where I would dread opening up my inbox, after I stopped responding to everything, things got a lot more manageable.</li>
+<li>Get your legal ducks in a row — If you’re going to collect money for your project, spend a little up front as soon as you can afford to and get all your legal stuff squared away. I started my corporate entity (Collate, LLC) through a corporate filing company in my state. Opened a bank account with the same bank I use for my personal accounts. Then, got my End User License Agreement and Privacy Policy looked at by an attorney I found on <a href="https://www.upcounsel.com/rf/pQ3CZlfu">Upcounsel</a>.</li>
+<li>Think about marketing — You don’t have to be a marketing wiz but consider it while building out the product. At the very minimum, start early by building a email list of people interested in your product. You don’t have to constantly market to your list but its useful to have people to notify when you have something to announce.</li>
+<li>Pace yourself — I wish I had learned this lesson sooner. I worked on Collate furiously for the first six months, pumping out feature after feature and release after release. I was putting in close to 40 hours a week on nights and weekends working on Collate after work for a while. I got so burnt out that I had to step away from the project and try working on something else (and even not working on anything!). I’m back on it now, but working on it at a much slower pace. Take the time to decompress each day, get exercise and make sure to sleep.</li>
+</ol>
+<p>Side projects while working full time are a lot of work but also very rewarding. The best part for me was building something from scratch that I’m passionate about building, something that I don’t get at my day job. It’s also pretty great to build something and then watch other people get excited about it.</p>]]></description>
+      <link>https://patricklee.nyc/blog/20170819_lessons_learned_from_starting_a_business</link>
+      <pubDate>Sat, 19 Aug 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>From Community College to Columbia</title>
       <description><![CDATA[<p>I dropped out of college at twenty. The next few years were spent at various jobs until I ended up as a legal assistant at a law firm. The firm was filled with fax machines, typewriters, and massive paper files. What was the norm in 1988 was still the norm in the legal industry at the time. It was a slow moving beast, mired in paper and yesterday’s technology. I wanted to work with modern technology and be part of the future but there was no future for an aimless college dropout. I couldn’t see a way forward, so I went back.</p>
 <h3 id="the-borough-of-manhattan-community-college">The Borough of Manhattan Community College</h3>
@@ -293,6 +255,91 @@ you&#39;ll have to abide.
 <p>Looking back at it now, I can appreciate the rigor and the intensity of the work. Columbia helped push my boundaries and helped me realize what I’m capable of doing. Just three years prior, I matriculated from BMCC, content with a future that was just slightly better than the one I left. However, I would never have even thought to reach so high had Dr. Poster not seen something in me and pushed me to apply. It’s truly amazing what an effect one person can have on the trajectory of another person’s life and I’m grateful to her for what she’s done for me. She made me promise that I would never remove BMCC from my resume, to show others what students from a community college could achieve. I leave it on there for her, and to remind myself of my roots.</p>]]></description>
       <link>https://patricklee.nyc/blog/20161212_community_college_to_columbia</link>
       <pubDate>Mon, 12 Dec 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quick capture</title>
+      <description><![CDATA[<p>If hot takes are going to be of any use then quickly capturing thoughts is going to be important. This is a test, using iOS shortcuts to quickly capture thoughts and upload it.</p>]]></description>
+      <link>https://patricklee.nyc/blog/20211226_quick_capture</link>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Resurrecting RSS feeds
+        title=$(grep "title:" "$file" | sed "s///g")</title>
+      <description><![CDATA[<h1 id="the-good-ole-days">The good ole days</h1>
+<p>Back when I was a young lad, RSS feeds were <em>the</em> way to stay up to date on news, blogs, and other content. You’d find sites you liked, then add their content to your RSS feed reader and then you’d be able to go to a single place to view all your news and content. You’d be able to curate a large number of sites and read new items on a daily basis. Those were the days!</p>
+<p>Then digital advertising got big, there was real money to be made from eyeballs on your website, so slowly sites began guarding their RSS feed content, ultimately getting rid of them altogether. You wanted people engaging with your site, not with your content, and slowly content began shifting to social media.</p>
+<p>Back then, all you needed was your Google Reader feed. These days, content is gated within small walled gardens. If you aren’t a member of these walled gardens, forget seeing the content! When my feeds started dying, I switched to Digg and then Reddit and Hacker News.</p>
+<p>The thing I miss most about syndicated feeds, is that it was so much easier to receive updates for smaller bloggers and news sources. Social media and Reddit are great at surfacing new content, but if I want to follow along with a small time writer, there isn’t much recourse. These days you’d have to follow somebody’s Twitter or their Substack, but it just isn’t as easy as it used to be.</p>
+<p>Today I set up a RSS reader (<a href="https://netnewswire.com/">NetNewsWire</a>)and I’m going to attempt to curate my feed with authors I’m interested in hearing from. I also added a RSS feed to this blog, so others can subscribe to my feed and read what I’m writing about. It won’t replace Reddit or Hacker news for me, but I hope I can supplement that content!</p>
+<p>Subscribe to this blog’s <a href="https://patricklee.nyc/rss.xml">feed</a>.</p>
+<h1 id="aside-adding-a-rss-feed-to-this-blog">Aside: Adding a RSS feed to this blog</h1>
+<p>Since I decided to go ahead and re-invent the wheel for this personal blog and build my own Pandoc powered static site generator, I needed a way to generate RSS feeds.</p>
+<p>The <a href="https://cyber.harvard.edu/rss/rss.html">RSS 2.0 spec</a> is pretty simple, so why not just generate my own <code>rss.xml</code> file then?</p>
+<p>Using a pretty simple bash script, I just parse my directory of markdown files and assemble the feed:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span><span class="fu"> generate_RSS_feed</span> <span class="kw">{</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">&quot;Generating RSS feed&quot;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">declare</span> <span class="va">items</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> <span class="bu">read</span> <span class="at">-r</span> <span class="va">file</span><span class="kw">;</span> <span class="cf">do</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>        <span class="va">url_path</span><span class="op">=</span><span class="va">$(</span><span class="bu">echo</span> <span class="st">&quot;</span><span class="va">$file</span><span class="st">&quot;</span> <span class="kw">|</span> <span class="fu">sed</span> <span class="st">&quot;s:docs\/::g&quot;</span> <span class="kw">|</span> <span class="fu">sed</span> <span class="st">&quot;s:\.md::g&quot;</span><span class="va">)</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>        <span class="va">date</span><span class="op">=</span><span class="va">$(</span><span class="fu">grep</span> <span class="st">&quot;created:&quot;</span> <span class="st">&quot;</span><span class="va">$file</span><span class="st">&quot;</span> <span class="kw">|</span> <span class="fu">sed</span> <span class="st">&quot;s/created: //g&quot;</span><span class="va">)</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>        <span class="va">converted_date</span><span class="op">=</span><span class="va">$(</span><span class="ex">convert_date_format_822</span> <span class="st">&quot;%Y-%m-%d&quot;</span> <span class="st">&quot;</span><span class="va">$date</span><span class="st">&quot;</span><span class="va">)</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>        <span class="va">title</span><span class="op">=</span><span class="va">$(</span><span class="fu">grep</span> <span class="st">&quot;title:&quot;</span> <span class="st">&quot;</span><span class="va">$file</span><span class="st">&quot;</span> <span class="kw">|</span> <span class="fu">sed</span> <span class="st">&quot;s/title: //g&quot;</span><span class="va">)</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>        <span class="va">html</span><span class="op">=</span><span class="va">$(</span><span class="ex">pandoc</span> <span class="st">&quot;</span><span class="va">$file</span><span class="st">&quot;</span><span class="va">)</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        <span class="va">items</span><span class="op">+=</span><span class="va">$(</span><span class="fu">cat</span> <span class="op">&lt;&lt; END</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;item&gt;</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;title&gt;</span><span class="va">${title}</span><span class="st">&lt;/title&gt;</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;description&gt;&lt;![CDATA[</span><span class="va">${html}</span><span class="st">]]&gt;&lt;/description&gt;</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;link&gt;https://patricklee.nyc/</span><span class="va">$url_path</span><span class="st">&lt;/link&gt;</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;pubDate&gt;</span><span class="va">${converted_date}</span><span class="st">&lt;/pubDate&gt;</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;/item&gt;</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="op">END</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="va">)</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">done</span> <span class="op">&lt;</span> <span class="op">&lt;(</span><span class="fu">find</span> <span class="st">&quot;docs/blog&quot;</span> <span class="at">-name</span> <span class="st">&#39;*.md&#39;</span> ! <span class="at">-name</span> <span class="st">&quot;index.md&quot;</span><span class="op">)</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="va">pub_date</span><span class="op">=</span><span class="va">$(</span><span class="fu">date</span> <span class="at">-R</span><span class="va">)</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="va">template</span><span class="op">=</span><span class="va">$(</span><span class="fu">cat</span> <span class="op">&lt;&lt; END</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;rss version=&quot;2.0&quot;&gt;</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;channel&gt;</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;title&gt;Patricklee.nyc&lt;/title&gt;</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;link&gt;https://patricklee.nyc/&lt;/link&gt;</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;description&gt;Software engineering and general geekery&lt;/description&gt;</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;language&gt;en-us&lt;/language&gt;</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="st">    &lt;pubDate&gt;</span><span class="va">${pub_date}</span><span class="st">&lt;/pubDate&gt;</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="st">    </span><span class="va">${items}</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="st">  &lt;/channel&gt;</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="st">&lt;/rss&gt;</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="op">END</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="va">)</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>    <span class="fu">touch</span> <span class="st">&quot;build/rss.xml&quot;</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="at">-e</span> <span class="st">&quot;</span><span class="va">$template</span><span class="st">&quot;</span> <span class="op">&gt;</span> <span class="st">&quot;build/rss.xml&quot;</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="kw">}</span></span></code></pre></div>
+<p>All this does is parse the frontmatter section of the markdown file to get some basic metadata, then use Pandoc to convert the file to html. It then assembles the XML file and writes it to <code>rss.xml</code>. This function runs at the end of my blog’s <a href="https://github.com/patleeman/patricklee.nyc/blob/master/build.sh">build chain</a>, but it can be run isolated as well.</p>
+<p>See the <a href="https://github.com/patleeman/patricklee.nyc/blob/master/build_scripts/rss.sh">script here</a>.</p>
+<p>I’m actually quite happy with this collection of bash scripts and Pandoc to generate my static site. The whole thing is stupid simple, there is zero magic, its ugly but functional and it is very narrowly scoped. There is very little that can go wrong and not many dependencies. For a blog that I want to infrequently update and keep around for a long time, its perfect and won’t rot once a new JS framework gains popularity.</p>]]></description>
+      <link>https://patricklee.nyc/blog/20220615_resurrecting_rss_feeds</link>
+      <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An ode to my linter</title>
+      <description><![CDATA[<pre><code>Oh my dearest linter,
+adding squiggly lines under my mistake.
+Gently teaching me why I&#39;m wrong.
+How do I fix it?
+Some help would be nice.
+You autocorrected it! Thank you twice!
+
+The documentation is right at hand:
+&quot;you idiot, don&#39;t add an ampersand!&quot;
+But I think you might be wrong,
+my dear linter this is an edge case!
+Well then I&#39;ll just have to add
+a little comment to disable that
+tiny check on line 35.
+I&#39;m sorry my linter,
+you&#39;ll have to abide.
+</code></pre>]]></description>
+      <link>https://patricklee.nyc/blog/20211230_an_ode_to_my_linter</link>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
