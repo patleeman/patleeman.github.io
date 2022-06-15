@@ -5,7 +5,7 @@
     <link>https://patricklee.nyc/</link>
     <description>Software engineering and general geekery</description>
     <language>en-us</language>
-    <pubDate>Wed, 15 Jun 2022 18:19:01 +0000</pubDate>
+    <pubDate>Wed, 15 Jun 2022 18:58:10 +0000</pubDate>
     
     <item>
       <title>Goodbye iterm2</title>
@@ -18,6 +18,16 @@
       <description><![CDATA[<p>Here is <a href="https://www.icloud.com/shortcuts/373c82b44f2c41b69f627a83a2ff7979">the iOS Shortcut</a> that adds a new Hot Take markdown file to this <a href="github.com/patleeman/patricklee.nyc/">repo</a>. Requires <a href="https://workingcopyapp.com/">Working Copy</a> w/ Pro. It works pretty well!</p>]]></description>
       <link>https://patricklee.nyc/blog/20211227_ios_shortcut</link>
       <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Resurrecting RSS feeds</title>
+      <description><![CDATA[<p>Back when I was a young lad, RSS feeds were <em>the</em> way to stay up to date on news, blogs, and other content. You’d find sites you liked, then add their content to your RSS feed reader and then you’d be able to go to a single place to view all your news and content. You’d be able to curate a large number of sites and read new items on a daily basis. Those were the days!</p>
+<p>Then digital advertising got big, there was real money to be made from eyeballs on your website, so slowly sites began guarding their RSS feed content, ultimately getting rid of them altogether. You wanted people engaging with your site, not with your content, and slowly content began shifting to social media.</p>
+<p>Back then, all you needed was your Google Reader feed. These days, content is gated within small walled gardens. If you aren’t a member of these walled gardens, forget seeing the content! When my feeds started dying, I switched to Digg and then Reddit and Hacker News.</p>
+<p>The thing I miss most about syndicated feeds, is that it was so much easier to receive updates for smaller bloggers and news sources. Social media and Reddit are great at surfacing new content, but if I want to follow along with a small time writer, there isn’t much recourse. These days you’d have to follow somebody’s Twitter or their Substack, but it just isn’t as easy as it used to be.</p>
+<p>Today I set up a RSS reader and I’m going to attempt to curate my feed with authors I’m interested in hearing from. I also added a RSS feed to this blog, so others can subscribe to my feed and read what I’m writing about. It won’t replace Reddit or Hacker news for me, but I hope I can supplement that content!</p>]]></description>
+      <link>https://patricklee.nyc/blog/20220615_resurrecting_rss_feeds</link>
+      <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Lessons learned from starting a business while working full time.</title>
