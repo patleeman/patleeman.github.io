@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://patricklee.nyc/">
+  <title>Patrick Lee</title>
+  <subtitle>Software engineer</subtitle>
+  <link href="https://patricklee.nyc/feed.xml" rel="self"/>
+  <link href="https://patricklee.nyc/"/>
+  <updated>2022-08-23T00:00:00Z</updated>
+  <id>https://patricklee.nyc/</id>
+  <author>
+    <name>Patrick Lee</name>
+    <email>me@patricklee.nyc</email>
+  </author>
+  <entry>
+    <title>The Grug Brained Manager</title>
+    <link href="https://patricklee.nyc/blog/the-grug-brained-manager/"/>
+    <updated>2022-08-23T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/the-grug-brained-manager/</id>
+    <content xml:lang="en" type="html">&lt;h1&gt;The Grug Brained Manager&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20220823_the_grug_brained_manager.md/grug.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;this collection of thoughts on managing software development teams by a grug brained manager based on &lt;a href=&quot;https://grugbrain.dev/&quot;&gt;grug brained developer&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;grug brained manager not smart. somehow managed to convince boss that grug capable of managing others. grug barely capable to polish mouth stones.&lt;/p&gt;
+&lt;p&gt;grug pretend grug know what do. grug talk to other grug managers and realize nobody know what to do. grug realize management not as simple as development.&lt;/p&gt;
+&lt;p&gt;over time grug learn painful lesson after painful lesson and decide to write on stone tablet so young grug manager not make same mistake.&lt;/p&gt;
+&lt;h1&gt;Managing People Is Hard&lt;/h1&gt;
+&lt;p&gt;nobody told grug managing so hard. grug used to be okay grug brained developer.&lt;/p&gt;
+&lt;p&gt;wanted become grug manager for more shiny rock and to be grug leader. grug no realize managing not same as developing. grug very happy developing, feel good when make shiny object and solve problem.&lt;/p&gt;
+&lt;p&gt;grug no realize in management, there no shiny object to hold up proudly. type of problems grug solve take long time to see results. grug has lots of self doubt when think what to do, but grug need to make decision and commit.&lt;/p&gt;
+&lt;p&gt;there not a lot of support as manager. grug find that there not a lot of process or materials for grug to learn to do job. when grug was developer, lots other grug make content to learn job. as manager, not as much information for grug on how to do actual job.&lt;/p&gt;
+&lt;p&gt;grug introvert, that why grug get into making software. management however is purely people-focused, which means job is more taxing for grug. grug realize that in management, easier for grug to burn out. grug more tired at end of day. grug need to make sure to make time for self care, but hard to balance. grug burned out several times and sometimes just want to take a six month sabbatical to recover.&lt;/p&gt;
+&lt;p&gt;grug not prepared to deal with unhappy people. grug no like conflict, however grug must deal with conflict in job. when grug responsible for unhappy person, it weigh heavily on grug mind and grug want to make situation better. this add extra stress on grug.&lt;/p&gt;
+&lt;p&gt;grug realize that management takes much larger emotional toll on grug than developing. grug must work extra hard to not show emotion because team looks to grug as leader. sometimes grug feel strong emotion in pit of stomach but must force it to go away. this is hard for grug.&lt;/p&gt;
+&lt;p&gt;it not all bad though.&lt;/p&gt;
+&lt;p&gt;grug get satisfaction from seeing young grug learn and get promoted. when grug team get shiny rock and praise, grug feel good for them. grug no do this for glory, only shiny rock and see grug team solve problem and be happy.&lt;/p&gt;
+&lt;p&gt;grug also get satisfaction from helping other grug do work. grug get sense of satisfaction from stopping grug product manager from other team bugging team member. grug chase them with stick and beat chest.&lt;/p&gt;
+&lt;p&gt;grug also get more shiny rock for constant headaches.&lt;/p&gt;
+&lt;p&gt;grug was okay grug brained developer, but there many more smarter grug brained developer. senior grug developer position rare and there are many more smart and passionate developer that will overpower grug.&lt;/p&gt;
+&lt;p&gt;grug not want to develop software in free time, grug want to live life with family and provide many shiny rock for them. grug took realistic look at grug career path and decide that grug can progress in management career more than developer career.&lt;/p&gt;
+&lt;p&gt;grug has skill other developer may not have. grug good at writing on stone tablet. grug enjoy think about how team can work better. grug enjoy helping lead team so company get more shiny rock and help customers. lots of grug developer only want to concentrate on making shiny object shinier, grug want to make sure customer enjoy shiny object.&lt;/p&gt;
+&lt;p&gt;grug want young grug to think hard when want to try management. management not the right career path for all grug, but hard to know unless young grug try it.&lt;/p&gt;
+&lt;h1&gt;Rule #1: No Surprises&lt;/h1&gt;
+&lt;p&gt;grug learn over time that number one rule is &lt;strong&gt;no surprises&lt;/strong&gt;. surprises bad. surprises very bad if it affects shiny rocks grug’s team takes home. breaking this rule can lead to very bad consequences like difficult conversations or a club over grug’s head.&lt;/p&gt;
+&lt;p&gt;grug realize biggest reason for surprise is grug expect one thing and direct report expect another. communication the most important thing for grug manager to do right.&lt;/p&gt;
+&lt;p&gt;grug believe grug need to make expectations explicit up front with grug report. grug need to make sure direct report know what grug expect of them. direct report need to know what and how to do their job, if they do not, grug fail as manager.&lt;/p&gt;
+&lt;p&gt;grug also believe that direct report should make expectations explicit with grug. grug need to know what direct report want and work with report to help them get it. grug fail as manager if he no know that.&lt;/p&gt;
+&lt;p&gt;grug learn hard way that sometimes grug avoid hard conversation because it make grug uncomfortable. grug make excuse for self or ignore problem. then small problem become big problem. grug embarrassed this happen many times before grug learn. it still happen but grug used to embarrassment now.&lt;/p&gt;
+&lt;p&gt;other time grug not know what expectations should be for grug developer. company leadership failed grug by not teaching grug how to be manager, but that not good excuse. grug learn many painful leadership due to grug’s lack of experience and support.&lt;/p&gt;
+&lt;h1&gt;Feedback&lt;/h1&gt;
+&lt;h2&gt;Getting feedback for reports&lt;/h2&gt;
+&lt;p&gt;grug no have eyes everywhere. grug has limited time and too many meetings. it sometimes difficult to know how direct reports are performing. even when grug in same team as direct report, sometimes it difficult for grug to know what direct report doing.&lt;/p&gt;
+&lt;p&gt;grug learn that getting feedback is hard.&lt;/p&gt;
+&lt;p&gt;grug learn that grug need to meet with people that work with direct report and build relationship with them. grug needs them to trust grug so they will open up and give grug honest feedback.&lt;/p&gt;
+&lt;p&gt;many people uncomfortable with giving honest feedback, especially to coworker’s manager. grug need to convince them that grug intentions good and that grug want to help direct report become better teammate.&lt;/p&gt;
+&lt;p&gt;grug learn hard lesson when grug not collect feedback for direct reports. when direct report under performing, grug not know because nobody told grug. only when situation got very bad did grug know and by then grug had failed. grug learn that grug need to go and get feedback from people.&lt;/p&gt;
+&lt;h2&gt;Giving feedback to reports&lt;/h2&gt;
+&lt;p&gt;grug learn that giving feedback is &lt;strong&gt;hard&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;grug learn that giving feedback is one of the hardest part of management. grug not used to telling people bad things about them to their face. in real world, if grug give random person on street feedback, they hit grug with club.&lt;/p&gt;
+&lt;p&gt;in business, grug learn that giving feedback can mean the difference between a good and bad team. luckily most of the time grug no get hit with club.&lt;/p&gt;
+&lt;p&gt;grug need to mix own feedback for direct report and feedback from report’s team. grug learn that it takes work to figure out where direct report can improve. grug then needs to give direct report feedback.&lt;/p&gt;
+&lt;p&gt;when collecting feedback for direct report, having concrete examples for negative feedback helps people connect their behavior to real situation. when people come to grug with feedback for direct report, grug try to ask for specific situation. when grug see behavior grug want to give feedback on, grug try to write it down.&lt;/p&gt;
+&lt;p&gt;grug learn that giving negative feedback between positive feedback very bad. smart managers call it “shit sandwich”. grug no like shit sandwich.&lt;/p&gt;
+&lt;p&gt;grug realize at end of the day, giving feedback to report like ripping off band aid. grug need to do it and get through pain. key thing grug learn is that grug always try to have good intention for direct report and that benefit should outweigh the cost.&lt;/p&gt;
+&lt;p&gt;over time, after grug do it more, giving feedback not as scary, but still hard.&lt;/p&gt;
+&lt;h1&gt;Managers should stay technical&lt;/h1&gt;
+&lt;p&gt;grug firmly believe that managers that are close to developers should make time to work with the technology.&lt;/p&gt;
+&lt;p&gt;grug realizes that the higher you are on the food chain, the more valuable your time is. there are job you can not delegate so those job should take precedence over job you can delegate.&lt;/p&gt;
+&lt;p&gt;grug has worked with middle managers that are not technical. grug does not know how they make wise decisions. non-technical managers must rely on their team to make decisions. grug does not want to sit in the middle and relay messages. non-technical managers also lack ability to understand if things their team talk about make sense.&lt;/p&gt;
+&lt;p&gt;grug consults technical members of team and defers to their decision. but grug is able to make better decisions than the non-technical managers.&lt;/p&gt;
+&lt;p&gt;grug mostly spend available time working on small problems that help the team’s productivity. grug tries to stay out of the way as much as possible. grug fix bug here, implement nice to have feature there.&lt;/p&gt;
+&lt;p&gt;grug believes that in order to lead people, grug needs to stay grounded to what life is like for them.&lt;/p&gt;
+&lt;h1&gt;Hiring &amp;amp; Firing&lt;/h1&gt;
+&lt;h2&gt;Hiring&lt;/h2&gt;
+&lt;p&gt;when times are good, grug get approval to hire more grug developer for team.&lt;/p&gt;
+&lt;p&gt;grug learn that hiring grug on to team is risky. new grug developers on team cost the team productivity for several months while they ramp up. new grug developers can also change the team dynamics. grug needs to be careful when bringing in new developers.&lt;/p&gt;
+&lt;p&gt;grug learned that sometimes there is a mismatch between the hiring process and the day to day work. grug disagrees with difficult tests given in the hiring process, but grug doesn’t know how to do any better. grug also learned that the candidates that were going through the hiring process are very talented. grug sometimes wonders if the company could do better, but does not know how to fix it.&lt;/p&gt;
+&lt;p&gt;grug learned that interviews go both ways. grug needs to be a good representative of the company and try to sell the company to the candidate. grug realizes in software development, talented candidates have many options, and grug wants to only hire talented candidates.&lt;/p&gt;
+&lt;h2&gt;Firing&lt;/h2&gt;
+&lt;p&gt;grug believes that firing somebody should be a last option and if it gets to that point, then grug has failed. grug does not want to negatively affect somebody’s life until grug has exhausted all other options.&lt;/p&gt;
+&lt;p&gt;grug believes that its important to have empathy when dealing with these hard situations.&lt;/p&gt;
+&lt;p&gt;grug believes that identifying potential problems early and having difficult conversations early can help avoid issues.&lt;/p&gt;
+&lt;p&gt;however, sometimes there is a communication issue or misaligned expectations. grug tries to be very explicit with the report on what exactly grug needs to see the report improve on.&lt;/p&gt;
+&lt;p&gt;sometimes you give people many chances and they still don’t meet grug’s expectations, so grug then needs to make the hard decision to fire them.&lt;/p&gt;
+&lt;h1&gt;Processes&lt;/h1&gt;
+&lt;p&gt;grug once hear phrase “process is just expectations made explicit” and grug very much like this.&lt;/p&gt;
+&lt;p&gt;grug believe that like software, it is easy to prematurely optimize process within teams. grug tries to not have process until its necessary.&lt;/p&gt;
+&lt;p&gt;process can slow people down. grug hear from other grug often that they need to deal with “red tape”. process for the sake of process can get in the way of grug’s team doing their job.&lt;/p&gt;
+&lt;p&gt;process should be challenged from time to time. grug thinks that just because a process exists, doesn’t make it law. processes need to be re-evaluated to make sure they are still beneficial.&lt;/p&gt;
+&lt;h1&gt;Keeping it simple&lt;/h1&gt;
+&lt;p&gt;grug learn long ago during software development days that complexity is the external enemy. grug internalized this and tries to reduce complexity as much as possible.&lt;/p&gt;
+&lt;p&gt;grug tries to teach their team the ways of the grug brained developer as much as possible.&lt;/p&gt;
+&lt;p&gt;grug firmly believe that the right amount of code is 0 lines. grug wants to judiciously delete code whenever possible and make sure existing code is simple.&lt;/p&gt;
+&lt;p&gt;when making technical decisions, grug considers who will be working on it. code should be accessible to even the most junior developer. writing code should be simple and obvious.&lt;/p&gt;
+&lt;h1&gt;Leadership&lt;/h1&gt;
+&lt;p&gt;grug had vision of leadership from movies where heroic leader charges enemy lines from the front. the reality of leadership though is that grug goes around making sure team is not blocked by anything, they like what they are working on and are happy, and that the team has what they need to do their jobs.&lt;/p&gt;
+&lt;p&gt;grug’s main job is to make sure the team functions well and that ultimately they hit their goals.&lt;/p&gt;
+&lt;p&gt;grug believe strongly that leading by example is important, so grug tries to live up to expectations grug has for team as much as possible. grug hear once that a leader shouldn’t ask their team to do something they wouldn’t do themselves and grug nod head vigorously.&lt;/p&gt;
+&lt;p&gt;grug also believes that decisions should be made with empathy, that there is an inherent power imbalance between manager and worker that should be kept in mind.&lt;/p&gt;
+&lt;p&gt;at the end of the day, grug just try to do good job as best as grug can. grug realize that there no true ideal for what a leader is. grug just try to do what is best for team members and company and try to hold together as much of the team as possible.&lt;/p&gt;
+&lt;h1&gt;Communication&lt;/h1&gt;
+&lt;p&gt;communication number one thing to get right as manager.&lt;/p&gt;
+&lt;p&gt;clarity of communication is important skill for manager to have. grug managers can express complex ideas in simple terms.&lt;/p&gt;
+&lt;p&gt;grug try not to assume people know thing and will check or give simple fast explanation for thing people may not know of. grug often see people afraid to ask clarifying questions and tries to make communication accessible.&lt;/p&gt;
+&lt;p&gt;grug often need to synthesize information from various sources and combine it into coherent thesis. it important that grug listen to people and ask questions to understand underlying problem.&lt;/p&gt;
+&lt;p&gt;written communication is very important for remote team. grug has team members across many time zone, written asynchronous communication ensures people can engage when it works for them.&lt;/p&gt;
+&lt;p&gt;when grug must do a presentation, grug believe strongly in &lt;a href=&quot;https://guykawasaki.com/the-only-10-slides-you-need-in-your-pitch/&quot;&gt;Guy Kawasaki’s 10/20/30 presentation method.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;grug know that when manager suggest thing, it easy for people to take it as mandate. grug try to ask questions when possible to guide thought process instead of suggesting thing. grug also try to set expectation that grug not close to problem and that grug defer to team as technical experts.&lt;/p&gt;
+&lt;p&gt;grug try to use simple language whenever possible. grug has many English as second language team members and wants to make sure they can understand grug.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20220823_the_grug_brained_manager.md/whywastetime.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h1&gt;Grug like&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/33369254-the-manager-s-path&quot;&gt;The Manager&#39;s Path by Camille Fournier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://kellblog.com/2015/03/08/career-development-what-it-really-means-to-be-a-manager-director-or-vp/&quot;&gt;Career Development: What It Really Means to be a Manager, Director, or VP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://charity.wtf/2022/06/13/advice-for-engineering-managers-who-want-to-climb-the-ladder/&quot;&gt;Advice for Engineering Managers Who Want to Climb the Ladder&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;grug think that key to management is to communicate expectations clearly and set up team to meet those expectations.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Resurrecting RSS feeds</title>
+    <link href="https://patricklee.nyc/blog/resurrecting-rss-feeds/"/>
+    <updated>2022-06-15T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/resurrecting-rss-feeds/</id>
+    <content xml:lang="en" type="html">&lt;h1&gt;The good ole days&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Update (2023-01-21): I&#39;ve migrated this blog to &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;eleventy&lt;/a&gt; and use its built in RSS/Atom feed generator now.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Back when I was a young lad, RSS feeds were &lt;em&gt;the&lt;/em&gt; way to stay up to date on news, blogs, and other content. You&#39;d find sites you liked, then add their content to your RSS feed reader and then you&#39;d be able to go to a single place to view all your news and content. You&#39;d be able to curate a large number of sites and read new items on a daily basis. Those were the days!&lt;/p&gt;
+&lt;p&gt;Then digital advertising got big, there was real money to be made from eyeballs on your website, so slowly sites began guarding their RSS feed content, ultimately getting rid of them altogether. You wanted people engaging with your site, not with your content, and slowly content began shifting to social media.&lt;/p&gt;
+&lt;p&gt;Back then, all you needed was your Google Reader feed. These days, content is gated within small walled gardens. If you aren&#39;t a member of these walled gardens, forget seeing the content! When my feeds started dying, I switched to Digg and then Reddit and Hacker News.&lt;/p&gt;
+&lt;p&gt;The thing I miss most about syndicated feeds, is that it was so much easier to receive updates for smaller bloggers and news sources. Social media and Reddit are great at surfacing new content, but if I want to follow along with a small time writer, there isn&#39;t much recourse. These days you&#39;d have to follow somebody&#39;s Twitter or their Substack, but it just isn&#39;t as easy as it used to be.&lt;/p&gt;
+&lt;p&gt;Today I set up a RSS reader (&lt;a href=&quot;https://netnewswire.com/&quot;&gt;NetNewsWire&lt;/a&gt;)and I&#39;m going to attempt to curate my feed with authors I&#39;m interested in hearing from. I also added a RSS feed to this blog, so others can subscribe to my feed and read what I&#39;m writing about. It won&#39;t replace Reddit or Hacker news for me, but I hope I can supplement that content!&lt;/p&gt;
+&lt;p&gt;Subscribe to this blog&#39;s &lt;a href=&quot;https://patricklee.nyc/rss.xml&quot;&gt;feed&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;Aside: Adding a RSS feed to this blog&lt;/h1&gt;
+&lt;p&gt;Since I decided to go ahead and re-invent the wheel for this personal blog and build my own Pandoc powered static site generator, I needed a way to generate RSS feeds.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://cyber.harvard.edu/rss/rss.html&quot;&gt;RSS 2.0 spec&lt;/a&gt; is pretty simple, so why not just generate my own &lt;code&gt;rss.xml&lt;/code&gt; file then?&lt;/p&gt;
+&lt;p&gt;Using a pretty simple bash script, I just parse my directory of markdown files and assemble the feed:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;function generate_RSS_feed {
+    echo &amp;quot;Generating RSS feed&amp;quot;
+    declare items
+    while read -r file; do
+        url_path=$(echo &amp;quot;$file&amp;quot; | sed &amp;quot;s:docs\/::g&amp;quot; | sed &amp;quot;s:\.md::g&amp;quot;)
+        date=$(grep &amp;quot;created:&amp;quot; &amp;quot;$file&amp;quot; | sed &amp;quot;s/created: //g&amp;quot;)
+        converted_date=$(convert_date_format_822 &amp;quot;%Y-%m-%d&amp;quot; &amp;quot;$date&amp;quot;)
+        title=$(grep &amp;quot;title:&amp;quot; &amp;quot;$file&amp;quot; | sed &amp;quot;s/title: //g&amp;quot;)
+        html=$(pandoc &amp;quot;$file&amp;quot;)
+        items+=$(cat &amp;lt;&amp;lt; END
+    &amp;lt;item&amp;gt;
+      &amp;lt;title&amp;gt;${title}&amp;lt;/title&amp;gt;
+      &amp;lt;description&amp;gt;&amp;lt;![CDATA[${html}]]&amp;gt;&amp;lt;/description&amp;gt;
+      &amp;lt;link&amp;gt;https://patricklee.nyc/$url_path&amp;lt;/link&amp;gt;
+      &amp;lt;pubDate&amp;gt;${converted_date}&amp;lt;/pubDate&amp;gt;
+    &amp;lt;/item&amp;gt;
+END
+)
+    done &amp;lt; &amp;lt;(find &amp;quot;docs/blog&amp;quot; -name &#39;*.md&#39; ! -name &amp;quot;index.md&amp;quot;)
+    pub_date=$(date -R)
+    template=$(cat &amp;lt;&amp;lt; END
+&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; ?&amp;gt;
+&amp;lt;rss version=&amp;quot;2.0&amp;quot;&amp;gt;
+  &amp;lt;channel&amp;gt;
+    &amp;lt;title&amp;gt;Patricklee.nyc&amp;lt;/title&amp;gt;
+    &amp;lt;link&amp;gt;https://patricklee.nyc/&amp;lt;/link&amp;gt;
+    &amp;lt;description&amp;gt;Software engineering and general geekery&amp;lt;/description&amp;gt;
+    &amp;lt;language&amp;gt;en-us&amp;lt;/language&amp;gt;
+    &amp;lt;pubDate&amp;gt;${pub_date}&amp;lt;/pubDate&amp;gt;
+    ${items}
+  &amp;lt;/channel&amp;gt;
+&amp;lt;/rss&amp;gt;
+END
+)
+    touch &amp;quot;build/rss.xml&amp;quot;
+    echo -e &amp;quot;$template&amp;quot; &amp;gt; &amp;quot;build/rss.xml&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;All this does is parse the frontmatter section of the markdown file to get some basic metadata, then use Pandoc to convert the file to html. It then assembles the XML file and writes it to &lt;code&gt;rss.xml&lt;/code&gt;. This function runs at the end of my blog&#39;s &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/blob/master/build.sh&quot;&gt;build chain&lt;/a&gt;, but it can be run isolated as well.&lt;/p&gt;
+&lt;p&gt;See the &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/blob/master/build_scripts/rss.sh&quot;&gt;script here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I&#39;m actually quite happy with this collection of bash scripts and Pandoc to generate my static site. The whole thing is stupid simple, there is zero magic, its ugly but functional and it is very narrowly scoped. There is very little that can go wrong and not many dependencies. For a blog that I want to infrequently update and keep around for a long time, its perfect and won&#39;t rot once a new JS framework gains popularity.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Note taking hell</title>
+    <link href="https://patricklee.nyc/blog/note-taking-hell/"/>
+    <updated>2022-05-20T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/note-taking-hell/</id>
+    <content xml:lang="en" type="html">&lt;h1&gt;Note taking hell&lt;/h1&gt;
+&lt;p&gt;I have a hard time sticking with a note taking system. I think at this point I&#39;ve tested all the major note taking tools:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Evernote&lt;/li&gt;
+&lt;li&gt;OneNote&lt;/li&gt;
+&lt;li&gt;Simple note&lt;/li&gt;
+&lt;li&gt;Turtl&lt;/li&gt;
+&lt;li&gt;Google keep&lt;/li&gt;
+&lt;li&gt;Standard Notes&lt;/li&gt;
+&lt;li&gt;Workflowy&lt;/li&gt;
+&lt;li&gt;Bear&lt;/li&gt;
+&lt;li&gt;todo.txt&lt;/li&gt;
+&lt;li&gt;plain text markdown files&lt;/li&gt;
+&lt;li&gt;Omni notes&lt;/li&gt;
+&lt;li&gt;Apple Notes&lt;/li&gt;
+&lt;li&gt;Obsidian&lt;/li&gt;
+&lt;li&gt;Notion&lt;/li&gt;
+&lt;li&gt;Roam Research&lt;/li&gt;
+&lt;li&gt;Athens Resarch&lt;/li&gt;
+&lt;li&gt;Coda&lt;/li&gt;
+&lt;li&gt;Mem.ai (currently trying out)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&#39;ve also built and sold a now defunct note taking app called &lt;a href=&quot;https://github.com/Collateapp/CollateNotes&quot;&gt;Collate Notes&lt;/a&gt; as well as a VS Code plugin called &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=patricklee.vsnotes&quot;&gt;VSNotes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I can&#39;t settle on anything! My notes, tasks, etc are scattered across various services and no one service seems to be able to keep my attention for long. I keep looking for that note taking panacea that will organize my life and help me become more productive, however everything I try always seems to come up short in some way, shape or form.&lt;/p&gt;
+&lt;p&gt;Notion is a favorite of mine, it had really great flexibility... but too much flexibility. It functioned great for writing nice looking documents, but failed at jotting down small tidbits quickly. I felt like I spent too much time making documents look nice instead of actually using the tool.&lt;/p&gt;
+&lt;p&gt;Roam Research was really nice. It introduced me to &lt;a href=&quot;https://en.wikipedia.org/wiki/Zettelkasten&quot;&gt;Zettelkasten&lt;/a&gt; which is a neat concept. However I dropped it because Roam was expensive and lacked polish. In it&#39;s stead I tried Athens Research and Obsidian, both were pretty meh.&lt;/p&gt;
+&lt;p&gt;Plain text note taking is all the rage with minimalists. I&#39;m a big fan of markdown for documentation (this blog is written in markdown). For notes, it was okay. Interoperability between services usually sucks. Pasting raw markdown into a Google doc will just result in a bunch of markdown formatting in a google doc, so that doesn&#39;t work. Syncing data is also a bigger pain with plain text. Do you use Git? A service like dropbox? Then on mobile your tool needs to work with these services.&lt;/p&gt;
+&lt;p&gt;It&#39;s a nightmare!&lt;/p&gt;
+&lt;h2&gt;I have no idea what I want&lt;/h2&gt;
+&lt;p&gt;Do I want a writing tool?
+Do I want a way to manage tasks?
+Do I want a way to be reminded of things?
+Do I want a way to manage a knowledge base?
+Do I need a bookmarking tool?
+Will I ever look at these notes ever again?
+How do I reconcile the Google Docs heavy world that my work org operates in?
+Do I want a dashboard that I can keep up all day to jot down notes, see my meetings, etc?&lt;/p&gt;
+&lt;p&gt;I would love having all these things in a single tool, but that&#39;s not feasible. Its basically an operating system at that point. The services that try end up sucking. The services that don&#39;t end up lacking. Damned if you do, damned if you don&#39;t.&lt;/p&gt;
+&lt;h2&gt;I&#39;m so lazy&lt;/h2&gt;
+&lt;p&gt;I would love to be able to just automate stuff too. Click a button in slack and a todo item pops up in my tool or bookmark this link and it shows up in my notes. Integrations are great, interoperability between services means that I can pipe data from this service into my online brain. However very rarely does it do what you actually want. APIs don&#39;t play nice, data isn&#39;t available, hell a lot of these services don&#39;t even have APIs. What is one to do?&lt;/p&gt;
+&lt;p&gt;The promise of a 2nd brain, in the cloud, ready to be queried that offloads the work of thinking. Isn&#39;t that the dream? To be able to think a thought and have it appear in a personal knowledge base to be ingested and understood by a machine? Then spat back out to you at the appropriate time and place? Barring having a hyper intelligent machine, what is one to do?&lt;/p&gt;
+&lt;h2&gt;I think I need to designate scopes&lt;/h2&gt;
+&lt;p&gt;I need to pick several tools and keep them in their lanes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Calendar: Google Calendar&lt;/li&gt;
+&lt;li&gt;Reminders: Apple Reminders&lt;/li&gt;
+&lt;li&gt;Jotting down ideas: Whatever is nearby?&lt;/li&gt;
+&lt;li&gt;Writing: Google Docs / Markdown (depends on context)&lt;/li&gt;
+&lt;li&gt;Bookmarking: Raindrop.io&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I think leveraging a tool like raindrop.io will help me keep all these various notes organized in a central location... at least until I get bored of maintaining it...&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Striving for dispassionateness</title>
+    <link href="https://patricklee.nyc/blog/striving-for-dispassionateness/"/>
+    <updated>2022-03-21T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/striving-for-dispassionateness/</id>
+    <content xml:lang="en" type="html">&lt;h1&gt;Striving for dispassionateness&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Not influenced by strong feelings or emotions; impartial&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.thefreedictionary.com/dispassionateness#:~:text=dispassionateness-,noun,%2C%20nonpartisanship%2C%20objectiveness%2C%20objectivity.&quot;&gt;Definition&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As I continue on my leadership journey managing the Growth engineering team at Noom, one aspect of my personality I&#39;ve been trying to work on is detachment. I have a mantra &amp;quot;Strive for dispassionateness&amp;quot; that I plastered on top of my personal goals to remind me to continue to detach myself from emotions. Dispassionateness or detachment as I&#39;ve defined it is the process of removing emotion from the decision making process to reduce the impact of bias and to try to make the best decisions possible.&lt;/p&gt;
+&lt;p&gt;My coworker Nikhil, the VP of Growth at Noom is my model for dispassionateness. I&#39;ve worked with him for four years now and in this time I&#39;ve had a glimpse into how he handles making difficult decisions and accepting hard feedback. He does it with thoughtfulness, without ego, and kindness. Its quite impressive to see.&lt;/p&gt;
+&lt;p&gt;I&#39;m an emotional person, I feel strong emotions which can bias my decision making process. This personality trait has hurt me in the past. I&#39;ve been in situations where I have a hard time forming sentences, breathing gets difficult, vision blurs. Getting overwhelmed by emotions is truly an awful experience. The adrenaline pumps as the fight or flight response kicks in, paralyzing your mind in indecision, and impairing your ability to think. I&#39;m a conflict-adverse introvert. I hate conflict, but as a people manager and leader there is no avoiding conflict sometimes. You will eventually get pulled into it, especially in a fast moving organization with many different people with their own biases, goals, and opinions.&lt;/p&gt;
+&lt;p&gt;Disconnecting yourself from emotions isn&#39;t burying your emotions. Its a process of introspection and learning what your current emotional state is, and either working to return to my baseline state, or removing myself from the situation. A few things that I&#39;ve learned:&lt;/p&gt;
+&lt;h1&gt;Understanding what affects my mood&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;If I&#39;m hungry or if I didn&#39;t get enough sleep, I&#39;ll often become irritable.&lt;/li&gt;
+&lt;li&gt;When I exercise regularly in the mornings, I set myself up to be in a better head space.&lt;/li&gt;
+&lt;li&gt;I burn out if I don&#39;t take vacations often or there are other compounding stressors. How close to burnout is important for me to keep tabs on. The closer I am, the more erratic my behavior will be and the less passionate I will be about work.&lt;/li&gt;
+&lt;li&gt;As it gets closer to the end of the day, I get tired and can more easily get irritable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Understanding when to stop and take a breather&lt;/h1&gt;
+&lt;p&gt;Sometimes people send me a message or email that spike my blood pressure. I&#39;ve found that if something triggers me, taking a step back to think about it or let it bake helps a lot. I&#39;ve found a lot of success putting something down, then picking it up again the next morning when I&#39;m fresh and in a better head space. The scope of problems tend to be smaller the farther you get from it and initial reactions are usually overblown.&lt;/p&gt;
+&lt;h1&gt;Understanding when to dig in&lt;/h1&gt;
+&lt;p&gt;Speaking of initial reactions, one of my flaws is overreacting based on my initial reaction. Its easy to do so, but generally taking some time to investigate and dig in before gauging the severity of it is beneficial and something I actively work on. Its very easy to experience something, scream &amp;quot;WHAT?&amp;quot;, go on a tear and make things works. It takes discipline and detachment to stop, investigate, and ask questions, then thoughtfully determine the impact and next steps.&lt;/p&gt;
+&lt;h1&gt;Understanding when to let things fall by the wayside.&lt;/h1&gt;
+&lt;p&gt;If you&#39;re doing a good job, people are going to want you to do more. Knowing when to let things fall by the wayside (which is different from letting things slip through the cracks) is an invaluable skill.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Goodbye iterm2</title>
+    <link href="https://patricklee.nyc/blog/goodbye-iterm2/"/>
+    <updated>2022-01-07T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/goodbye-iterm2/</id>
+    <content xml:lang="en" type="html">&lt;p&gt;I&#39;ve used iTerm 2 for a few years now but came to the realization that I don&#39;t actually use any of its features. Mac&#39;s built in terminal is more than enough for my needs. See ya later iTerm 2 and thanks for being rock solid all these years.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>An ode to my linter</title>
+    <link href="https://patricklee.nyc/blog/an-ode-to-my-linter/"/>
+    <updated>2021-12-30T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/an-ode-to-my-linter/</id>
+    <content xml:lang="en" type="html">&lt;pre&gt;&lt;code&gt;Oh my dearest linter,
+adding squiggly lines under my mistake.
+Gently teaching me why I&#39;m wrong.
+How do I fix it?
+Some help would be nice.
+You autocorrected it! Thank you twice!
+
+The documentation is right at hand:
+&amp;quot;you idiot, don&#39;t add an ampersand!&amp;quot;
+But I think you might be wrong,
+my dear linter this is an edge case!
+Well then I&#39;ll just have to add
+a little comment to disable that
+tiny check on line 35.
+I&#39;m sorry my linter,
+you&#39;ll have to abide.
+
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Dotfiles</title>
+    <link href="https://patricklee.nyc/blog/dotfiles/"/>
+    <updated>2021-12-29T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/dotfiles/</id>
+    <content xml:lang="en" type="html">&lt;p&gt;Finally got my &lt;a href=&quot;https://github.com/patleeman/dotfiles&quot;&gt;dotfiles&lt;/a&gt; set up. Now I can have a consistent environment across both Mac and Linux. Really only using it for managing initial environment setup scripts and to manage my terminal environment. Will continue to evolve it as I need to but glad to have built out the basic scaffolding.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>My walking desk setup</title>
+    <link href="https://patricklee.nyc/blog/my-walking-desk-setup/"/>
+    <updated>2021-12-28T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/my-walking-desk-setup/</id>
+    <content xml:lang="en" type="html">&lt;p&gt;Over the course of 2020 and 2021 I&#39;ve become increasingly sedentary with lockdown and full remote work. Having gone from commuting into the office 1-2 times a week down to zero meant I had less opportunity to walk. Along with the birth of my son and having less time and energy to exercise I needed to find a way to integrate more walking into my routine. If I could figure out how to exercise while working then I would have more time to spend on more interesting things, a win-win situation!&lt;/p&gt;
+&lt;p&gt;I&#39;ve seen treadmill desks before and was motivated after seeing one of my coworkers on one during a meeting. So I decided to pick up a treadmill and give it a shot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20211228_my_walking_desk_setup.md/1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This is my humble treadmill desk.&lt;/em&gt;&lt;/p&gt;
+&lt;h1&gt;The treadmill&lt;/h1&gt;
+&lt;p&gt;There are a lot of treadmills on the market of varying quality. I knew that I didn&#39;t need a high end treadmill since I was only going to walk on it. Space is an issue, so I wanted something that could fold away if I had company and needed to use my office as a guest room. Finally I wanted to make sure the product had a warranty and a presence in the US in case something happened with the product. There are plenty of dodgy looking walking treadmills on Amazon and I just didn&#39;t want to take the chance of getting a piece of junk.&lt;/p&gt;
+&lt;p&gt;This pretty much narrowed my choices down to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://treadly.co/order-treadly-2&quot;&gt;Treadly 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.lifespanfitness.com/products/tr1200-dt3-under-desk-treadmill?_pos=4&amp;amp;_psq=tr1200&amp;amp;_ss=e&amp;amp;_v=1.0&quot;&gt;LifeSpan TR1200&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While the LifeSpan TR1200 was a more solid choice, I decided to go with the smaller, sleeker and most importantly cheaper Treadly 2. My impressions of the treadly so far after about a month of usage:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Its heavier than I had expected. The build quality is good, it feels rugged and pretty solid.&lt;/li&gt;
+&lt;li&gt;I didn&#39;t get the one with the bluetooth and I kinda wish I spent the extra money and gotten it. Since I&#39;m stationary at a desk, my Apple watch doesn&#39;t record the steps properly and being able to sync Apple Health to the Treadly would have been nice. It&#39;s no big deal though. You can upgrade to the pro version but it requires paying the difference and shipping back the existing treadmill.&lt;/li&gt;
+&lt;li&gt;A pile of black rubber accumulates at the back of the treadmill after a walk. I think it&#39;s rubber off the bottom of my shoes getting rubbed off, at least I hope it is. It would not be great if this was the belt disintegrating, but I don&#39;t see any wear on it so far.&lt;/li&gt;
+&lt;li&gt;The hand rail is covered by my desk so it&#39;s functionally useless, I just use the included remote to start and stop the treadmill. The handrail feels pretty solid though and it&#39;s folding mechanism is pretty solid.&lt;/li&gt;
+&lt;li&gt;It has a bluetooth speaker but I don&#39;t have a need for it.&lt;/li&gt;
+&lt;li&gt;The speed increments are in MPH and I&#39;ve found my comfortable walking speed is about 2.1 MPH. I don&#39;t know how accurate speed or step counter are but that doesn&#39;t really matter all that much.&lt;/li&gt;
+&lt;li&gt;I only use the manual mode since I want the treadmill to set the pace and all I have to do is keep up. The Treadly 2 has an automatic mode that adjusts the speed based on where on the treadmill you&#39;re walking. Further up and it speeds up, further back and it slows down.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Overall I&#39;m pretty happy with this treadmill!&lt;/p&gt;
+&lt;h1&gt;The setup&lt;/h1&gt;
+&lt;p&gt;I have a standing desk which I had planned on using as my treadmill desk. The plan was to set up the treadmill in the morning then move it out of the way when I was finished so I could sit/stand the rest of the day. I tried this a few days and realized that I needed to have a dedicated setup for the treadmill desk and that it had to live somewhere semi-permanently. Having to set up the treadmill attributed some friction to actually using it which meant I was less likely to use it.&lt;/p&gt;
+&lt;p&gt;So I cleared some space in my office, purchased a relatively cheap &lt;a href=&quot;https://www.amazon.com/dp/B093GLT2QY?psc=1&amp;amp;ref=ppx_yo2_dt_b_product_details&quot;&gt;Tangkula adjustable standing desk&lt;/a&gt; off of Amazon and repurposed some extra peripherals I had laying around. I also purchased a Logitech C920x webcam for this setup so I could take video calls while on the treadmill desk.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20211228_my_walking_desk_setup.md/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;On the desk: Split Keyboard, Apple Trackpad, wrist rests, Logitech C920x, LG 34&amp;quot; Ultrawide monitor, Ergotron monitor arm, Treadly 2 remote&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;When everything came, I realized that the standing desk needed to raised over the treadmill so it could slide underneath the desk setup. This is important because this cheap standing desk is relatively shallow and I needed to be centered in the middle of the treadmill so the desk had to be slid back. To solve this problem, I just bought some cheap &lt;a href=&quot;https://www.amazon.com/dp/B08QVJMWTD?psc=1&amp;amp;ref=ppx_yo2_dt_b_product_details&quot;&gt;6&amp;quot; bed risers&lt;/a&gt; which gave the desk enough height so it could clear the treadmill.&lt;/p&gt;
+&lt;p&gt;I also have a small fan that blows me while I&#39;m walking since I get pretty warm after walking a while. The fan helps a lot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20211228_my_walking_desk_setup.md/3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The desk is raised over the treadmill with the bed risers and the fan helps keep me cool while I walk.&lt;/em&gt;&lt;/p&gt;
+&lt;h1&gt;Using it&lt;/h1&gt;
+&lt;p&gt;My goal is 10,000 steps per day and I&#39;ve found that I&#39;m able to complete that in about three hours at a leisurely 2.1 MPH pace. The first few weeks I was pretty tired and didn&#39;t walk every day. It does take a period of acclimation to go from mostly sedentary to walking the equivalent of 2-3 miles a day so I wasn&#39;t kicking myself for not hitting my goal. Ultimately I want to build a long lasting healthy habit so I&#39;m taking it slow and working up to my goal.&lt;/p&gt;
+&lt;p&gt;Some of my impressions after several weeks of daily usage:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I find that walking doesn&#39;t impede with my flow state. I&#39;m able to write code or documents just fine while walking. I&#39;m writing this blog post while walking. The constant pace and repetitiveness of it isn&#39;t distracting so it&#39;s quite easy to forget I&#39;m on a treadmill after a while.&lt;/li&gt;
+&lt;li&gt;I usually spend about 2 hours on the treadmill in the mornings. More if I have meetings and need to stop walking so I can interact in the meeting. Ideally I&#39;d block off time for walking in the mornings and is something I will be exploring. I&#39;ve had a few times where my mornings were jam packed with meetings which caused me to miss my walk. Once I get going its hard to switch gears and move to the treadmill in the afternoons.&lt;/li&gt;
+&lt;li&gt;Walking can be distracting in meetings. For meetings I need to be highly engaged I usually stop the treadmill but stay standing. For low engagement meetings I&#39;ll keep walking. Walking and talking leaves me breathless so I usually need to stop if I enter a discussion. This should be less of a problem as I acclimate and get healthier.&lt;/li&gt;
+&lt;li&gt;I&#39;m constantly drinking water while walking, no spills yet! Haven&#39;t tried drinking hot coffee yet, though I might just skip that.&lt;/li&gt;
+&lt;li&gt;I keep a pair of shorts, socks and my walking shoes next to the treadmill so I have no excuses to not walk.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;I&#39;m really enjoying my walking desk. I&#39;m getting in physical activity where I&#39;d otherwise be sitting at my desk. My work is getting done and I&#39;m able to optimize my time outside work for other things I enjoy doing (like hanging out with my family)!&lt;/p&gt;
+&lt;p&gt;My key takeaways from this project:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If I expect myself to use this walking desk there needs to be almost no barriers to me hopping at any time.&lt;/li&gt;
+&lt;li&gt;Creating a comfortable setup (keyboard, trackpad, monitor, etc) that is very similar to my desk setup is important. If I tried to work off my laptop instead of with external monitors and peripherals like I normally do I think I would be way less motivated to hop over to the standing desk.&lt;/li&gt;
+&lt;li&gt;Walking is great!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you&#39;ve been considering a walking desk, I&#39;d highly recommend trying it out. Just make sure you have the space to dedicate to it. You can always pick up a cheap used treadmill and rig up a desk setup.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Lessons learned from dabbling in the stock market</title>
+    <link href="https://patricklee.nyc/blog/lessons-learned-from-dabbling-in-the-stock-market/"/>
+    <updated>2021-12-27T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/lessons-learned-from-dabbling-in-the-stock-market/</id>
+    <content xml:lang="en" type="html">&lt;p&gt;I&#39;ve dabbled in investing in the past but over the last two years I&#39;ve really gotten involved heavily with managing my portfolio. I&#39;m still a complete amateur but I did pick up some very valuable lessons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I&#39;ve started to attach probabilities to events way more than I used to. This has the benefit of helping me think about potential events more objectively.&lt;/li&gt;
+&lt;li&gt;There is a zen to riding the highs and lows of the market. It takes confidence in a long term game plan, diversification, and some good ole detachment in order to psychologically bear the swings.&lt;/li&gt;
+&lt;li&gt;I learned not to go into a trade without an exit plan (still working on actualizing this one).&lt;/li&gt;
+&lt;li&gt;The more you risk, the more you could potentially be rewarded.&lt;/li&gt;
+&lt;li&gt;You could also lose everything in one bad trade. Don&#39;t put all your eggs in one basket.&lt;/li&gt;
+&lt;li&gt;Leverage is a powerful and dangerous tool. Use it with extreme caution.&lt;/li&gt;
+&lt;li&gt;A stock&#39;s price usually reached an equilibrium until some catalyst occurs. The same could be said about life, usually we reach some steady state until a catalyzing life event occurs.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TODO: explore how to introduce catalysts in a more consistent manner.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Companies rise and fall on a regular basis. What seems like a juggernaut one year may implode the next. Same for companies that seem to be worthless can be turned around and brought back from the grave.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>I should have learned more bash sooner</title>
+    <link href="https://patricklee.nyc/blog/i-should-have-learned-more-bash-sooner/"/>
+    <updated>2021-12-26T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/i-should-have-learned-more-bash-sooner/</id>
+    <content xml:lang="en" type="html">&lt;p&gt;Bash tools are super powerful once you get a hang of using it. This whole blog is pretty much &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/&quot;&gt;a bunch of scripts and Pandoc&lt;/a&gt;. Its pretty cool what you can build once you get over the learning curve.&lt;/p&gt;
+&lt;p&gt;I&#39;m a few years into my career now and I&#39;ve only really used shell scripts when working with CI. I&#39;ve never felt totally comfortable with it, maybe it&#39;s because it feels like casting spells by uttering some obscure incantations? I mean look at one of the lines I put together to sort an array for this blog:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;IFS=$&#39;\n&#39; SORTED_POSTS=( $(for j in &amp;quot;${POSTS[@]}&amp;quot;; do echo $j; done | sort -t &amp;quot;;&amp;quot; -k 1 -nr) )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What does all this mean?
+&lt;code&gt;IFS=$&#39;\n&#39;&lt;/code&gt; Hackily set the internal separator to newline so it stops breaking my strings up by spaces
+&lt;code&gt;$(for j in &amp;quot;${POSTS[@]}&amp;quot;; do echo $j; done | sort -t &amp;quot;;&amp;quot; -k 1 -nr)&lt;/code&gt; Loop through the $POSTS array (not shown) and sort by the first column delineated by ;
+&lt;code&gt;SORTED_POSTS=( ... )&lt;/code&gt; Create an array from the output of the previous command&lt;/p&gt;
+&lt;p&gt;Hell, this probably isn&#39;t even the right way to do what I wanted it to do, but it works for my use case. What&#39;s really cool though is just how powerful and terse it is. The difficulty lies in getting started with it.&lt;/p&gt;
+&lt;p&gt;Some of the Pros and Cons I&#39;ve encountered so far:&lt;/p&gt;
+&lt;p&gt;Pros&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Portable between many different systems&lt;/li&gt;
+&lt;li&gt;Plenty of information available online&lt;/li&gt;
+&lt;li&gt;Very powerful and terse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cons&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learning curve is steep&lt;/li&gt;
+&lt;li&gt;Lots of different ways to do X but somebody on the internet will tell you you&#39;re wrong&lt;/li&gt;
+&lt;li&gt;Readability is not very good. If you want to share scripts with a team, you might want to choose something like Python.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So if I were to advise my slightly younger self:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Take a few days and learn how to write bash scripts.&lt;/li&gt;
+&lt;li&gt;Read up on the basics of bash scripting.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://learnxinyminutes.com/docs/bash/&quot;&gt;Learn X in Y seconds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mywiki.wooledge.org/BashGuide&quot;&gt;Bash Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Try writing some scripts to automate things (like setting up your &lt;a href=&quot;https://github.com/patleeman/dotfiles&quot;&gt;dotfiles repo&lt;/a&gt; sooner)&lt;/li&gt;
+&lt;li&gt;If you find yourself reaching to some programming language to do something, try doing it in bash first.&lt;/li&gt;
+&lt;li&gt;Don&#39;t bother with anything complicated interactively. Create a script file and execute it if its anything more than a one liner.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Lessons learned from starting a business while working full time.</title>
+    <link href="https://patricklee.nyc/blog/lessons-learned-from-starting-a-business-while-working-full-time/"/>
+    <updated>2017-08-19T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/lessons-learned-from-starting-a-business-while-working-full-time/</id>
+    <content xml:lang="en" type="html">&lt;p&gt;I started working on &lt;a href=&quot;http://collatenotes.com/&quot;&gt;Collate&lt;/a&gt; in December of 2016. I was dissatisfied with the note taking apps on the market and wanted a tool that would work for my needs. I had been toying with the idea and finally started writing code over the Christmas holiday. I had a basic prototype built with Electron, bootstrap and jQuery by February, then rebuilt it with Electron, Vue.js and Bulma from scratch because the code base was terrible. Today, Collate is profitable, has a couple hundred users, was featured on &lt;a href=&quot;http://lifehacker.com/collate-is-a-privacy-focused-evernote-style-notes-app-1794500652&quot;&gt;Lifehacker&lt;/a&gt; and is doing well by my standards. Here are some hard learned lessons from the last 8 months of working on Collate while maintaining a full time job:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Have a tight scope — I made the mistake of saying yes to everything and pretty soon Collate began heading in a direction I wasn’t happy with. Users will ask for features, it’s only natural. It’s extremely easy to bloat the scope of your project if you say yes to everything. Having an extremely tight scope of what your project does and provides is essential to focus the small amount of time you have to devote to the project. I’m working on the next iteration of Collate and it will be extremely pared down.&lt;/li&gt;
+&lt;li&gt;Use what you know — Use technology you know like the back of your hand. This advice is given a lot and for good reason. If you need to spend time learning a new piece of tech, it’s time away from making your product more stable. I use Wordpress in my day job, so it’s only natural I use it for my product’s site. It’s not sexy but it works.&lt;/li&gt;
+&lt;li&gt;If you have to learn new tech, experiment and choose what works for you — Other times you might not know how to use the right technology for the job. In these cases experiment and see what works best for your needs. I went with Vue.js for the second iteration of Collate because I was working on a project at work that utilized it. Using it in both places helped both projects immensely.&lt;/li&gt;
+&lt;li&gt;Charge money — This is one thing I’m glad I got right from the start thanks to advice from &lt;a href=&quot;https://www.indiehackers.com/&quot;&gt;Indie Hackers&lt;/a&gt; and other startup founders. Charge money from the get-go and get customers comfortable paying for your product. Collate was profitable the second week out of release. The money gives you a cushion to experiment and grow the business. Since I’m working full time, all profits go back into the project to pay for things like servers, lawyers, and third party services I may use.&lt;/li&gt;
+&lt;li&gt;It’s okay to not respond to emails — Customer service is a very time consuming task. I made the mistake of replying to each and every email in the beginning, usually with long explanations of what I was doing and my plans. With limited time, choose your service requests carefully and try to minimize time spent on it. It doesn’t mean you don’t care, you’re just prioritizing. I got to a point where I would dread opening up my inbox, after I stopped responding to everything, things got a lot more manageable.&lt;/li&gt;
+&lt;li&gt;Get your legal ducks in a row — If you’re going to collect money for your project, spend a little up front as soon as you can afford to and get all your legal stuff squared away. I started my corporate entity (Collate, LLC) through a corporate filing company in my state. Opened a bank account with the same bank I use for my personal accounts. Then, got my End User License Agreement and Privacy Policy looked at by an attorney I found on &lt;a href=&quot;https://www.upcounsel.com/rf/pQ3CZlfu&quot;&gt;Upcounsel&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Think about marketing — You don’t have to be a marketing wiz but consider it while building out the product. At the very minimum, start early by building a email list of people interested in your product. You don’t have to constantly market to your list but its useful to have people to notify when you have something to announce.&lt;/li&gt;
+&lt;li&gt;Pace yourself — I wish I had learned this lesson sooner. I worked on Collate furiously for the first six months, pumping out feature after feature and release after release. I was putting in close to 40 hours a week on nights and weekends working on Collate after work for a while. I got so burnt out that I had to step away from the project and try working on something else (and even not working on anything!). I’m back on it now, but working on it at a much slower pace. Take the time to decompress each day, get exercise and make sure to sleep.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Side projects while working full time are a lot of work but also very rewarding. The best part for me was building something from scratch that I’m passionate about building, something that I don’t get at my day job. It’s also pretty great to build something and then watch other people get excited about it.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>From Community College to Columbia</title>
+    <link href="https://patricklee.nyc/blog/from-community-college-to-columbia/"/>
+    <updated>2016-12-12T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/from-community-college-to-columbia/</id>
+    <content xml:lang="en" type="html">&lt;p&gt;I dropped out of college at twenty. The next few years were spent at various jobs until I ended up as a legal assistant at a law firm. The firm was filled with fax machines, typewriters, and massive paper files. What was the norm in 1988 was still the norm in the legal industry at the time. It was a slow moving beast, mired in paper and yesterday’s technology. I wanted to work with modern technology and be part of the future but there was no future for an aimless college dropout. I couldn’t see a way forward, so I went back.&lt;/p&gt;
+&lt;h3&gt;The Borough of Manhattan Community College&lt;/h3&gt;
+&lt;p&gt;Community college was an eye-opening experience. On one hand you had the highly motivated students, usually older, who had experienced life first hand. Many had full time jobs, kids, and experience working low wage jobs. Most of the ones I met worked in retail or dead end jobs, and college for them was a ticket out of their daily struggle and into a comfortable future. On the other hand, you had the unmotivated students, usually younger and straight out of high school. Most treated it as an extension of high school, 13th and 14th grade, as a way to defer working for a little bit. While I could sympathize with them, I fell into the former group of students. I was motivated, but I lacked a clear picture of where I wanted to be. My idea of dreaming big was a degree from the local four year college and a modest job doing something better than what I had been doing at the law firm. At this point, I was doing well in school, working my way through a business management degree, content with my potential future. Who knew that taking a mandatory speech class, and randomly choosing a time slot that worked well with my schedule would land me with a professor that would change my life?&lt;/p&gt;
+&lt;p&gt;My Speech 101 professor, Dr. Poster, is a long time teacher and administrator at the Borough of Manhattan Community College (BMCC). She has a reputation of being a tough teacher, who expects a lot from her students and will hold them to a high standard. While plenty of her colleagues passed students who handed in sub par work, she held firm and expected quality work. She has an uncanny ability to see the best in her students, and to push them hard to realize their potential. Which is what she did with me. She brought me into her office one day and asked me about my plans for the future, what I wanted to do with my life, and where I saw myself going after I finished at BMCC. I gave her the rough layout of my college and career goals. Then she dropped a bomb on me.&lt;/p&gt;
+&lt;p&gt;“Why don’t you apply to Columbia?”&lt;/p&gt;
+&lt;p&gt;I had never even given Columbia serious consideration. That seemed way out of my reach, me, a college dropout in a no-name community college. I wasn’t a savant, I hadn’t done anything truly worthwhile, what chance did I have? She convinced me that it was worth trying and helped connect me to some people who could help with the application process. To my amazement, I got in.&lt;/p&gt;
+&lt;h3&gt;Columbia University&lt;/h3&gt;
+&lt;p&gt;Walking through the gates on 116th street and Broadway the first time was surreal. Stepping onto the Columbia grounds gives you the feeling that you’ve been transported miles away from New York City. I walked through rows of trees lining the main entrance which drew me into the center of campus. To the left were the stairs leading to Low Library, and to the right grassy fields and cleanly trimmed hedges leading to Butler Library. I can only describe the feeling as a sort of reverence, standing in this place where many generations of students have come and gone. A sort of… temple to the religion of academia. I had lived in New York City my entire life and had never known there was such a place.&lt;/p&gt;
+&lt;p&gt;My first semester there, I took a “relatively light” load of four classes while still working part time. Very quickly, I realized that four classes was &lt;strong&gt;not&lt;/strong&gt; a light load and I had to quit my job. If I was going to pass my classes, showing up and doing homework was not enough. I was under water my first week of classes, drowning under the crushing weight of the volume, frequency, and difficulty of the work. It turns out that community college had not adequately prepared me for the rigors of real academia. Classes were much harder, especially since I was majoring in Economics-Mathematics, a major which combined the two disciplines and was similar to completing 80% of both degrees. To survive in this tough academic environment, you enter a sort of perpetual fight or flight mode. Fear had a lot to do with the stress. Fear of failing a class and extending my stay another semester with the associated costs. Fear of failing out of the school, leaving with significant debt without a degree to show for it. Fear that now that I had reached for the stars, I would fail and come crashing back to the ground. All these fears would be my main motivator and subsequently the reason I was able to graduate on time.&lt;/p&gt;
+&lt;p&gt;I’d best describe the time between when a semester begins and when it ends as a long slow grind. You’re grinding out work, studying, reading, writing and problem sets. Once you complete a task, work begins on the next one, over and over until it’s time to sleep. In community college the bar is set a lot lower, mostly because the bar of students is a lot lower. Teachers expected average work and students presented a wide range of quality. At Columbia, I noticed that the range of quality was a lot smaller, and the quality of work was a lot higher. This meant that in order to be an average student at Columbia, I needed to work harder than I’d ever worked at BMCC. I had friends who were top students at BMCC, who were accepted to Columbia at the same time as I was. They echoed similar sentiments about the intensity of the work. I had thought of myself as an average student at best, and here were people I had considered harder working and smarter than myself struggling to get by.&lt;/p&gt;
+&lt;p&gt;There was an aura of stress surrounding the student body. As my time at Columbia progressed, I noticed I started showing it as well. I don’t know if this was an experience unique to Columbia, top tier schools, or just college in general but I do know that during my time at BMCC I had never experienced that dreadful fear of failing a class. At BMCC the worst that could happen was that I would get a C. At Columbia the worst was failing a class and throwing away thousands of dollars as a result. On the flip side, however, I’ve never seen as many hard-working people in one place in my entire life. The maturity and discipline it took for these students to buckle down and study was inspirational for me. It helped to be surrounded by these hard-working students. I fed off the energy of my fellow students. I found it refreshing to be surrounded by people who were motivated especially coming from an environment where a fraction of your grade was determined by your attendance.&lt;/p&gt;
+&lt;p&gt;I noticed the disparity between the students the most during group assignments. Once at BMCC, I worked with a group to produce a final report which would make up a large portion of my grade. One of our group members disappeared part way through the semester and did not respond to any of our emails. Left in charge of her portion we had to split her work. On the final day of class, when we were slated to hand in our report, she showed up with a crumpled print-out with a paragraph which was supposed to represent her portion, fully expecting us incorporate it with our work. Baffled, we had to turn her down and let her know that her work was unacceptable. In comparison, at Columbia, I worked with a group to present a report in which we all agreed to go the extra mile and create a video showcasing our findings. All members of the group were active, engaged, and contributed beyond their fair share of work. Though this is only anecdotal evidence, I found comparisons between idiosyncratic differences in the student bodies different enough to be startling.&lt;/p&gt;
+&lt;p&gt;However, the student body was not without its flaws. Though racially diverse, the students at Columbia mostly came from the same privileged socioeconomic background. I found the school’s population to be homogenous. I was used to interacting with students with working class backgrounds from New York City. The difference was quite stark, and I found myself having a difficult time forming friendships with my peers. I naturally gravitated towards older, “unconventional” students, who were also returning to college, mostly military veterans. I didn’t have much time to socialize though. I had a carefully planned course schedule to adhere to if I was going to graduate on time. I stuck my nose in my books and worked harder than I had ever worked in my life.&lt;/p&gt;
+&lt;h3&gt;Post Columbia&lt;/h3&gt;
+&lt;p&gt;I graduated. It surprised me much more than it should have. In hindsight it wasn’t all just studying and stress, there were plenty of good times along with the bad. I met a lot of great people during my time, many who have gone on to do some impressive things. I had worked my way through two and a half years and landed an internship which eventually turned into a job. From there, I transitioned to my current role as a Data Analyst at Penguin Random House, the largest book publisher in the US. Without my education from Columbia, data analytics would be a complete mystery to me. Putting in the hours and studying outside of work isn’t a chore as it would have been prior to going back to school. An example of that is that since graduating, I’ve been able to teach myself programming. I had attempted to do so in the past but had never pushed through the tedious parts, always getting stuck. Also, thanks to the fundamental math and economic education I received, I find working with large data sets much easier.&lt;/p&gt;
+&lt;p&gt;Looking back at it now, I can appreciate the rigor and the intensity of the work. Columbia helped push my boundaries and helped me realize what I’m capable of doing. Just three years prior, I matriculated from BMCC, content with a future that was just slightly better than the one I left. However, I would never have even thought to reach so high had Dr. Poster not seen something in me and pushed me to apply. It’s truly amazing what an effect one person can have on the trajectory of another person’s life and I’m grateful to her for what she’s done for me. She made me promise that I would never remove BMCC from my resume, to show others what students from a community college could achieve. I leave it on there for her, and to remind myself of my roots.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

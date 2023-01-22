@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Primary Meta Tags -->
-  <title>Blog Posts</title>
+  <title>I should have learned more bash sooner</title>
   <meta name="description" content="">
 
   <!-- Open Graph / Facebook -->
@@ -93,7 +93,7 @@
   <div class="hero-body">
     <div class="container has-text-centered">
       <div class="title-box">
-        <p class="title">Blog Posts</p>
+        <p class="title">I should have learned more bash sooner</p>
         <p class="subtitle"></p>
       </div>
     </div>
@@ -103,125 +103,74 @@
       <section class="section main">
         <div class="container">
           <div class="content">
-            
+            <section class="section main">
+  <div class="container">
+    
+      <div class="date">
+        <p class="is-7">
+          <strong>Dec 26, 2021</strong>
+        </p>
+      </div>
+    
+    <div class="content">
+      <p>Bash tools are super powerful once you get a hang of using it. This whole blog is pretty much <a href="https://github.com/patleeman/patricklee.nyc/">a bunch of scripts and Pandoc</a>. Its pretty cool what you can build once you get over the learning curve.</p>
+<p>I'm a few years into my career now and I've only really used shell scripts when working with CI. I've never felt totally comfortable with it, maybe it's because it feels like casting spells by uttering some obscure incantations? I mean look at one of the lines I put together to sort an array for this blog:</p>
+<pre><code class="language-bash">IFS=$'\n' SORTED_POSTS=( $(for j in &quot;${POSTS[@]}&quot;; do echo $j; done | sort -t &quot;;&quot; -k 1 -nr) )
+</code></pre>
+<p>What does all this mean?
+<code>IFS=$'\n'</code> Hackily set the internal separator to newline so it stops breaking my strings up by spaces
+<code>$(for j in &quot;${POSTS[@]}&quot;; do echo $j; done | sort -t &quot;;&quot; -k 1 -nr)</code> Loop through the $POSTS array (not shown) and sort by the first column delineated by ;
+<code>SORTED_POSTS=( ... )</code> Create an array from the output of the previous command</p>
+<p>Hell, this probably isn't even the right way to do what I wanted it to do, but it works for my use case. What's really cool though is just how powerful and terse it is. The difficulty lies in getting started with it.</p>
+<p>Some of the Pros and Cons I've encountered so far:</p>
+<p>Pros</p>
+<ul>
+<li>Portable between many different systems</li>
+<li>Plenty of information available online</li>
+<li>Very powerful and terse</li>
+</ul>
+<p>Cons</p>
+<ul>
+<li>Learning curve is steep</li>
+<li>Lots of different ways to do X but somebody on the internet will tell you you're wrong</li>
+<li>Readability is not very good. If you want to share scripts with a team, you might want to choose something like Python.</li>
+</ul>
+<p>So if I were to advise my slightly younger self:</p>
+<ul>
+<li>Take a few days and learn how to write bash scripts.</li>
+<li>Read up on the basics of bash scripting.
+<ul>
+<li><a href="https://learnxinyminutes.com/docs/bash/">Learn X in Y seconds</a></li>
+<li><a href="http://mywiki.wooledge.org/BashGuide">Bash Guide</a></li>
+</ul>
+</li>
+<li>Try writing some scripts to automate things (like setting up your <a href="https://github.com/patleeman/dotfiles">dotfiles repo</a> sooner)</li>
+<li>If you find yourself reaching to some programming language to do something, try doing it in bash first.</li>
+<li>Don't bother with anything complicated interactively. Create a script file and execute it if its anything more than a one liner.</li>
+</ul>
 
-<table class="table is-fullwidth">
-  <thead>
-    <tr>
-      <th>Date</th>
-      <th>Title</th>
-    </tr>
-  </thead>
-  <tbody><tr>
-        <td>
-          <strong>
-            Aug 23, 2022
-          </strong>
-        </td>
-        <td>
-          <a href="/blog/the-grug-brained-manager/">The Grug Brained Manager</a>
-        </td>
-      </tr><tr>
-        <td>
-          <strong>
-            Jun 15, 2022
-          </strong>
-        </td>
-        <td>
-          <a href="/blog/resurrecting-rss-feeds/">Resurrecting RSS feeds</a>
-        </td>
-      </tr><tr>
-        <td>
-          <strong>
-            May 20, 2022
-          </strong>
-        </td>
-        <td>
-          <a href="/blog/note-taking-hell/">Note taking hell</a>
-        </td>
-      </tr><tr>
-        <td>
-          <strong>
-            Mar 21, 2022
-          </strong>
-        </td>
-        <td>
-          <a href="/blog/striving-for-dispassionateness/">Striving for dispassionateness</a>
-        </td>
-      </tr><tr>
-        <td>
-          <strong>
-            Jan 7, 2022
-          </strong>
-        </td>
-        <td>
-          <a href="/blog/goodbye-iterm2/">Goodbye iterm2</a>
-        </td>
-      </tr><tr>
-        <td>
-          <strong>
-            Dec 30, 2021
-          </strong>
-        </td>
-        <td>
-          <a href="/blog/an-ode-to-my-linter/">An ode to my linter</a>
-        </td>
-      </tr><tr>
-        <td>
-          <strong>
-            Dec 29, 2021
-          </strong>
-        </td>
-        <td>
-          <a href="/blog/dotfiles/">Dotfiles</a>
-        </td>
-      </tr><tr>
-        <td>
-          <strong>
-            Dec 28, 2021
-          </strong>
-        </td>
-        <td>
-          <a href="/blog/my-walking-desk-setup/">My walking desk setup</a>
-        </td>
-      </tr><tr>
-        <td>
-          <strong>
-            Dec 27, 2021
-          </strong>
-        </td>
-        <td>
-          <a href="/blog/lessons-learned-from-dabbling-in-the-stock-market/">Lessons learned from dabbling in the stock market</a>
-        </td>
-      </tr><tr>
-        <td>
-          <strong>
-            Dec 26, 2021
-          </strong>
-        </td>
-        <td>
-          <a href="/blog/i-should-have-learned-more-bash-sooner/">I should have learned more bash sooner</a>
-        </td>
-      </tr><tr>
-        <td>
-          <strong>
-            Aug 19, 2017
-          </strong>
-        </td>
-        <td>
-          <a href="/blog/lessons-learned-from-starting-a-business-while-working-full-time/">Lessons learned from starting a business while working full time.</a>
-        </td>
-      </tr><tr>
-        <td>
-          <strong>
-            Dec 12, 2016
-          </strong>
-        </td>
-        <td>
-          <a href="/blog/from-community-college-to-columbia/">From Community College to Columbia</a>
-        </td>
-      </tr></tbody>
-</table>
+    </div>
+    <nav class="level">
+  <div class="level-left">
+    <div class="level-item">
+      <a
+        id="share-with"
+        href="/blog/i-should-have-learned-more-bash-sooner/"
+        target="_blank"
+        title="Permalink">🔗 Permalink</a>
+    </div>
+    <div class="level-item">
+      <a
+        id="email-feedback"
+        href=""
+        target="_blank"
+        title="Send me some feedback">
+        📧  Send Feedback</a>
+    </div>
+  </div>
+</nav>
+  </div>
+</section>
           </div>
         </div>
       </section>
