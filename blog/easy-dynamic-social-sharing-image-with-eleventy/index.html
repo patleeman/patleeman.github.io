@@ -1,0 +1,246 @@
+
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Primary Meta Tags -->
+  <title>Patrick Lee | Easy dynamic social sharing image with eleventy</title>
+  <meta name="description" content="">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://patricklee.nyc/blog/easy-dynamic-social-sharing-image-with-eleventy/">
+  <meta property="og:title" content="Patrick Lee | Easy dynamic social sharing image with eleventy">
+  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674529924261">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://patricklee.nyc/blog/easy-dynamic-social-sharing-image-with-eleventy/">
+  <meta property="twitter:title" content="Patrick Lee | Easy dynamic social sharing image with eleventy">
+  <meta property="twitter:description" content="I get into things">
+  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674529924262">
+
+  <link rel="canonical" href="https://patricklee.nyc" />
+
+  <!-- Icons -->
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/public/apple-touch-icon.png">
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/public/favicon-32x32.png">
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="/public/favicon-16x16.png">
+  <link rel="manifest" href="/public/site.webmanifest">
+  <link
+    rel="mask-icon"
+    href="/public/safari-pinned-tab.svg"
+    color="#5bbad5">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/public/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/public/styles/styles.css" />
+</head>
+
+  <body>
+      <div class="hero-head bg-squares">
+  <nav
+    class="navbar bg-squares"
+    role="navigation"
+    aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item nav-logo" href="/">
+        Patrick Lee
+      </a>
+
+      <a
+        role="button"
+        class="navbar-burger"
+        data-target="navMenu"
+        aria-label="menu"
+        aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navMenu" class="navbar-menu bg-squares">
+      <div class="navbar-end">
+        <a class="navbar-item" href="/blog">
+          Writing
+        </a>
+
+        <a class="navbar-item" href="/about">
+          About
+        </a>
+
+        <a class="navbar-item" href="/uses">
+          Uses
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+      <section class="hero is-small bg-squares">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="title-box">
+        <p class="title">Easy dynamic social sharing image with eleventy</p>
+        <p class="subtitle"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section main">
+        <div class="container">
+          <div class="content">
+            <section class="section main">
+  <div class="container">
+    
+      <div class="date">
+        <p class="is-7">
+          <strong>Jan 23, 2023</strong>
+        </p>
+      </div>
+    
+    <div class="content">
+      <h1>Introduction</h1>
+<p>I'm in the process of rebuilding this website using <a href="https://www.11ty.dev/">eleventy</a> and I wanted to get fancy with this revamped site.</p>
+<p>One feature I wanted was a custom Open Graph social share image for each page on the site. If you're not familiar with Open Graph, check out <a href="https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/">this explanation</a>. In a nutshell, when you share links to the site on social networks, it should an image to draw people into the page.</p>
+<p>Eleventy has a pretty robust ecosystem already and lo and behold, there are already plugins to handle this for you. Great, let's just check them out.</p>
+<h1>What's out there?</h1>
+<p><a href="https://github.com/tannerdolby/eleventy-plugin-social-img#readme">eleventy-plugin-social-img</a> pre-generates cards using a shortcode. I spent about 30 minutes trying to grok the readme and how to use the plugin. I like that you could create an HTML template, but the plugin looked overly complicated for what I needed.</p>
+<p><a href="https://github.com/Resocio/eleventy-plugin-social-image#readme">@resoc/eleventy-plugin-social-image</a> only works with Netlify and requires a server component. This site is hosted on GitHub Pages and is fully static. Pass.</p>
+<p><a href="https://github.com/tpiros/eleventy-plugin-social-share-card-generator#readme">eleventy-plugin-social-share-card-generator</a> requires a Cloudinary account. Pass.</p>
+<p><a href="https://github.com/KiwiKilian/eleventy-plugin-og-image#readme">eleventy-plugin-og-image</a> looks promising, pre-generates images, and looks pretty easy to use. This could be a runner-up if I ever want to go a different route.</p>
+<p>All in all, I wasn't a huge fan of these solutions. There had to be something simpler.</p>
+<h1>Something simpler</h1>
+<p>The eleventy team offers various <a href="https://www.11ty.dev/docs/api-services/">API Services</a> for the public to use. <a href="https://www.11ty.dev/docs/services/screenshots/">Screenshots</a> is a runtime service that takes a screenshot of a URL and returns that image (and caches it). Bingo!</p>
+<p>All I need to do is create a simple template and style it however I'd like for my social sharing card. Apply the template to every page in the site. Then the service can generate screenshots for my blog posts on demand when somebody shares a link to my site.</p>
+<h2>Creating the card template</h2>
+<p>To make it easy to manipulate URLs, I would have a mirrored set of paths at <code>https://patricklee.nyc/social/&lt;page URL&gt;</code>. Then I simply embed that URL to the screenshot service API URL and it would return an image.</p>
+<p>Example of the social card webpage:</p>
+<p><a href="https://patricklee.nyc/social/about%5D">https://patricklee.nyc/social/about</a></p>
+<p>Example of the social card screenshot image generated by the service:</p>
+<p><a href="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fabout%2F/opengraph/_1674507886315">https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fabout%2F/opengraph/_1674507886315</a></p>
+<p><em>Note: You need to URLEncodeURI the page being passed into the API</em></p>
+<p>I created the simplest webpage possible, you can see the template <a href="https://github.com/patleeman/patricklee.nyc/blob/master/_includes/social.liquid">here</a>.</p>
+<ul>
+<li>I wanted a simple design with the title of the page, the URL of this site, and a picture of me.</li>
+<li>I created a 1200 x 630 pixel box, then added my card contents in there. The <a href="https://www.11ty.dev/docs/services/screenshots/#usage">screenshot service</a> accepts a size parameter <code>opengraph</code> which will take a 1200 x 630 pixel screenshot.</li>
+</ul>
+<h2>Generating the pages</h2>
+<p>Next, we need to generate the pages on the build. To do this. I created a page <code>social.md</code> with some basic frontmatter. See the page <a href="https://github.com/patleeman/patricklee.nyc/blob/master/social.md?plain=1">here</a>.</p>
+<pre><code>---
+layout: social.liquid
+pagination:
+  data: collections.all
+  size: 1
+  alias: post
+permalink: &quot;social//&quot;
+---
+
+</code></pre>
+<p>This page uses a combination of <a href="https://www.11ty.dev/docs/collections/#the-special-all-collection"><code>collections.all</code></a>, <code>pagination</code>, and <code>permalink</code> to force eleventy to generate a page for every page on the site under the <code>/social/</code> namespace.</p>
+<p>Now when we want the social image for any page we simply add <code>/social/</code> to the URL.</p>
+<p>For example, the page <code>https://patricklee.nyc/about</code> has a social image at <code>https://patricklee.nyc/social/about</code>.</p>
+<h2>Updating the Open Graph tags</h2>
+<p>The last part is to update the Open Graph tags to use this image. In my header, I had my Open Graph social tags available. I just needed to create a URL that would take each page's URL, and append <code>/social</code> to it, then embed it into the screenshot service's URL scheme.</p>
+<p>To make things dead simple, I just <a href="https://github.com/patleeman/patricklee.nyc/blob/56e675dd7d94121337a91924dc72eec5bbfab084/.eleventy.js#L51-L57">created a shortcode</a> that would generate this URL when used on a page.</p>
+<pre><code class="language-js">// eleventy.js
+eleventyConfig.addShortcode(&quot;openGraphScreenshotURL&quot;, function () {
+  // URL Encode the page
+  const encodedURL = encodeURIComponent(
+    `https://patricklee.nyc/social${this.page.url}`
+  );
+  // Generate a cache-busting key for quicker testing
+  const cacheKey = `_${new Date().valueOf()}`;
+  // Return the screenshot service's URL to add to the open graph tags.
+  return `https://v1.screenshot.11ty.dev/${encodedURL}/opengraph/${cacheKey}`;
+});
+</code></pre>
+<p>Then I updated my header to use this shortcode under the <code>og:image</code> and <code>twitter:image</code> tags <a href="https://github.com/patleeman/patricklee.nyc/blob/56e675dd7d94121337a91924dc72eec5bbfab084/_includes/layouts/header.liquid#L13">like so</a>.</p>
+<pre><code class="language-html">&lt;!-- header.liquid --&gt;
+&lt;meta property=&quot;og:image&quot; content=&quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674529924134&quot; /&gt;
+&lt;meta property=&quot;twitter:image&quot; content=&quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674529924134&quot; /&gt;
+</code></pre>
+<p>That's all it takes!</p>
+<h1>Conclusion</h1>
+<p>The risk here is if the eleventy team decides to sunset the screenshot API, I'll need to switch to a solution that pre-generates the social share images or host the API myself. Considering how little traffic this site gets, I'll take that risk for reduced complexity now.</p>
+<p>I like this solution <s>because I came up with it</s> because it is simpler, doesn't require pre-generating all the images upfront, and doesn't require adding more packages. Oh and because I was able to offload a lot of the work to the wonderful devs at eleventy. Thanks, ya'll!</p>
+
+    </div>
+    <nav class="level">
+  <div class="level-left">
+    <div class="level-item">
+      <a
+        id="share-with"
+        href="/blog/easy-dynamic-social-sharing-image-with-eleventy/"
+        target="_blank"
+        title="Permalink">🔗 Permalink</a>
+    </div>
+    <div class="level-item">
+      <a
+        id="email-feedback"
+        href=""
+        target="_blank"
+        title="Send me some feedback">
+        📧  Send Feedback</a>
+    </div>
+  </div>
+</nav>
+  </div>
+</section>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer bg-squares">
+  <div class="content has-text-centered">
+    <span class="logo">
+      <a href="https://github.com/patleeman" target="_blank">
+        <img src="/public/github.png" alt="Github" />
+      </a>
+    </span>
+    <span class="logo">
+      <a href="https://www.linkedin.com/in/patrickleenyc/" target="_blank">
+        <img src="/public/linkedin.png" alt="Linkedin" />
+      </a>
+    </span>
+    <span class="logo">
+      <a
+        href="/feed.xml"
+        target="_blank"
+        title="RSS feed">
+        <img
+          src="/public/rss.png"
+          alt="RSS feed"
+          class="rss-icon" />
+      </a>
+    </span>
+  </div>
+
+  <div class="content has-text-centered">© 2016-2023 Patrick Lee</div>
+</footer>
+
+      <script src="/public/scripts/main.js"></script></body>
+  </body>
+</html>
