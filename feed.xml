@@ -20,13 +20,13 @@
 &lt;p&gt;If you&#39;re brand new to online controlled experimentation, I high recommend starting with &lt;a href=&quot;https://experimentguide.com/&quot;&gt;Trustworthy Online Controlled Experiments : A Practical Guide to A/B Testing&lt;/a&gt;. Its a detailed guide on the experimentation landscape. It was a must-read for every member of my team, and was known as the &amp;quot;Experimentation Bible&amp;quot;.&lt;/p&gt;
 &lt;h1&gt;Whitepapers&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;Overlapping Experiment Infrastructure: More, Better, Faster Experimentation &lt;a href=&quot;https://patricklee.nyc/blog/experimentation-reading-list/36500.pdf&quot;&gt;36500.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Online Controlled Experiments at Large Scale &lt;a href=&quot;https://patricklee.nyc/blog/experimentation-reading-list/2013_controlledExperimentsAtScale.pdf&quot;&gt;2013 controlledExperimentsAtScale.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Controlled experiments on the web: survey and practical guide &lt;a href=&quot;https://patricklee.nyc/blog/experimentation-reading-list/controlledExperimentDMKD.pdf&quot;&gt;controlledExperimentDMKD.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Democratizing online controlled experiments at &lt;a href=&quot;http://booking.com/&quot;&gt;Booking.com&lt;/a&gt;&lt;a href=&quot;https://patricklee.nyc/blog/experimentation-reading-list/1710.08217.pdf&quot;&gt;1710.08217.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Seven Rules of Thumb for Web Site Experimenters&lt;a href=&quot;https://patricklee.nyc/blog/experimentation-reading-list/2014_experimentersRulesOfThumb.pdf&quot;&gt;2014 experimentersRulesOfThumb.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;SQR: Balancing Speed, Qality and Risk in Online Experiments&lt;a href=&quot;https://patricklee.nyc/blog/experimentation-reading-list/1801.08532.pdf&quot;&gt;1801.08532.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Growth Book Stats Whitepaper&lt;a href=&quot;https://patricklee.nyc/blog/experimentation-reading-list/GrowthBookStatsWhitepaper-2021_(1).pdf&quot;&gt;GrowthBookStatsWhitepaper-2021 (1).pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://research.google/pubs/pub36500/&quot;&gt;Overlapping Experiment Infrastructure: More, Better, Faster Experimentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://exp-platform.com/large-scale/&quot;&gt;Online Controlled Experiments at Large Scale&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ai.stanford.edu/~ronnyk/2009controlledExperimentsOnTheWebSurvey.pdf&quot;&gt;Controlled experiments on the web: survey and practical guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1710.08217&quot;&gt;Democratizing online controlled experiments at Booking.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.exp-platform.com/Documents/2014%20experimentersRulesOfThumb.pdf&quot;&gt;Seven Rules of Thumb for Web Site Experimenters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1801.08532&quot;&gt;SQR: Balancing Speed, Quality and Risk in Online Experiments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://patricklee.nyc/public/blog/20230124_experimentation_reading_list.md/GrowthBookStatsWhitepaper-2021.pdf&quot;&gt;Growth Book Stats Whitepaper&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2012.10403#&quot;&gt;Success Stories from a Democratized Experimentation Platform&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;Notes:
@@ -305,8 +305,8 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then I updated my header to use this shortcode under the &lt;code&gt;og:image&lt;/code&gt; and &lt;code&gt;twitter:image&lt;/code&gt; tags &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/blob/56e675dd7d94121337a91924dc72eec5bbfab084/_includes/layouts/header.liquid#L13&quot;&gt;like so&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!-- header.liquid --&amp;gt;
-&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674581754181&amp;quot; /&amp;gt;
-&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674581754181&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674587558286&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674587558286&amp;quot; /&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;That&#39;s all it takes!&lt;/p&gt;
 &lt;h1&gt;Conclusion&lt;/h1&gt;
