@@ -218,8 +218,7 @@
 &lt;li&gt;On metric computation&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;pre&gt;&lt;code&gt;The new analysis tool does not pre-compute the data of the metrics, which cut down on our data storage spend and reduced our analysis generation time. Now, when the data is ready for analysis, we use a [SQL](https://en.wikipedia.org/wiki/SQL) query file to generate metrics on the fly whenever people make a request on the WebUI. After that, we use [Scala](https://www.scala-lang.org/) as our service engine to compute the probability ([p-value](https://en.wikipedia.org/wiki/P-value)) that the treatment group mean is significantly different than the control group mean, determining if the experiment reached the target sample size.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The new analysis tool does not pre-compute the data of the metrics, which cut down on our data storage spend and reduced our analysis generation time. Now, when the data is ready for analysis, we use a &lt;a href=&quot;https://en.wikipedia.org/wiki/SQL&quot;&gt;SQL&lt;/a&gt; query file to generate metrics on the fly whenever people make a request on the WebUI. After that, we use &lt;a href=&quot;https://www.scala-lang.org/&quot;&gt;Scala&lt;/a&gt; as our service engine to compute the probability (&lt;a href=&quot;https://en.wikipedia.org/wiki/P-value&quot;&gt;p-value&lt;/a&gt;) that the treatment group mean is significantly different than the control group mean, determining if the experiment reached the target sample size.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -306,8 +305,8 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then I updated my header to use this shortcode under the &lt;code&gt;og:image&lt;/code&gt; and &lt;code&gt;twitter:image&lt;/code&gt; tags &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/blob/56e675dd7d94121337a91924dc72eec5bbfab084/_includes/layouts/header.liquid#L13&quot;&gt;like so&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!-- header.liquid --&amp;gt;
-&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674570505162&amp;quot; /&amp;gt;
-&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674570505162&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674579451564&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674579451564&amp;quot; /&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;That&#39;s all it takes!&lt;/p&gt;
 &lt;h1&gt;Conclusion&lt;/h1&gt;

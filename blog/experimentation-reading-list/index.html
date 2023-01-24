@@ -12,14 +12,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://patricklee.nyc/blog/experimentation-reading-list/">
   <meta property="og:title" content="Patrick Lee | Experimentation reading list">
-  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Fexperimentation-reading-list%2F/opengraph/_1674570505322">
+  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Fexperimentation-reading-list%2F/opengraph/_1674579452147">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://patricklee.nyc/blog/experimentation-reading-list/">
   <meta property="twitter:title" content="Patrick Lee | Experimentation reading list">
   <meta property="twitter:description" content="Resources for learning more about controlled experimentation">
-  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Fexperimentation-reading-list%2F/opengraph/_1674570505322">
+  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Fexperimentation-reading-list%2F/opengraph/_1674579452147">
 
   <link rel="canonical" href="https://patricklee.nyc" />
 
@@ -121,6 +121,7 @@
         </p>
       </div>
     
+
     <div class="content">
       <h1>Introduction</h1>
 <p>During my time on the Growth team at Noom, I've had to learn a lot about online controlled experimentation. I've put together most of the public resources I've come across into this document.</p>
@@ -325,8 +326,7 @@
 <li>On metric computation</li>
 </ul>
 <blockquote>
-<pre><code>The new analysis tool does not pre-compute the data of the metrics, which cut down on our data storage spend and reduced our analysis generation time. Now, when the data is ready for analysis, we use a [SQL](https://en.wikipedia.org/wiki/SQL) query file to generate metrics on the fly whenever people make a request on the WebUI. After that, we use [Scala](https://www.scala-lang.org/) as our service engine to compute the probability ([p-value](https://en.wikipedia.org/wiki/P-value)) that the treatment group mean is significantly different than the control group mean, determining if the experiment reached the target sample size.
-</code></pre>
+<p>The new analysis tool does not pre-compute the data of the metrics, which cut down on our data storage spend and reduced our analysis generation time. Now, when the data is ready for analysis, we use a <a href="https://en.wikipedia.org/wiki/SQL">SQL</a> query file to generate metrics on the fly whenever people make a request on the WebUI. After that, we use <a href="https://www.scala-lang.org/">Scala</a> as our service engine to compute the probability (<a href="https://en.wikipedia.org/wiki/P-value">p-value</a>) that the treatment group mean is significantly different than the control group mean, determining if the experiment reached the target sample size.</p>
 </blockquote>
 </li>
 </ul>
@@ -351,7 +351,21 @@
 </ul>
 
     </div>
-    <nav class="level">
+
+    <div class="tags">
+      
+        
+      
+        
+          <span class="tag is-info">
+            <a href="/tags/experimentation">experimentation</a>
+          </span>
+        
+      
+    </div>
+
+    <div class="">
+      <nav class="level">
   <div class="level-left">
     <div class="level-item">
       <a
@@ -370,6 +384,7 @@
     </div>
   </div>
 </nav>
+    </div>
   </div>
 </section>
           </div>
