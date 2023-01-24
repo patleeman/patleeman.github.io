@@ -17,7 +17,7 @@
     <id>https://patricklee.nyc/blog/experimentation-reading-list/</id>
     <content xml:lang="en" type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;During my time on the Growth team at Noom, I&#39;ve had to learn a lot about online controlled experimentation. I&#39;ve put together most of the public resources I&#39;ve come across into this document.&lt;/p&gt;
-&lt;p&gt;If you&#39;re brand new to online controlled experimentation, I high recommend starting with &lt;a href=&quot;https://experimentguide.com/&quot;&gt;&lt;code&gt;Trustworthy Online Controlled Experiments : A Practical Guide to A/B Testing&lt;/code&gt;&lt;/a&gt;. Its a detailed guide on the experimentation landscape. It was a must-read for every member of my team, and was known as the &amp;quot;Experimentation Bible&amp;quot;.&lt;/p&gt;
+&lt;p&gt;If you&#39;re brand new to online controlled experimentation, I high recommend starting with &lt;a href=&quot;https://experimentguide.com/&quot;&gt;Trustworthy Online Controlled Experiments : A Practical Guide to A/B Testing&lt;/a&gt;. Its a detailed guide on the experimentation landscape. It was a must-read for every member of my team, and was known as the &amp;quot;Experimentation Bible&amp;quot;.&lt;/p&gt;
 &lt;h1&gt;Whitepapers&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Overlapping Experiment Infrastructure: More, Better, Faster Experimentation &lt;a href=&quot;https://patricklee.nyc/blog/experimentation-reading-list/36500.pdf&quot;&gt;36500.pdf&lt;/a&gt;&lt;/li&gt;
@@ -306,8 +306,8 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then I updated my header to use this shortcode under the &lt;code&gt;og:image&lt;/code&gt; and &lt;code&gt;twitter:image&lt;/code&gt; tags &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/blob/56e675dd7d94121337a91924dc72eec5bbfab084/_includes/layouts/header.liquid#L13&quot;&gt;like so&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!-- header.liquid --&amp;gt;
-&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674569247352&amp;quot; /&amp;gt;
-&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674569247352&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674570505162&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674570505162&amp;quot; /&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;That&#39;s all it takes!&lt;/p&gt;
 &lt;h1&gt;Conclusion&lt;/h1&gt;
