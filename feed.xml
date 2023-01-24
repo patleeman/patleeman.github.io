@@ -4,12 +4,246 @@
   <subtitle>Software engineer</subtitle>
   <link href="https://patricklee.nyc/feed.xml" rel="self"/>
   <link href="https://patricklee.nyc/"/>
-  <updated>2023-01-23T00:00:00Z</updated>
+  <updated>2023-01-24T00:00:00Z</updated>
   <id>https://patricklee.nyc/</id>
   <author>
     <name>Patrick Lee</name>
     <email>me@patricklee.nyc</email>
   </author>
+  <entry>
+    <title>Experimentation reading list</title>
+    <link href="https://patricklee.nyc/blog/experimentation-reading-list/"/>
+    <updated>2023-01-24T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/experimentation-reading-list/</id>
+    <content xml:lang="en" type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;During my time on the Growth team at Noom, I&#39;ve had to learn a lot about online controlled experimentation. I&#39;ve put together most of the public resources I&#39;ve come across into this document.&lt;/p&gt;
+&lt;p&gt;If you&#39;re brand new to online controlled experimentation, I high recommend starting with &lt;a href=&quot;https://experimentguide.com/&quot;&gt;&lt;code&gt;Trustworthy Online Controlled Experiments : A Practical Guide to A/B Testing&lt;/code&gt;&lt;/a&gt;. Its a detailed guide on the experimentation landscape. It was a must-read for every member of my team, and was known as the &amp;quot;Experimentation Bible&amp;quot;.&lt;/p&gt;
+&lt;h1&gt;Whitepapers&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Overlapping Experiment Infrastructure: More, Better, Faster Experimentation &lt;a href=&quot;https://patricklee.nyc/blog/experimentation-reading-list/36500.pdf&quot;&gt;36500.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Online Controlled Experiments at Large Scale &lt;a href=&quot;https://patricklee.nyc/blog/experimentation-reading-list/2013_controlledExperimentsAtScale.pdf&quot;&gt;2013 controlledExperimentsAtScale.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Controlled experiments on the web: survey and practical guide &lt;a href=&quot;https://patricklee.nyc/blog/experimentation-reading-list/controlledExperimentDMKD.pdf&quot;&gt;controlledExperimentDMKD.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Democratizing online controlled experiments at &lt;a href=&quot;http://booking.com/&quot;&gt;Booking.com&lt;/a&gt;&lt;a href=&quot;https://patricklee.nyc/blog/experimentation-reading-list/1710.08217.pdf&quot;&gt;1710.08217.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Seven Rules of Thumb for Web Site Experimenters&lt;a href=&quot;https://patricklee.nyc/blog/experimentation-reading-list/2014_experimentersRulesOfThumb.pdf&quot;&gt;2014 experimentersRulesOfThumb.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;SQR: Balancing Speed, Qality and Risk in Online Experiments&lt;a href=&quot;https://patricklee.nyc/blog/experimentation-reading-list/1801.08532.pdf&quot;&gt;1801.08532.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Growth Book Stats Whitepaper&lt;a href=&quot;https://patricklee.nyc/blog/experimentation-reading-list/GrowthBookStatsWhitepaper-2021_(1).pdf&quot;&gt;GrowthBookStatsWhitepaper-2021 (1).pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2012.10403#&quot;&gt;Success Stories from a Democratized Experimentation Platform&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Notes:
+&lt;ul&gt;
+&lt;li&gt;Netflix experimentation platform&lt;/li&gt;
+&lt;li&gt;Interesting: Netflix uses R/Python notebooks so people can contribute reports, statistical methodologies, and metrics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Books&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://experimentguide.com/&quot;&gt;&lt;code&gt;Trustworthy Online Controlled Experiments : A Practical Guide to A/B Testing&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Videos&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qtboCGd_hTA&quot;&gt;https://www.youtube.com/watch?v=qtboCGd_hTA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Statistics&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=AJX4W3MwKzU&quot;&gt;https://www.youtube.com/watch?v=AJX4W3MwKzU&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Notes:
+&lt;ul&gt;
+&lt;li&gt;Frequentest
+&lt;ul&gt;
+&lt;li&gt;Popular 100 years ago
+&lt;ul&gt;
+&lt;li&gt;Data was expensive to gather back then.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Fixed sample size testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Peeking problem
+&lt;ul&gt;
+&lt;li&gt;Continuously monitor results dashboard&lt;/li&gt;
+&lt;li&gt;Adjust test length in real time (Adaptive sample size testing)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Peeking can dramatically inflate false positives.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Intuition
+&lt;ul&gt;
+&lt;li&gt;Sample size specifies a point in time, doesn&#39;t say anything about what happens between the start of the experiment and when you hit sample size.&lt;/li&gt;
+&lt;li&gt;High chance of significant result on the way to sample size may bias whether we keep the test running or not.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;If you wait long enough, there is a high chance of an eventually inconclusive result looking &amp;quot;significant&amp;quot; along the way!&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Experimentation Platform&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/&quot;&gt;Experimentation Platform - Microsoft Research&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://multithreaded.stitchfix.com/blog/2019/07/30/building-centralized-experimental-platform/&quot;&gt;Building our Centralized Experimental Platform | Stitch Fix Technology - Multithreaded&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Notes:
+&lt;ul&gt;
+&lt;li&gt;They have analytics automated&lt;/li&gt;
+&lt;li&gt;Not a lot of details in this blog post&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/intuit-engineering/open-sourcing-wasabi-the-a-b-testing-platform-by-intuit-a8d5abc958d&quot;&gt;Meet Wasabi, an Open Source A/B Testing Platform&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wasabi not under active development&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/airbnb-engineering/https-medium-com-jonathan-parks-scaling-erf-23fd17c91166&quot;&gt;Scaling Airbnb&#39;s Experimentation Platform&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Notes:
+&lt;ul&gt;
+&lt;li&gt;Uses Airflow for meteics
+&lt;ul&gt;
+&lt;li&gt;ERF runtime from 24 hours to 45 minutes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Useful article to learn about how they do data processing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://techblog.netflix.com/2016/04/its-all-about-testing-netflix.html&quot;&gt;It&#39;s All A/Bout Testing&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Notes:
+&lt;ul&gt;
+&lt;li&gt;Targeting and allocation
+&lt;ul&gt;
+&lt;li&gt;There is one more topic to address before we dive further into details, and that is how members get allocated to a given test. We support two primary forms of allocation: batch and real-time.&lt;/li&gt;
+&lt;li&gt;Batch allocations give analysts the ultimate flexibility, allowing them to populate tests using custom queries as simple or complex as required. These queries resolve to a fixed and known set of members which are then added to the test. The main cons of this approach are that it lacks the ability to allocate brand new customers and cannot allocate based on real-time user behavior. And while the number of members allocated is known, one cannot guarantee that all allocated members will experience the test (e.g. if we’re testing a new feature on an iPhone, we cannot be certain that each allocated member will access Netflix on an iPhone while the test is active).&lt;/li&gt;
+&lt;li&gt;Real-Time allocations provide analysts with the ability to configure rules which are evaluated as the user interacts with Netflix. Eligible users are allocated to the test in real-time if they meet the criteria specified in the rules and are not currently in a conflicting test. As a result, this approach tackles the weaknesses inherent with the batch approach. The primary downside to real-time allocation, however, is that the calling app incurs additional latencies waiting for allocation results. Fortunately we can often run this call in parallel while the app is waiting on other information. A secondary issue with real-time allocation is that it is difficult to estimate how long it will take for the desired number of members to get allocated to a test, information which analysts need in order to determine how soon they can evaluate the results of a test.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.twitter.com/engineering/en_us/a/2015/twitter-experimentation-technical-overview&quot;&gt;Twitter experimentation: technical overview&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Notes:
+&lt;ul&gt;
+&lt;li&gt;Uses feature flags&lt;/li&gt;
+&lt;li&gt;Pretty unremarkable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://engineering.zalando.com/posts/2021/01/experimentation-platform-part1.html&quot;&gt;Zalando Engineering Blog - Experimentation Platform at Zalando: Part 1 - Evolution&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Notes:
+&lt;ul&gt;
+&lt;li&gt;Uses craw/walk/run phrasing a-la Ronnie K&lt;/li&gt;
+&lt;li&gt;Their system allows for staged rollouts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://eng.uber.com/xp/&quot;&gt;Under the Hood of Uber&#39;s Experimentation Platform&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Good details, screenshots of their XP.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Broadly, we use four types of statistical methodologies: fixed horizon A/B/N tests (t-test, chi-squared, and rank-sum tests), sequential probability ratio tests (SPRT), causal inference tests (synthetic control and diff-in-diff tests), and continuous A/B/N tests using bandit algorithms (Thompson sampling, upper confidence bounds, and Bayesian optimization with contextual multi-armed-bandit tests, to name a few). We also apply block bootstrap and delta methods to estimate standard errors, as well as regression-based methods to measure bias correction when calculating the probability of type I and type II errors in our statistical analyses.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The XP detects major issues during analysis:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sample size imbalance (Sample size ratio in control and treatment group)&lt;/li&gt;
+&lt;li&gt;Flickers (Users that have switched between control and treatment groups)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;They do data pre-processing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Outlier detection using a clustering algorithm to detect and remove outliers&lt;/li&gt;
+&lt;li&gt;Variance reduction using CUPED Method&lt;/li&gt;
+&lt;li&gt;Remove pre-experiment bias using difference in differences to correct pre-experiment bias between groups.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sequential testing&lt;/p&gt;
+&lt;p&gt;This is very similar to the circuit breaker system we were interested in building.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One use case where a sequential test comes in handy for our team is when identifying outages caused by the experiments running on our platform. We cannot wait until a traditional A/B test collects sufficient sample sizes to determine the cause of an outage; we want to make sure experiments are not introducing key degradations of business metrics as soon as possible, in this case, during the experimentation period. Therefore, we built a monitoring system powered by a sequential testing algorithm to adjust the confidence intervals accordingly without inflating Type-I error.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Using our XP, we conduct periodic comparisons about these business metrics, such as app crash rates and trip frequency rates, between treatment and control groups for ongoing experiments. Experiments continue if there are no significant degradations, otherwise they will be given an alert or even paused. The workflow for this monitoring system is shown in Figure 6, below:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bandit aka Continuous Experiments&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bandit is used at Uber for:
+&lt;ul&gt;
+&lt;li&gt;Content optimization&lt;/li&gt;
+&lt;li&gt;Spend optimization&lt;/li&gt;
+&lt;li&gt;Hyper-parameter tuning for learning models.&lt;/li&gt;
+&lt;li&gt;Automated Rollouts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://eng.uber.com/experimentation-platform/&quot;&gt;Building an Intelligent Experimentation Platform with Uber Engineering&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Uber uses their XP to do staged rollouts.&lt;/li&gt;
+&lt;li&gt;On metric computation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;&lt;code&gt;The new analysis tool does not pre-compute the data of the metrics, which cut down on our data storage spend and reduced our analysis generation time. Now, when the data is ready for analysis, we use a [SQL](https://en.wikipedia.org/wiki/SQL) query file to generate metrics on the fly whenever people make a request on the WebUI. After that, we use [Scala](https://www.scala-lang.org/) as our service engine to compute the probability ([p-value](https://en.wikipedia.org/wiki/P-value)) that the treatment group mean is significantly different than the control group mean, determining if the experiment reached the target sample size.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/pulse/in-house-experimentation-platforms-denise-visser/&quot;&gt;In-house experimentation platforms&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cool list of various companies experimentation platforms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://data.blog/2021/03/16/explat-automattics-experimentation-platform/&quot;&gt;ExPlat: Automattic&#39;s Experimentation Platform&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Notes:
+&lt;ul&gt;
+&lt;li&gt;System is called Abacus&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://patricklee.nyc/blog/experimentation-reading-list/%5Bhttps://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=&amp;amp;ved=2ahUKEwjk5IWj04b0AhWBpnIEHZu0AOoQFnoECAUQAQ&amp;amp;url=https%3A%2F%2Fgithub.com%2FAutomattic%2Fabacus&amp;amp;usg=AOvVaw0Z4geVG-mMz1vxvOSMB15A%5D(https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=&amp;amp;ved=2ahUKEwjk5IWj04b0AhWBpnIEHZu0AOoQFnoECAUQAQ&amp;amp;url=https%3A%2F%2Fgithub.com%2FAutomattic%2Fabacus&amp;amp;usg=AOvVaw0Z4geVG-mMz1vxvOSMB15A)&quot;&gt;Open source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Easy dynamic social sharing image with eleventy</title>
     <link href="https://patricklee.nyc/blog/easy-dynamic-social-sharing-image-with-eleventy/"/>
@@ -72,8 +306,8 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then I updated my header to use this shortcode under the &lt;code&gt;og:image&lt;/code&gt; and &lt;code&gt;twitter:image&lt;/code&gt; tags &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/blob/56e675dd7d94121337a91924dc72eec5bbfab084/_includes/layouts/header.liquid#L13&quot;&gt;like so&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!-- header.liquid --&amp;gt;
-&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674530591275&amp;quot; /&amp;gt;
-&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674530591275&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674569247352&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674569247352&amp;quot; /&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;That&#39;s all it takes!&lt;/p&gt;
 &lt;h1&gt;Conclusion&lt;/h1&gt;
