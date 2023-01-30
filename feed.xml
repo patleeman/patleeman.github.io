@@ -33,7 +33,7 @@
 &lt;p&gt;I understand onboarding is a pretty daunting time. There is a lot of new things coming at you very quickly. I don&#39;t expect you to jump in coding right away and prefer you ramp up slowly instead of drinking from the firehose. Let me know if you&#39;re feeling overwhelmed at any point and I&#39;ll try to throttle things back for you.&lt;/p&gt;
 &lt;h2&gt;One on One meetings (1:1s)&lt;/h2&gt;
 &lt;p&gt;Regular 1:1s are important for us to stay in touch and to ensure there is an open and available space for us to talk. My preference is weekly or bi-weekly, but I&#39;ll defer to you on the cadence.&lt;/p&gt;
-&lt;p&gt;You own the agenda for the 1:1s. I&#39;ll bring topics, but I&#39;m expecting you to bring topics to discuss as well, and your topics will usually be prioritized above my topics. It&#39;s a good idea to spend a few minutes before our 1:1 to jot down some notes in our shared 1:1 document.&lt;/p&gt;
+&lt;p&gt;You own the agenda for the 1:1s. I&#39;ll bring topics, but I&#39;m expecting you to bring topics to discuss as well, and your topics will usually be prioritized above my topics. It&#39;s a good idea to spend a few minutes before our 1:1 to jot down some notes in our shared 1:1 document. This shared document is a great place to drop non-urgent questions or thoughts between meetings so you&#39;ll populate the agenda as you progress through the week.&lt;/p&gt;
 &lt;p&gt;Some things we can discuss in your 1:1:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;What are you working on? What problems are you encountering? Where are your bottlenecks?
@@ -67,18 +67,20 @@
 &lt;li&gt;Do you want to vent about something? Go ahead, it&#39;s a safe space and between us.&lt;/li&gt;
 &lt;li&gt;Tell me how you&#39;re feeling. Is everything going well outside work? Have you been distracted lately? Is there anything I can do to help (time off, too much work on your plate, etc.)?&lt;/li&gt;
 &lt;li&gt;Need advice? I can do my best to help guide you through whatever it is you&#39;re going through.&lt;/li&gt;
+&lt;li&gt;Are you happy in your role? If there is something you feel is missing, let me know so we can work on it.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;For direct reports that are also managers:&lt;/p&gt;
+&lt;p&gt;For my direct reports that are also managers:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;How is your team doing? Are you encountering any issues with your direct reports?&lt;/li&gt;
 &lt;li&gt;What is your team working on?&lt;/li&gt;
-&lt;li&gt;Do you have any situations where I could provide guidance?&lt;/li&gt;
+&lt;li&gt;Do you have any situations with your reports where I could provide guidance?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;You don&#39;t need to wait until our 1:1 though. Feel free to schedule time with me or ping me on slack at any time.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;Brag Doc&lt;/h2&gt;
 &lt;p&gt;Help me help you. I may or may not have a view of what you do on a day-to-day basis. When it comes time for promotions or performance reviews, you are your own best advocate. I will do what I can to advocate for you on your behalf, but you need to give me ammunition to make a strong case.&lt;/p&gt;
 &lt;p&gt;A brag doc or work log is a simple list of the things you work on so I can take that and transform that into a performance review or promotion packet.&lt;/p&gt;
 &lt;p&gt;By updating it at a regular interval, you don&#39;t need to do the &amp;quot;what did I work on a month ago or more&amp;quot; dance. Take a minute or two every week to just jot down what you&#39;ve been working on and when performance review season comes around, you don&#39;t have to do anything!&lt;/p&gt;
+&lt;p&gt;Having a running work log/brag doc is also useful when it comes time to update your resume. You&#39;ll have a full accounting of your work that you can easily pull highlights from.&lt;/p&gt;
 &lt;h2&gt;Promotions&lt;/h2&gt;
 &lt;p&gt;Going for promotion is your choice. I will happily assist you in trying for a promotion if it&#39;s your goal, but I won&#39;t force you if you&#39;re happy where you&#39;re at.&lt;/p&gt;
 &lt;p&gt;Promotions take time to plan for and to build a case for. Managers are expected to assemble a &amp;quot;Promo Packet&amp;quot; to be submitted to be reviewed. This promo packet makes the case for you and your promotion. You&#39;ll typically need to prove you exhibit the skills of a person of the next level for a minimum of six months. We&#39;ll also need to collect endorsements from people you work closely with, which I&#39;ll take care of.&lt;/p&gt;
@@ -408,8 +410,8 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then I updated my header to use this shortcode under the &lt;code&gt;og:image&lt;/code&gt; and &lt;code&gt;twitter:image&lt;/code&gt; tags &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/blob/56e675dd7d94121337a91924dc72eec5bbfab084/_includes/layouts/header.liquid#L13&quot;&gt;like so&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!-- header.liquid --&amp;gt;
-&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674856307625&amp;quot; /&amp;gt;
-&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1674856307625&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675086145948&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675086145948&amp;quot; /&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;That&#39;s all it takes!&lt;/p&gt;
 &lt;h1&gt;Conclusion&lt;/h1&gt;
