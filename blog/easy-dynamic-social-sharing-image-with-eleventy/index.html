@@ -6,20 +6,20 @@
 
   <!-- Primary Meta Tags -->
   <title>Patrick Lee | Easy dynamic social sharing image with eleventy</title>
-  <meta name="description" content="">
+  <meta name="description" content="Patrick Lee, software engineer, engineering manager, and all around cool dude">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://patricklee.nyc/blog/easy-dynamic-social-sharing-image-with-eleventy/">
   <meta property="og:title" content="Patrick Lee | Easy dynamic social sharing image with eleventy">
-  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675178110258">
+  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675179005083">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://patricklee.nyc/blog/easy-dynamic-social-sharing-image-with-eleventy/">
   <meta property="twitter:title" content="Patrick Lee | Easy dynamic social sharing image with eleventy">
-  <meta property="twitter:description" content="I get into things">
-  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675178110258">
+  <meta property="twitter:description" content="Patrick Lee, software engineer, engineering manager, and all around cool dude">
+  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675179005083">
 
   <link rel="canonical" href="https://patricklee.nyc" />
 
@@ -102,7 +102,7 @@
   <div class="hero-body">
     <div class="container has-text-centered">
       <div class="title-box">
-        <p class="title">Easy dynamic social sharing image with eleventy</p>
+        <h1 class="title">Easy dynamic social sharing image with eleventy</h1>
         <p class="subtitle"></p>
       </div>
     </div>
@@ -123,17 +123,17 @@
     
 
     <div class="content">
-      <h1>Introduction</h1>
+      <h2>Introduction</h2>
 <p>I'm in the process of rebuilding this website using <a href="https://www.11ty.dev/">eleventy</a> and I wanted to get fancy with this revamped site.</p>
 <p>One feature I wanted was a custom Open Graph social share image for each page on the site. If you're not familiar with Open Graph, check out <a href="https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/">this explanation</a>. In a nutshell, when you share links to the site on social networks, it should an image to draw people into the page.</p>
 <p>Eleventy has a pretty robust ecosystem already and lo and behold, there are already plugins to handle this for you. Great, let's just check them out.</p>
-<h1>What's out there?</h1>
+<h2>What's out there?</h2>
 <p><a href="https://github.com/tannerdolby/eleventy-plugin-social-img#readme">eleventy-plugin-social-img</a> pre-generates cards using a shortcode. I spent about 30 minutes trying to grok the readme and how to use the plugin. I like that you could create an HTML template, but the plugin looked overly complicated for what I needed.</p>
 <p><a href="https://github.com/Resocio/eleventy-plugin-social-image#readme">@resoc/eleventy-plugin-social-image</a> only works with Netlify and requires a server component. This site is hosted on GitHub Pages and is fully static. Pass.</p>
 <p><a href="https://github.com/tpiros/eleventy-plugin-social-share-card-generator#readme">eleventy-plugin-social-share-card-generator</a> requires a Cloudinary account. Pass.</p>
 <p><a href="https://github.com/KiwiKilian/eleventy-plugin-og-image#readme">eleventy-plugin-og-image</a> looks promising, pre-generates images, and looks pretty easy to use. This could be a runner-up if I ever want to go a different route.</p>
 <p>All in all, I wasn't a huge fan of these solutions. There had to be something simpler.</p>
-<h1>Something simpler</h1>
+<h2>Something simpler</h2>
 <p>The eleventy team offers various <a href="https://www.11ty.dev/docs/api-services/">API Services</a> for the public to use. <a href="https://www.11ty.dev/docs/services/screenshots/">Screenshots</a> is a runtime service that takes a screenshot of a URL and returns that image (and caches it). Bingo!</p>
 <p>All I need to do is create a simple template and style it however I'd like for my social sharing card. Apply the template to every page in the site. Then the service can generate screenshots for my blog posts on demand when somebody shares a link to my site.</p>
 <h2>Creating the card template</h2>
@@ -180,11 +180,11 @@ eleventyConfig.addShortcode(&quot;openGraphScreenshotURL&quot;, function () {
 </code></pre>
 <p>Then I updated my header to use this shortcode under the <code>og:image</code> and <code>twitter:image</code> tags <a href="https://github.com/patleeman/patricklee.nyc/blob/56e675dd7d94121337a91924dc72eec5bbfab084/_includes/layouts/header.liquid#L13">like so</a>.</p>
 <pre><code class="language-html">&lt;!-- header.liquid --&gt;
-&lt;meta property=&quot;og:image&quot; content=&quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675178110018&quot; /&gt;
-&lt;meta property=&quot;twitter:image&quot; content=&quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675178110018&quot; /&gt;
+&lt;meta property=&quot;og:image&quot; content=&quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675179004832&quot; /&gt;
+&lt;meta property=&quot;twitter:image&quot; content=&quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675179004832&quot; /&gt;
 </code></pre>
 <p>That's all it takes!</p>
-<h1>Conclusion</h1>
+<h2>Conclusion</h2>
 <p>The risk here is if the eleventy team decides to sunset the screenshot API, I'll need to switch to a solution that pre-generates the social share images or host the API myself. Considering how little traffic this site gets, I'll take that risk for reduced complexity now.</p>
 <p>I like this solution <s>because I came up with it</s> because it is simpler, doesn't require pre-generating all the images upfront, and doesn't require adding more packages. Oh and because I was able to offload a lot of the work to the wonderful devs at eleventy. Thanks, ya'll!</p>
 

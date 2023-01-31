@@ -6,20 +6,20 @@
 
   <!-- Primary Meta Tags -->
   <title>Patrick Lee | Resurrecting RSS feeds</title>
-  <meta name="description" content="">
+  <meta name="description" content="Patrick Lee, software engineer, engineering manager, and all around cool dude">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://patricklee.nyc/blog/resurrecting-rss-feeds/">
   <meta property="og:title" content="Patrick Lee | Resurrecting RSS feeds">
-  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Fresurrecting-rss-feeds%2F/opengraph/_1675178110257">
+  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Fresurrecting-rss-feeds%2F/opengraph/_1675179005082">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://patricklee.nyc/blog/resurrecting-rss-feeds/">
   <meta property="twitter:title" content="Patrick Lee | Resurrecting RSS feeds">
-  <meta property="twitter:description" content="I get into things">
-  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Fresurrecting-rss-feeds%2F/opengraph/_1675178110257">
+  <meta property="twitter:description" content="Patrick Lee, software engineer, engineering manager, and all around cool dude">
+  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Fresurrecting-rss-feeds%2F/opengraph/_1675179005082">
 
   <link rel="canonical" href="https://patricklee.nyc" />
 
@@ -102,7 +102,7 @@
   <div class="hero-body">
     <div class="container has-text-centered">
       <div class="title-box">
-        <p class="title">Resurrecting RSS feeds</p>
+        <h1 class="title">Resurrecting RSS feeds</h1>
         <p class="subtitle"></p>
       </div>
     </div>
@@ -123,7 +123,7 @@
     
 
     <div class="content">
-      <h1>The good ole days</h1>
+      <h2>The good ole days</h2>
 <blockquote>
 <p><strong>Update (2023-01-21): I've migrated this blog to <a href="https://www.11ty.dev/">eleventy</a> and use its built in RSS/Atom feed generator now.</strong></p>
 </blockquote>
@@ -133,7 +133,7 @@
 <p>The thing I miss most about syndicated feeds, is that it was so much easier to receive updates for smaller bloggers and news sources. Social media and Reddit are great at surfacing new content, but if I want to follow along with a small time writer, there isn't much recourse. These days you'd have to follow somebody's Twitter or their Substack, but it just isn't as easy as it used to be.</p>
 <p>Today I set up a RSS reader (<a href="https://netnewswire.com/">NetNewsWire</a>)and I'm going to attempt to curate my feed with authors I'm interested in hearing from. I also added a RSS feed to this blog, so others can subscribe to my feed and read what I'm writing about. It won't replace Reddit or Hacker news for me, but I hope I can supplement that content!</p>
 <p>Subscribe to this blog's <a href="https://patricklee.nyc/rss.xml">feed</a>.</p>
-<h1>Aside: Adding a RSS feed to this blog</h1>
+<h2>Aside: Adding a RSS feed to this blog</h2>
 <p>Since I decided to go ahead and re-invent the wheel for this personal blog and build my own Pandoc powered static site generator, I needed a way to generate RSS feeds.</p>
 <p>The <a href="https://cyber.harvard.edu/rss/rss.html">RSS 2.0 spec</a> is pretty simple, so why not just generate my own <code>rss.xml</code> file then?</p>
 <p>Using a pretty simple bash script, I just parse my directory of markdown files and assemble the feed:</p>

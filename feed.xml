@@ -15,10 +15,10 @@
     <link href="https://patricklee.nyc/blog/i-m-your-manager-now-what/"/>
     <updated>2023-01-27T00:00:00Z</updated>
     <id>https://patricklee.nyc/blog/i-m-your-manager-now-what/</id>
-    <content xml:lang="en" type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+    <content xml:lang="en" type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;After a recent reorganization at my company, I&#39;m taking this opportunity to start fresh with how I approach my relationship with my direct reports. I&#39;ve found that my instructions to my reports are often handed down piecemeal, expectations aren&#39;t set, or I&#39;ve just forgotten things I should be doing. That is not a great experience as a direct report.&lt;/p&gt;
 &lt;p&gt;This document is really meant to keep me accountable as your manager. It&#39;s here, so you understand what I can do for you and what I expect from you. I&#39;ll refine this document as I go, and if there is anything in here you disagree with, please let me know!&lt;/p&gt;
-&lt;h1&gt;My general philosophy towards management&lt;/h1&gt;
+&lt;h2&gt;My general philosophy towards management&lt;/h2&gt;
 &lt;p&gt;My overall philosophy can be summed in my blog post: &lt;a href=&quot;https://patricklee.nyc/blog/the-grug-brained-manager/&quot;&gt;The Grug Brained Manager&lt;/a&gt;. Don&#39;t feel like you have to read it unless you want to get a deeper understanding of my management philosophy. In a nutshell:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;No Surprises&lt;/strong&gt;. I can&#39;t promise you won&#39;t ever be surprised, but I will try my hardest to make sure you have full information as soon as I can give it to you.&lt;/li&gt;
@@ -26,7 +26,7 @@
 &lt;li&gt;&lt;strong&gt;I trust you.&lt;/strong&gt; By default, I will trust you to do your job to the best of your ability. I will also trust you to tell me if you need help, and I will do everything in my power to help you. Remember that trust is easy to break and difficult to repair, so I ask you to level with me whenever possible, and I will try to do the same.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Feedback is hard.&lt;/strong&gt; I will do my best to give you feedback with empathy and kindness, and work with you if there is something you can work on.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1&gt;Expectations&lt;/h1&gt;
+&lt;h2&gt;Expectations&lt;/h2&gt;
 &lt;h2&gt;Onboarding&lt;/h2&gt;
 &lt;p&gt;If you&#39;re new to the company, congrats! I&#39;ll be helping to support you during your onboarding period. You should be creating onboarding goals during your first few weeks on what you&#39;d like to accomplish with my help.&lt;/p&gt;
 &lt;p&gt;I&#39;ll supply you with our onboarding materials, an onboarding buddy, and make myself available to answer questions.&lt;/p&gt;
@@ -110,7 +110,7 @@
 &lt;h2&gt;Your work&lt;/h2&gt;
 &lt;p&gt;I generally expect your work to be mostly bug free, conform to existing standards, and is of a high-enough quality commensurate to your level. I don&#39;t expect perfection, but I do expect improvement if you receive feedback.&lt;/p&gt;
 &lt;p&gt;The most important thing is showing enthusiasm for your work, working well with your team, and treating everybody with kindness and respect. Being good at your job doesn&#39;t mean being a brilliant jerk, it means being somebody people trust and respect to get the job done.&lt;/p&gt;
-&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;I hope this post was able to help form a basis for our working relationship as manager / direct report. I want to make sure you have the full information to ensure you&#39;re meeting my expectations, and I want to make sure my expectations are clearly spelled out without any ambiguity.&lt;/p&gt;
 &lt;p&gt;Check back from time to time as this doc might be updated as I continue to grow as a manager.&lt;/p&gt;
 </content>
@@ -120,10 +120,10 @@
     <link href="https://patricklee.nyc/blog/experimentation-reading-list/"/>
     <updated>2023-01-24T00:00:00Z</updated>
     <id>https://patricklee.nyc/blog/experimentation-reading-list/</id>
-    <content xml:lang="en" type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+    <content xml:lang="en" type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;During my time on the Growth team at Noom, I&#39;ve had to learn a lot about online controlled experimentation. I&#39;ve put together most of the public resources I&#39;ve come across into this document.&lt;/p&gt;
 &lt;p&gt;If you&#39;re brand new to online controlled experimentation, I high recommend starting with &lt;a href=&quot;https://experimentguide.com/&quot;&gt;Trustworthy Online Controlled Experiments : A Practical Guide to A/B Testing&lt;/a&gt;. Its a detailed guide on the experimentation landscape. It was a must-read for every member of my team, and was known as the &amp;quot;Experimentation Bible&amp;quot;.&lt;/p&gt;
-&lt;h1&gt;Whitepapers&lt;/h1&gt;
+&lt;h2&gt;Whitepapers&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://research.google/pubs/pub36500/&quot;&gt;Overlapping Experiment Infrastructure: More, Better, Faster Experimentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://exp-platform.com/large-scale/&quot;&gt;Online Controlled Experiments at Large Scale&lt;/a&gt;&lt;/li&gt;
@@ -143,15 +143,15 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Books&lt;/h1&gt;
+&lt;h2&gt;Books&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://experimentguide.com/&quot;&gt;Trustworthy Online Controlled Experiments : A Practical Guide to A/B Testing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Videos&lt;/h1&gt;
+&lt;h2&gt;Videos&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qtboCGd_hTA&quot;&gt;Online Controlled Experiments: Lessons from Running A/B/n Tests for 12 Years, Ron Kohavi 20151130&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Statistics&lt;/h1&gt;
+&lt;h2&gt;Statistics&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=AJX4W3MwKzU&quot;&gt;Stanford Seminar: Peeking at A/B Tests - Why It Matters and What to Do About It&lt;/a&gt;
 &lt;ul&gt;
@@ -353,17 +353,17 @@
     <link href="https://patricklee.nyc/blog/easy-dynamic-social-sharing-image-with-eleventy/"/>
     <updated>2023-01-23T00:00:00Z</updated>
     <id>https://patricklee.nyc/blog/easy-dynamic-social-sharing-image-with-eleventy/</id>
-    <content xml:lang="en" type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+    <content xml:lang="en" type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;I&#39;m in the process of rebuilding this website using &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;eleventy&lt;/a&gt; and I wanted to get fancy with this revamped site.&lt;/p&gt;
 &lt;p&gt;One feature I wanted was a custom Open Graph social share image for each page on the site. If you&#39;re not familiar with Open Graph, check out &lt;a href=&quot;https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/&quot;&gt;this explanation&lt;/a&gt;. In a nutshell, when you share links to the site on social networks, it should an image to draw people into the page.&lt;/p&gt;
 &lt;p&gt;Eleventy has a pretty robust ecosystem already and lo and behold, there are already plugins to handle this for you. Great, let&#39;s just check them out.&lt;/p&gt;
-&lt;h1&gt;What&#39;s out there?&lt;/h1&gt;
+&lt;h2&gt;What&#39;s out there?&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/tannerdolby/eleventy-plugin-social-img#readme&quot;&gt;eleventy-plugin-social-img&lt;/a&gt; pre-generates cards using a shortcode. I spent about 30 minutes trying to grok the readme and how to use the plugin. I like that you could create an HTML template, but the plugin looked overly complicated for what I needed.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/Resocio/eleventy-plugin-social-image#readme&quot;&gt;@resoc/eleventy-plugin-social-image&lt;/a&gt; only works with Netlify and requires a server component. This site is hosted on GitHub Pages and is fully static. Pass.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/tpiros/eleventy-plugin-social-share-card-generator#readme&quot;&gt;eleventy-plugin-social-share-card-generator&lt;/a&gt; requires a Cloudinary account. Pass.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/KiwiKilian/eleventy-plugin-og-image#readme&quot;&gt;eleventy-plugin-og-image&lt;/a&gt; looks promising, pre-generates images, and looks pretty easy to use. This could be a runner-up if I ever want to go a different route.&lt;/p&gt;
 &lt;p&gt;All in all, I wasn&#39;t a huge fan of these solutions. There had to be something simpler.&lt;/p&gt;
-&lt;h1&gt;Something simpler&lt;/h1&gt;
+&lt;h2&gt;Something simpler&lt;/h2&gt;
 &lt;p&gt;The eleventy team offers various &lt;a href=&quot;https://www.11ty.dev/docs/api-services/&quot;&gt;API Services&lt;/a&gt; for the public to use. &lt;a href=&quot;https://www.11ty.dev/docs/services/screenshots/&quot;&gt;Screenshots&lt;/a&gt; is a runtime service that takes a screenshot of a URL and returns that image (and caches it). Bingo!&lt;/p&gt;
 &lt;p&gt;All I need to do is create a simple template and style it however I&#39;d like for my social sharing card. Apply the template to every page in the site. Then the service can generate screenshots for my blog posts on demand when somebody shares a link to my site.&lt;/p&gt;
 &lt;h2&gt;Creating the card template&lt;/h2&gt;
@@ -410,11 +410,11 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then I updated my header to use this shortcode under the &lt;code&gt;og:image&lt;/code&gt; and &lt;code&gt;twitter:image&lt;/code&gt; tags &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/blob/56e675dd7d94121337a91924dc72eec5bbfab084/_includes/layouts/header.liquid#L13&quot;&gt;like so&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!-- header.liquid --&amp;gt;
-&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675178110018&amp;quot; /&amp;gt;
-&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675178110018&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675179004832&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675179004832&amp;quot; /&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;That&#39;s all it takes!&lt;/p&gt;
-&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;The risk here is if the eleventy team decides to sunset the screenshot API, I&#39;ll need to switch to a solution that pre-generates the social share images or host the API myself. Considering how little traffic this site gets, I&#39;ll take that risk for reduced complexity now.&lt;/p&gt;
 &lt;p&gt;I like this solution &lt;s&gt;because I came up with it&lt;/s&gt; because it is simpler, doesn&#39;t require pre-generating all the images upfront, and doesn&#39;t require adding more packages. Oh and because I was able to offload a lot of the work to the wonderful devs at eleventy. Thanks, ya&#39;ll!&lt;/p&gt;
 </content>
@@ -424,13 +424,13 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
     <link href="https://patricklee.nyc/blog/the-grug-brained-manager/"/>
     <updated>2022-08-23T00:00:00Z</updated>
     <id>https://patricklee.nyc/blog/the-grug-brained-manager/</id>
-    <content xml:lang="en" type="html">&lt;h1&gt;The Grug Brained Manager&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20220823_the_grug_brained_manager.md/grug.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    <content xml:lang="en" type="html">&lt;h2&gt;The Grug Brained Manager&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20220823_the_grug_brained_manager.md/grug.png&quot; alt=&quot;AI generated caveman wearing a tie&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;this collection of thoughts on managing software development teams by a grug brained manager based on &lt;a href=&quot;https://grugbrain.dev/&quot;&gt;grug brained developer&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;grug brained manager not smart. somehow managed to convince boss that grug capable of managing others. grug barely capable to polish mouth stones.&lt;/p&gt;
 &lt;p&gt;grug pretend grug know what do. grug talk to other grug managers and realize nobody know what to do. grug realize management not as simple as development.&lt;/p&gt;
 &lt;p&gt;over time grug learn painful lesson after painful lesson and decide to write on stone tablet so young grug manager not make same mistake.&lt;/p&gt;
-&lt;h1&gt;Managing People Is Hard&lt;/h1&gt;
+&lt;h2&gt;Managing People Is Hard&lt;/h2&gt;
 &lt;p&gt;nobody told grug managing so hard. grug used to be okay grug brained developer.&lt;/p&gt;
 &lt;p&gt;wanted become grug manager for more shiny rock and to be grug leader. grug no realize managing not same as developing. grug very happy developing, feel good when make shiny object and solve problem.&lt;/p&gt;
 &lt;p&gt;grug no realize in management, there no shiny object to hold up proudly. type of problems grug solve take long time to see results. grug has lots of self doubt when think what to do, but grug need to make decision and commit.&lt;/p&gt;
@@ -446,14 +446,14 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;p&gt;grug not want to develop software in free time, grug want to live life with family and provide many shiny rock for them. grug took realistic look at grug career path and decide that grug can progress in management career more than developer career.&lt;/p&gt;
 &lt;p&gt;grug has skill other developer may not have. grug good at writing on stone tablet. grug enjoy think about how team can work better. grug enjoy helping lead team so company get more shiny rock and help customers. lots of grug developer only want to concentrate on making shiny object shinier, grug want to make sure customer enjoy shiny object.&lt;/p&gt;
 &lt;p&gt;grug want young grug to think hard when want to try management. management not the right career path for all grug, but hard to know unless young grug try it.&lt;/p&gt;
-&lt;h1&gt;Rule #1: No Surprises&lt;/h1&gt;
+&lt;h2&gt;Rule #1: No Surprises&lt;/h2&gt;
 &lt;p&gt;grug learn over time that number one rule is &lt;strong&gt;no surprises&lt;/strong&gt;. surprises bad. surprises very bad if it affects shiny rocks grug’s team takes home. breaking this rule can lead to very bad consequences like difficult conversations or a club over grug’s head.&lt;/p&gt;
 &lt;p&gt;grug realize biggest reason for surprise is grug expect one thing and direct report expect another. communication the most important thing for grug manager to do right.&lt;/p&gt;
 &lt;p&gt;grug believe grug need to make expectations explicit up front with grug report. grug need to make sure direct report know what grug expect of them. direct report need to know what and how to do their job, if they do not, grug fail as manager.&lt;/p&gt;
 &lt;p&gt;grug also believe that direct report should make expectations explicit with grug. grug need to know what direct report want and work with report to help them get it. grug fail as manager if he no know that.&lt;/p&gt;
 &lt;p&gt;grug learn hard way that sometimes grug avoid hard conversation because it make grug uncomfortable. grug make excuse for self or ignore problem. then small problem become big problem. grug embarrassed this happen many times before grug learn. it still happen but grug used to embarrassment now.&lt;/p&gt;
 &lt;p&gt;other time grug not know what expectations should be for grug developer. company leadership failed grug by not teaching grug how to be manager, but that not good excuse. grug learn many painful leadership due to grug’s lack of experience and support.&lt;/p&gt;
-&lt;h1&gt;Feedback&lt;/h1&gt;
+&lt;h2&gt;Feedback&lt;/h2&gt;
 &lt;h2&gt;Getting feedback for reports&lt;/h2&gt;
 &lt;p&gt;grug no have eyes everywhere. grug has limited time and too many meetings. it sometimes difficult to know how direct reports are performing. even when grug in same team as direct report, sometimes it difficult for grug to know what direct report doing.&lt;/p&gt;
 &lt;p&gt;grug learn that getting feedback is hard.&lt;/p&gt;
@@ -469,14 +469,14 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;p&gt;grug learn that giving negative feedback between positive feedback very bad. smart managers call it “shit sandwich”. grug no like shit sandwich.&lt;/p&gt;
 &lt;p&gt;grug realize at end of the day, giving feedback to report like ripping off band aid. grug need to do it and get through pain. key thing grug learn is that grug always try to have good intention for direct report and that benefit should outweigh the cost.&lt;/p&gt;
 &lt;p&gt;over time, after grug do it more, giving feedback not as scary, but still hard.&lt;/p&gt;
-&lt;h1&gt;Managers should stay technical&lt;/h1&gt;
+&lt;h2&gt;Managers should stay technical&lt;/h2&gt;
 &lt;p&gt;grug firmly believe that managers that are close to developers should make time to work with the technology.&lt;/p&gt;
 &lt;p&gt;grug realizes that the higher you are on the food chain, the more valuable your time is. there are job you can not delegate so those job should take precedence over job you can delegate.&lt;/p&gt;
 &lt;p&gt;grug has worked with middle managers that are not technical. grug does not know how they make wise decisions. non-technical managers must rely on their team to make decisions. grug does not want to sit in the middle and relay messages. non-technical managers also lack ability to understand if things their team talk about make sense.&lt;/p&gt;
 &lt;p&gt;grug consults technical members of team and defers to their decision. but grug is able to make better decisions than the non-technical managers.&lt;/p&gt;
 &lt;p&gt;grug mostly spend available time working on small problems that help the team’s productivity. grug tries to stay out of the way as much as possible. grug fix bug here, implement nice to have feature there.&lt;/p&gt;
 &lt;p&gt;grug believes that in order to lead people, grug needs to stay grounded to what life is like for them.&lt;/p&gt;
-&lt;h1&gt;Hiring &amp;amp; Firing&lt;/h1&gt;
+&lt;h2&gt;Hiring &amp;amp; Firing&lt;/h2&gt;
 &lt;h2&gt;Hiring&lt;/h2&gt;
 &lt;p&gt;when times are good, grug get approval to hire more grug developer for team.&lt;/p&gt;
 &lt;p&gt;grug learn that hiring grug on to team is risky. new grug developers on team cost the team productivity for several months while they ramp up. new grug developers can also change the team dynamics. grug needs to be careful when bringing in new developers.&lt;/p&gt;
@@ -488,23 +488,23 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;p&gt;grug believes that identifying potential problems early and having difficult conversations early can help avoid issues.&lt;/p&gt;
 &lt;p&gt;however, sometimes there is a communication issue or misaligned expectations. grug tries to be very explicit with the report on what exactly grug needs to see the report improve on.&lt;/p&gt;
 &lt;p&gt;sometimes you give people many chances and they still don’t meet grug’s expectations, so grug then needs to make the hard decision to fire them.&lt;/p&gt;
-&lt;h1&gt;Processes&lt;/h1&gt;
+&lt;h2&gt;Processes&lt;/h2&gt;
 &lt;p&gt;grug once hear phrase “process is just expectations made explicit” and grug very much like this.&lt;/p&gt;
 &lt;p&gt;grug believe that like software, it is easy to prematurely optimize process within teams. grug tries to not have process until its necessary.&lt;/p&gt;
 &lt;p&gt;process can slow people down. grug hear from other grug often that they need to deal with “red tape”. process for the sake of process can get in the way of grug’s team doing their job.&lt;/p&gt;
 &lt;p&gt;process should be challenged from time to time. grug thinks that just because a process exists, doesn’t make it law. processes need to be re-evaluated to make sure they are still beneficial.&lt;/p&gt;
-&lt;h1&gt;Keeping it simple&lt;/h1&gt;
+&lt;h2&gt;Keeping it simple&lt;/h2&gt;
 &lt;p&gt;grug learn long ago during software development days that complexity is the external enemy. grug internalized this and tries to reduce complexity as much as possible.&lt;/p&gt;
 &lt;p&gt;grug tries to teach their team the ways of the grug brained developer as much as possible.&lt;/p&gt;
 &lt;p&gt;grug firmly believe that the right amount of code is 0 lines. grug wants to judiciously delete code whenever possible and make sure existing code is simple.&lt;/p&gt;
 &lt;p&gt;when making technical decisions, grug considers who will be working on it. code should be accessible to even the most junior developer. writing code should be simple and obvious.&lt;/p&gt;
-&lt;h1&gt;Leadership&lt;/h1&gt;
+&lt;h2&gt;Leadership&lt;/h2&gt;
 &lt;p&gt;grug had vision of leadership from movies where heroic leader charges enemy lines from the front. the reality of leadership though is that grug goes around making sure team is not blocked by anything, they like what they are working on and are happy, and that the team has what they need to do their jobs.&lt;/p&gt;
 &lt;p&gt;grug’s main job is to make sure the team functions well and that ultimately they hit their goals.&lt;/p&gt;
 &lt;p&gt;grug believe strongly that leading by example is important, so grug tries to live up to expectations grug has for team as much as possible. grug hear once that a leader shouldn’t ask their team to do something they wouldn’t do themselves and grug nod head vigorously.&lt;/p&gt;
 &lt;p&gt;grug also believes that decisions should be made with empathy, that there is an inherent power imbalance between manager and worker that should be kept in mind.&lt;/p&gt;
 &lt;p&gt;at the end of the day, grug just try to do good job as best as grug can. grug realize that there no true ideal for what a leader is. grug just try to do what is best for team members and company and try to hold together as much of the team as possible.&lt;/p&gt;
-&lt;h1&gt;Communication&lt;/h1&gt;
+&lt;h2&gt;Communication&lt;/h2&gt;
 &lt;p&gt;communication number one thing to get right as manager.&lt;/p&gt;
 &lt;p&gt;clarity of communication is important skill for manager to have. grug managers can express complex ideas in simple terms.&lt;/p&gt;
 &lt;p&gt;grug try not to assume people know thing and will check or give simple fast explanation for thing people may not know of. grug often see people afraid to ask clarifying questions and tries to make communication accessible.&lt;/p&gt;
@@ -513,14 +513,14 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;p&gt;when grug must do a presentation, grug believe strongly in &lt;a href=&quot;https://guykawasaki.com/the-only-10-slides-you-need-in-your-pitch/&quot;&gt;Guy Kawasaki’s 10/20/30 presentation method.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;grug know that when manager suggest thing, it easy for people to take it as mandate. grug try to ask questions when possible to guide thought process instead of suggesting thing. grug also try to set expectation that grug not close to problem and that grug defer to team as technical experts.&lt;/p&gt;
 &lt;p&gt;grug try to use simple language whenever possible. grug has many English as second language team members and wants to make sure they can understand grug.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20220823_the_grug_brained_manager.md/whywastetime.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h1&gt;Grug like&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20220823_the_grug_brained_manager.md/whywastetime.gif&quot; alt=&quot;Kevin from The Office saying why waste time?&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Grug like&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/33369254-the-manager-s-path&quot;&gt;The Manager&#39;s Path by Camille Fournier&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://kellblog.com/2015/03/08/career-development-what-it-really-means-to-be-a-manager-director-or-vp/&quot;&gt;Career Development: What It Really Means to be a Manager, Director, or VP&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://charity.wtf/2022/06/13/advice-for-engineering-managers-who-want-to-climb-the-ladder/&quot;&gt;Advice for Engineering Managers Who Want to Climb the Ladder&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;grug think that key to management is to communicate expectations clearly and set up team to meet those expectations.&lt;/p&gt;
 </content>
   </entry>
@@ -529,7 +529,7 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
     <link href="https://patricklee.nyc/blog/resurrecting-rss-feeds/"/>
     <updated>2022-06-15T00:00:00Z</updated>
     <id>https://patricklee.nyc/blog/resurrecting-rss-feeds/</id>
-    <content xml:lang="en" type="html">&lt;h1&gt;The good ole days&lt;/h1&gt;
+    <content xml:lang="en" type="html">&lt;h2&gt;The good ole days&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Update (2023-01-21): I&#39;ve migrated this blog to &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;eleventy&lt;/a&gt; and use its built in RSS/Atom feed generator now.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -539,7 +539,7 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;p&gt;The thing I miss most about syndicated feeds, is that it was so much easier to receive updates for smaller bloggers and news sources. Social media and Reddit are great at surfacing new content, but if I want to follow along with a small time writer, there isn&#39;t much recourse. These days you&#39;d have to follow somebody&#39;s Twitter or their Substack, but it just isn&#39;t as easy as it used to be.&lt;/p&gt;
 &lt;p&gt;Today I set up a RSS reader (&lt;a href=&quot;https://netnewswire.com/&quot;&gt;NetNewsWire&lt;/a&gt;)and I&#39;m going to attempt to curate my feed with authors I&#39;m interested in hearing from. I also added a RSS feed to this blog, so others can subscribe to my feed and read what I&#39;m writing about. It won&#39;t replace Reddit or Hacker news for me, but I hope I can supplement that content!&lt;/p&gt;
 &lt;p&gt;Subscribe to this blog&#39;s &lt;a href=&quot;https://patricklee.nyc/rss.xml&quot;&gt;feed&lt;/a&gt;.&lt;/p&gt;
-&lt;h1&gt;Aside: Adding a RSS feed to this blog&lt;/h1&gt;
+&lt;h2&gt;Aside: Adding a RSS feed to this blog&lt;/h2&gt;
 &lt;p&gt;Since I decided to go ahead and re-invent the wheel for this personal blog and build my own Pandoc powered static site generator, I needed a way to generate RSS feeds.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&quot;https://cyber.harvard.edu/rss/rss.html&quot;&gt;RSS 2.0 spec&lt;/a&gt; is pretty simple, so why not just generate my own &lt;code&gt;rss.xml&lt;/code&gt; file then?&lt;/p&gt;
 &lt;p&gt;Using a pretty simple bash script, I just parse my directory of markdown files and assemble the feed:&lt;/p&gt;
@@ -591,7 +591,7 @@ END
     <link href="https://patricklee.nyc/blog/note-taking-hell/"/>
     <updated>2022-05-20T00:00:00Z</updated>
     <id>https://patricklee.nyc/blog/note-taking-hell/</id>
-    <content xml:lang="en" type="html">&lt;h1&gt;Note taking hell&lt;/h1&gt;
+    <content xml:lang="en" type="html">&lt;h2&gt;Note taking hell&lt;/h2&gt;
 &lt;p&gt;I have a hard time sticking with a note taking system. I think at this point I&#39;ve tested all the major note taking tools:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Evernote&lt;/li&gt;
@@ -649,7 +649,7 @@ Do I want a dashboard that I can keep up all day to jot down notes, see my meeti
     <link href="https://patricklee.nyc/blog/striving-for-dispassionateness/"/>
     <updated>2022-03-21T00:00:00Z</updated>
     <id>https://patricklee.nyc/blog/striving-for-dispassionateness/</id>
-    <content xml:lang="en" type="html">&lt;h1&gt;Striving for dispassionateness&lt;/h1&gt;
+    <content xml:lang="en" type="html">&lt;h2&gt;Striving for dispassionateness&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Not influenced by strong feelings or emotions; impartial&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -658,18 +658,18 @@ Do I want a dashboard that I can keep up all day to jot down notes, see my meeti
 &lt;p&gt;My coworker Nikhil, the VP of Growth at Noom is my model for dispassionateness. I&#39;ve worked with him for four years now and in this time I&#39;ve had a glimpse into how he handles making difficult decisions and accepting hard feedback. He does it with thoughtfulness, without ego, and kindness. Its quite impressive to see.&lt;/p&gt;
 &lt;p&gt;I&#39;m an emotional person, I feel strong emotions which can bias my decision making process. This personality trait has hurt me in the past. I&#39;ve been in situations where I have a hard time forming sentences, breathing gets difficult, vision blurs. Getting overwhelmed by emotions is truly an awful experience. The adrenaline pumps as the fight or flight response kicks in, paralyzing your mind in indecision, and impairing your ability to think. I&#39;m a conflict-adverse introvert. I hate conflict, but as a people manager and leader there is no avoiding conflict sometimes. You will eventually get pulled into it, especially in a fast moving organization with many different people with their own biases, goals, and opinions.&lt;/p&gt;
 &lt;p&gt;Disconnecting yourself from emotions isn&#39;t burying your emotions. Its a process of introspection and learning what your current emotional state is, and either working to return to my baseline state, or removing myself from the situation. A few things that I&#39;ve learned:&lt;/p&gt;
-&lt;h1&gt;Understanding what affects my mood&lt;/h1&gt;
+&lt;h2&gt;Understanding what affects my mood&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;If I&#39;m hungry or if I didn&#39;t get enough sleep, I&#39;ll often become irritable.&lt;/li&gt;
 &lt;li&gt;When I exercise regularly in the mornings, I set myself up to be in a better head space.&lt;/li&gt;
 &lt;li&gt;I burn out if I don&#39;t take vacations often or there are other compounding stressors. How close to burnout is important for me to keep tabs on. The closer I am, the more erratic my behavior will be and the less passionate I will be about work.&lt;/li&gt;
 &lt;li&gt;As it gets closer to the end of the day, I get tired and can more easily get irritable.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Understanding when to stop and take a breather&lt;/h1&gt;
+&lt;h2&gt;Understanding when to stop and take a breather&lt;/h2&gt;
 &lt;p&gt;Sometimes people send me a message or email that spike my blood pressure. I&#39;ve found that if something triggers me, taking a step back to think about it or let it bake helps a lot. I&#39;ve found a lot of success putting something down, then picking it up again the next morning when I&#39;m fresh and in a better head space. The scope of problems tend to be smaller the farther you get from it and initial reactions are usually overblown.&lt;/p&gt;
-&lt;h1&gt;Understanding when to dig in&lt;/h1&gt;
+&lt;h2&gt;Understanding when to dig in&lt;/h2&gt;
 &lt;p&gt;Speaking of initial reactions, one of my flaws is overreacting based on my initial reaction. Its easy to do so, but generally taking some time to investigate and dig in before gauging the severity of it is beneficial and something I actively work on. Its very easy to experience something, scream &amp;quot;WHAT?&amp;quot;, go on a tear and make things works. It takes discipline and detachment to stop, investigate, and ask questions, then thoughtfully determine the impact and next steps.&lt;/p&gt;
-&lt;h1&gt;Understanding when to let things fall by the wayside.&lt;/h1&gt;
+&lt;h2&gt;Understanding when to let things fall by the wayside.&lt;/h2&gt;
 &lt;p&gt;If you&#39;re doing a good job, people are going to want you to do more. Knowing when to let things fall by the wayside (which is different from letting things slip through the cracks) is an invaluable skill.&lt;/p&gt;
 </content>
   </entry>
@@ -721,9 +721,9 @@ you&#39;ll have to abide.
     <id>https://patricklee.nyc/blog/my-walking-desk-setup/</id>
     <content xml:lang="en" type="html">&lt;p&gt;Over the course of 2020 and 2021 I&#39;ve become increasingly sedentary with lockdown and full remote work. Having gone from commuting into the office 1-2 times a week down to zero meant I had less opportunity to walk. Along with the birth of my son and having less time and energy to exercise I needed to find a way to integrate more walking into my routine. If I could figure out how to exercise while working then I would have more time to spend on more interesting things, a win-win situation!&lt;/p&gt;
 &lt;p&gt;I&#39;ve seen treadmill desks before and was motivated after seeing one of my coworkers on one during a meeting. So I decided to pick up a treadmill and give it a shot.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20211228_my_walking_desk_setup.md/1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20211228_my_walking_desk_setup.md/1.png&quot; alt=&quot;The full walking desk setup&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;This is my humble treadmill desk.&lt;/em&gt;&lt;/p&gt;
-&lt;h1&gt;The treadmill&lt;/h1&gt;
+&lt;h2&gt;The treadmill&lt;/h2&gt;
 &lt;p&gt;There are a lot of treadmills on the market of varying quality. I knew that I didn&#39;t need a high end treadmill since I was only going to walk on it. Space is an issue, so I wanted something that could fold away if I had company and needed to use my office as a guest room. Finally I wanted to make sure the product had a warranty and a presence in the US in case something happened with the product. There are plenty of dodgy looking walking treadmills on Amazon and I just didn&#39;t want to take the chance of getting a piece of junk.&lt;/p&gt;
 &lt;p&gt;This pretty much narrowed my choices down to:&lt;/p&gt;
 &lt;ul&gt;
@@ -741,16 +741,16 @@ you&#39;ll have to abide.
 &lt;li&gt;I only use the manual mode since I want the treadmill to set the pace and all I have to do is keep up. The Treadly 2 has an automatic mode that adjusts the speed based on where on the treadmill you&#39;re walking. Further up and it speeds up, further back and it slows down.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Overall I&#39;m pretty happy with this treadmill!&lt;/p&gt;
-&lt;h1&gt;The setup&lt;/h1&gt;
+&lt;h2&gt;The setup&lt;/h2&gt;
 &lt;p&gt;I have a standing desk which I had planned on using as my treadmill desk. The plan was to set up the treadmill in the morning then move it out of the way when I was finished so I could sit/stand the rest of the day. I tried this a few days and realized that I needed to have a dedicated setup for the treadmill desk and that it had to live somewhere semi-permanently. Having to set up the treadmill attributed some friction to actually using it which meant I was less likely to use it.&lt;/p&gt;
 &lt;p&gt;So I cleared some space in my office, purchased a relatively cheap &lt;a href=&quot;https://www.amazon.com/dp/B093GLT2QY?psc=1&amp;amp;ref=ppx_yo2_dt_b_product_details&quot;&gt;Tangkula adjustable standing desk&lt;/a&gt; off of Amazon and repurposed some extra peripherals I had laying around. I also purchased a Logitech C920x webcam for this setup so I could take video calls while on the treadmill desk.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20211228_my_walking_desk_setup.md/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20211228_my_walking_desk_setup.md/2.png&quot; alt=&quot;The desk setup&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;On the desk: Split Keyboard, Apple Trackpad, wrist rests, Logitech C920x, LG 34&amp;quot; Ultrawide monitor, Ergotron monitor arm, Treadly 2 remote&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;When everything came, I realized that the standing desk needed to raised over the treadmill so it could slide underneath the desk setup. This is important because this cheap standing desk is relatively shallow and I needed to be centered in the middle of the treadmill so the desk had to be slid back. To solve this problem, I just bought some cheap &lt;a href=&quot;https://www.amazon.com/dp/B08QVJMWTD?psc=1&amp;amp;ref=ppx_yo2_dt_b_product_details&quot;&gt;6&amp;quot; bed risers&lt;/a&gt; which gave the desk enough height so it could clear the treadmill.&lt;/p&gt;
 &lt;p&gt;I also have a small fan that blows me while I&#39;m walking since I get pretty warm after walking a while. The fan helps a lot.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20211228_my_walking_desk_setup.md/3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20211228_my_walking_desk_setup.md/3.png&quot; alt=&quot;Treadmill and cooling fan&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The desk is raised over the treadmill with the bed risers and the fan helps keep me cool while I walk.&lt;/em&gt;&lt;/p&gt;
-&lt;h1&gt;Using it&lt;/h1&gt;
+&lt;h2&gt;Using it&lt;/h2&gt;
 &lt;p&gt;My goal is 10,000 steps per day and I&#39;ve found that I&#39;m able to complete that in about three hours at a leisurely 2.1 MPH pace. The first few weeks I was pretty tired and didn&#39;t walk every day. It does take a period of acclimation to go from mostly sedentary to walking the equivalent of 2-3 miles a day so I wasn&#39;t kicking myself for not hitting my goal. Ultimately I want to build a long lasting healthy habit so I&#39;m taking it slow and working up to my goal.&lt;/p&gt;
 &lt;p&gt;Some of my impressions after several weeks of daily usage:&lt;/p&gt;
 &lt;ul&gt;
@@ -760,7 +760,7 @@ you&#39;ll have to abide.
 &lt;li&gt;I&#39;m constantly drinking water while walking, no spills yet! Haven&#39;t tried drinking hot coffee yet, though I might just skip that.&lt;/li&gt;
 &lt;li&gt;I keep a pair of shorts, socks and my walking shoes next to the treadmill so I have no excuses to not walk.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;I&#39;m really enjoying my walking desk. I&#39;m getting in physical activity where I&#39;d otherwise be sitting at my desk. My work is getting done and I&#39;m able to optimize my time outside work for other things I enjoy doing (like hanging out with my family)!&lt;/p&gt;
 &lt;p&gt;My key takeaways from this project:&lt;/p&gt;
 &lt;ul&gt;
