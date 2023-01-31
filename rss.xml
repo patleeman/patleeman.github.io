@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://patricklee.nyc/">
-  <title>Patrick Lee</title>
-  <subtitle>Software engineer</subtitle>
-  <link href="https://patricklee.nyc/feed.xml" rel="self"/>
-  <link href="https://patricklee.nyc/"/>
-  <updated>2023-01-27T00:00:00Z</updated>
-  <id>https://patricklee.nyc/</id>
-  <author>
-    <name>Patrick Lee</name>
-    <email>me@patricklee.nyc</email>
-  </author>
-  <entry>
-    <title>I&#39;m your manager, now what?</title>
-    <link href="https://patricklee.nyc/blog/i-m-your-manager-now-what/"/>
-    <updated>2023-01-27T00:00:00Z</updated>
-    <id>https://patricklee.nyc/blog/i-m-your-manager-now-what/</id>
-    <content xml:lang="en" type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://patricklee.nyc/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Patrick Lee</title>
+    <link>https://patricklee.nyc/</link>
+    <atom:link href="https://patricklee.nyc/rss.xml" rel="self" type="application/rss+xml" />
+    <description>Software engineer</description>
+    <language>en</language>
+    <item>
+      <title>I&#39;m your manager, now what?</title>
+      <link>https://patricklee.nyc/blog/i-m-your-manager-now-what/</link>
+      <description>&lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;After a recent reorganization at my company, I&#39;m taking this opportunity to start fresh with how I approach my relationship with my direct reports. I&#39;ve found that my instructions to my reports are often handed down piecemeal, expectations aren&#39;t set, or I&#39;ve just forgotten things I should be doing. That is not a great experience as a direct report.&lt;/p&gt;
 &lt;p&gt;This document is really meant to keep me accountable as your manager. It&#39;s here, so you understand what I can do for you and what I expect from you. I&#39;ll refine this document as I go, and if there is anything in here you disagree with, please let me know!&lt;/p&gt;
 &lt;h2&gt;My general philosophy towards management&lt;/h2&gt;
@@ -113,14 +107,15 @@
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;I hope this post was able to help form a basis for our working relationship as manager / direct report. I want to make sure you have the full information to ensure you&#39;re meeting my expectations, and I want to make sure my expectations are clearly spelled out without any ambiguity.&lt;/p&gt;
 &lt;p&gt;Check back from time to time as this doc might be updated as I continue to grow as a manager.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Experimentation reading list</title>
-    <link href="https://patricklee.nyc/blog/experimentation-reading-list/"/>
-    <updated>2023-01-24T00:00:00Z</updated>
-    <id>https://patricklee.nyc/blog/experimentation-reading-list/</id>
-    <content xml:lang="en" type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+</description>
+      <pubDate>Fri, 27 Jan 2023 00:00:00 +0000</pubDate>
+      <dc:creator>Patrick Lee</dc:creator>
+      <guid>https://patricklee.nyc/blog/i-m-your-manager-now-what/</guid>
+    </item>
+    <item>
+      <title>Experimentation reading list</title>
+      <link>https://patricklee.nyc/blog/experimentation-reading-list/</link>
+      <description>&lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;During my time on the Growth team at Noom, I&#39;ve had to learn a lot about online controlled experimentation. I&#39;ve put together most of the public resources I&#39;ve come across into this document.&lt;/p&gt;
 &lt;p&gt;If you&#39;re brand new to online controlled experimentation, I high recommend starting with &lt;a href=&quot;https://experimentguide.com/&quot;&gt;Trustworthy Online Controlled Experiments : A Practical Guide to A/B Testing&lt;/a&gt;. Its a detailed guide on the experimentation landscape. It was a must-read for every member of my team, and was known as the &amp;quot;Experimentation Bible&amp;quot;.&lt;/p&gt;
 &lt;h2&gt;Whitepapers&lt;/h2&gt;
@@ -346,14 +341,15 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Easy dynamic social sharing image with eleventy</title>
-    <link href="https://patricklee.nyc/blog/easy-dynamic-social-sharing-image-with-eleventy/"/>
-    <updated>2023-01-23T00:00:00Z</updated>
-    <id>https://patricklee.nyc/blog/easy-dynamic-social-sharing-image-with-eleventy/</id>
-    <content xml:lang="en" type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+</description>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      <dc:creator>Patrick Lee</dc:creator>
+      <guid>https://patricklee.nyc/blog/experimentation-reading-list/</guid>
+    </item>
+    <item>
+      <title>Easy dynamic social sharing image with eleventy</title>
+      <link>https://patricklee.nyc/blog/easy-dynamic-social-sharing-image-with-eleventy/</link>
+      <description>&lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;I&#39;m in the process of rebuilding this website using &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;eleventy&lt;/a&gt; and I wanted to get fancy with this revamped site.&lt;/p&gt;
 &lt;p&gt;One feature I wanted was a custom Open Graph social share image for each page on the site. If you&#39;re not familiar with Open Graph, check out &lt;a href=&quot;https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/&quot;&gt;this explanation&lt;/a&gt;. In a nutshell, when you share links to the site on social networks, it should an image to draw people into the page.&lt;/p&gt;
 &lt;p&gt;Eleventy has a pretty robust ecosystem already and lo and behold, there are already plugins to handle this for you. Great, let&#39;s just check them out.&lt;/p&gt;
@@ -417,14 +413,15 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;The risk here is if the eleventy team decides to sunset the screenshot API, I&#39;ll need to switch to a solution that pre-generates the social share images or host the API myself. Considering how little traffic this site gets, I&#39;ll take that risk for reduced complexity now.&lt;/p&gt;
 &lt;p&gt;I like this solution &lt;s&gt;because I came up with it&lt;/s&gt; because it is simpler, doesn&#39;t require pre-generating all the images upfront, and doesn&#39;t require adding more packages. Oh and because I was able to offload a lot of the work to the wonderful devs at eleventy. Thanks, ya&#39;ll!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>The Grug Brained Manager</title>
-    <link href="https://patricklee.nyc/blog/the-grug-brained-manager/"/>
-    <updated>2022-08-23T00:00:00Z</updated>
-    <id>https://patricklee.nyc/blog/the-grug-brained-manager/</id>
-    <content xml:lang="en" type="html">&lt;h2&gt;The Grug Brained Manager&lt;/h2&gt;
+</description>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <dc:creator>Patrick Lee</dc:creator>
+      <guid>https://patricklee.nyc/blog/easy-dynamic-social-sharing-image-with-eleventy/</guid>
+    </item>
+    <item>
+      <title>The Grug Brained Manager</title>
+      <link>https://patricklee.nyc/blog/the-grug-brained-manager/</link>
+      <description>&lt;h2&gt;The Grug Brained Manager&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20220823_the_grug_brained_manager.md/grug.png&quot; alt=&quot;AI generated caveman wearing a tie&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;this collection of thoughts on managing software development teams by a grug brained manager based on &lt;a href=&quot;https://grugbrain.dev/&quot;&gt;grug brained developer&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;grug brained manager not smart. somehow managed to convince boss that grug capable of managing others. grug barely capable to polish mouth stones.&lt;/p&gt;
@@ -522,14 +519,15 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;/ul&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;grug think that key to management is to communicate expectations clearly and set up team to meet those expectations.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Resurrecting RSS feeds</title>
-    <link href="https://patricklee.nyc/blog/resurrecting-rss-feeds/"/>
-    <updated>2022-06-15T00:00:00Z</updated>
-    <id>https://patricklee.nyc/blog/resurrecting-rss-feeds/</id>
-    <content xml:lang="en" type="html">&lt;h2&gt;The good ole days&lt;/h2&gt;
+</description>
+      <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
+      <dc:creator>Patrick Lee</dc:creator>
+      <guid>https://patricklee.nyc/blog/the-grug-brained-manager/</guid>
+    </item>
+    <item>
+      <title>Resurrecting RSS feeds</title>
+      <link>https://patricklee.nyc/blog/resurrecting-rss-feeds/</link>
+      <description>&lt;h2&gt;The good ole days&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Update (2023-01-21): I&#39;ve migrated this blog to &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;eleventy&lt;/a&gt; and use its built in RSS/Atom feed generator now.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -584,14 +582,15 @@ END
 &lt;p&gt;All this does is parse the frontmatter section of the markdown file to get some basic metadata, then use Pandoc to convert the file to html. It then assembles the XML file and writes it to &lt;code&gt;rss.xml&lt;/code&gt;. This function runs at the end of my blog&#39;s &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/blob/master/build.sh&quot;&gt;build chain&lt;/a&gt;, but it can be run isolated as well.&lt;/p&gt;
 &lt;p&gt;See the &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/blob/master/build_scripts/rss.sh&quot;&gt;script here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I&#39;m actually quite happy with this collection of bash scripts and Pandoc to generate my static site. The whole thing is stupid simple, there is zero magic, its ugly but functional and it is very narrowly scoped. There is very little that can go wrong and not many dependencies. For a blog that I want to infrequently update and keep around for a long time, its perfect and won&#39;t rot once a new JS framework gains popularity.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Note taking hell</title>
-    <link href="https://patricklee.nyc/blog/note-taking-hell/"/>
-    <updated>2022-05-20T00:00:00Z</updated>
-    <id>https://patricklee.nyc/blog/note-taking-hell/</id>
-    <content xml:lang="en" type="html">&lt;h2&gt;Note taking hell&lt;/h2&gt;
+</description>
+      <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
+      <dc:creator>Patrick Lee</dc:creator>
+      <guid>https://patricklee.nyc/blog/resurrecting-rss-feeds/</guid>
+    </item>
+    <item>
+      <title>Note taking hell</title>
+      <link>https://patricklee.nyc/blog/note-taking-hell/</link>
+      <description>&lt;h2&gt;Note taking hell&lt;/h2&gt;
 &lt;p&gt;I have a hard time sticking with a note taking system. I think at this point I&#39;ve tested all the major note taking tools:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Evernote&lt;/li&gt;
@@ -642,14 +641,15 @@ Do I want a dashboard that I can keep up all day to jot down notes, see my meeti
 &lt;li&gt;Bookmarking: Raindrop.io&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;I think leveraging a tool like raindrop.io will help me keep all these various notes organized in a central location... at least until I get bored of maintaining it...&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Striving for dispassionateness</title>
-    <link href="https://patricklee.nyc/blog/striving-for-dispassionateness/"/>
-    <updated>2022-03-21T00:00:00Z</updated>
-    <id>https://patricklee.nyc/blog/striving-for-dispassionateness/</id>
-    <content xml:lang="en" type="html">&lt;h2&gt;Striving for dispassionateness&lt;/h2&gt;
+</description>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      <dc:creator>Patrick Lee</dc:creator>
+      <guid>https://patricklee.nyc/blog/note-taking-hell/</guid>
+    </item>
+    <item>
+      <title>Striving for dispassionateness</title>
+      <link>https://patricklee.nyc/blog/striving-for-dispassionateness/</link>
+      <description>&lt;h2&gt;Striving for dispassionateness&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Not influenced by strong feelings or emotions; impartial&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -671,22 +671,24 @@ Do I want a dashboard that I can keep up all day to jot down notes, see my meeti
 &lt;p&gt;Speaking of initial reactions, one of my flaws is overreacting based on my initial reaction. Its easy to do so, but generally taking some time to investigate and dig in before gauging the severity of it is beneficial and something I actively work on. Its very easy to experience something, scream &amp;quot;WHAT?&amp;quot;, go on a tear and make things works. It takes discipline and detachment to stop, investigate, and ask questions, then thoughtfully determine the impact and next steps.&lt;/p&gt;
 &lt;h2&gt;Understanding when to let things fall by the wayside.&lt;/h2&gt;
 &lt;p&gt;If you&#39;re doing a good job, people are going to want you to do more. Knowing when to let things fall by the wayside (which is different from letting things slip through the cracks) is an invaluable skill.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Goodbye iterm2</title>
-    <link href="https://patricklee.nyc/blog/goodbye-iterm2/"/>
-    <updated>2022-01-07T00:00:00Z</updated>
-    <id>https://patricklee.nyc/blog/goodbye-iterm2/</id>
-    <content xml:lang="en" type="html">&lt;p&gt;I&#39;ve used iTerm 2 for a few years now but came to the realization that I don&#39;t actually use any of its features. Mac&#39;s built in terminal is more than enough for my needs. See ya later iTerm 2 and thanks for being rock solid all these years.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>An ode to my linter</title>
-    <link href="https://patricklee.nyc/blog/an-ode-to-my-linter/"/>
-    <updated>2021-12-30T00:00:00Z</updated>
-    <id>https://patricklee.nyc/blog/an-ode-to-my-linter/</id>
-    <content xml:lang="en" type="html">&lt;pre&gt;&lt;code&gt;Oh my dearest linter,
+</description>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      <dc:creator>Patrick Lee</dc:creator>
+      <guid>https://patricklee.nyc/blog/striving-for-dispassionateness/</guid>
+    </item>
+    <item>
+      <title>Goodbye iterm2</title>
+      <link>https://patricklee.nyc/blog/goodbye-iterm2/</link>
+      <description>&lt;p&gt;I&#39;ve used iTerm 2 for a few years now but came to the realization that I don&#39;t actually use any of its features. Mac&#39;s built in terminal is more than enough for my needs. See ya later iTerm 2 and thanks for being rock solid all these years.&lt;/p&gt;
+</description>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      <dc:creator>Patrick Lee</dc:creator>
+      <guid>https://patricklee.nyc/blog/goodbye-iterm2/</guid>
+    </item>
+    <item>
+      <title>An ode to my linter</title>
+      <link>https://patricklee.nyc/blog/an-ode-to-my-linter/</link>
+      <description>&lt;pre&gt;&lt;code&gt;Oh my dearest linter,
 adding squiggly lines under my mistake.
 Gently teaching me why I&#39;m wrong.
 How do I fix it?
@@ -704,22 +706,24 @@ I&#39;m sorry my linter,
 you&#39;ll have to abide.
 
 &lt;/code&gt;&lt;/pre&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Dotfiles</title>
-    <link href="https://patricklee.nyc/blog/dotfiles/"/>
-    <updated>2021-12-29T00:00:00Z</updated>
-    <id>https://patricklee.nyc/blog/dotfiles/</id>
-    <content xml:lang="en" type="html">&lt;p&gt;Finally got my &lt;a href=&quot;https://github.com/patleeman/dotfiles&quot;&gt;dotfiles&lt;/a&gt; set up. Now I can have a consistent environment across both Mac and Linux. Really only using it for managing initial environment setup scripts and to manage my terminal environment. Will continue to evolve it as I need to but glad to have built out the basic scaffolding.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>My walking desk setup</title>
-    <link href="https://patricklee.nyc/blog/my-walking-desk-setup/"/>
-    <updated>2021-12-28T00:00:00Z</updated>
-    <id>https://patricklee.nyc/blog/my-walking-desk-setup/</id>
-    <content xml:lang="en" type="html">&lt;p&gt;Over the course of 2020 and 2021 I&#39;ve become increasingly sedentary with lockdown and full remote work. Having gone from commuting into the office 1-2 times a week down to zero meant I had less opportunity to walk. Along with the birth of my son and having less time and energy to exercise I needed to find a way to integrate more walking into my routine. If I could figure out how to exercise while working then I would have more time to spend on more interesting things, a win-win situation!&lt;/p&gt;
+</description>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
+      <dc:creator>Patrick Lee</dc:creator>
+      <guid>https://patricklee.nyc/blog/an-ode-to-my-linter/</guid>
+    </item>
+    <item>
+      <title>Dotfiles</title>
+      <link>https://patricklee.nyc/blog/dotfiles/</link>
+      <description>&lt;p&gt;Finally got my &lt;a href=&quot;https://github.com/patleeman/dotfiles&quot;&gt;dotfiles&lt;/a&gt; set up. Now I can have a consistent environment across both Mac and Linux. Really only using it for managing initial environment setup scripts and to manage my terminal environment. Will continue to evolve it as I need to but glad to have built out the basic scaffolding.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+      <dc:creator>Patrick Lee</dc:creator>
+      <guid>https://patricklee.nyc/blog/dotfiles/</guid>
+    </item>
+    <item>
+      <title>My walking desk setup</title>
+      <link>https://patricklee.nyc/blog/my-walking-desk-setup/</link>
+      <description>&lt;p&gt;Over the course of 2020 and 2021 I&#39;ve become increasingly sedentary with lockdown and full remote work. Having gone from commuting into the office 1-2 times a week down to zero meant I had less opportunity to walk. Along with the birth of my son and having less time and energy to exercise I needed to find a way to integrate more walking into my routine. If I could figure out how to exercise while working then I would have more time to spend on more interesting things, a win-win situation!&lt;/p&gt;
 &lt;p&gt;I&#39;ve seen treadmill desks before and was motivated after seeing one of my coworkers on one during a meeting. So I decided to pick up a treadmill and give it a shot.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://patricklee.nyc/public/blog/20211228_my_walking_desk_setup.md/1.png&quot; alt=&quot;The full walking desk setup&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;This is my humble treadmill desk.&lt;/em&gt;&lt;/p&gt;
@@ -769,14 +773,15 @@ you&#39;ll have to abide.
 &lt;li&gt;Walking is great!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you&#39;ve been considering a walking desk, I&#39;d highly recommend trying it out. Just make sure you have the space to dedicate to it. You can always pick up a cheap used treadmill and rig up a desk setup.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Lessons learned from dabbling in the stock market</title>
-    <link href="https://patricklee.nyc/blog/lessons-learned-from-dabbling-in-the-stock-market/"/>
-    <updated>2021-12-27T00:00:00Z</updated>
-    <id>https://patricklee.nyc/blog/lessons-learned-from-dabbling-in-the-stock-market/</id>
-    <content xml:lang="en" type="html">&lt;p&gt;I&#39;ve dabbled in investing in the past but over the last two years I&#39;ve really gotten involved heavily with managing my portfolio. I&#39;m still a complete amateur but I did pick up some very valuable lessons:&lt;/p&gt;
+</description>
+      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+      <dc:creator>Patrick Lee</dc:creator>
+      <guid>https://patricklee.nyc/blog/my-walking-desk-setup/</guid>
+    </item>
+    <item>
+      <title>Lessons learned from dabbling in the stock market</title>
+      <link>https://patricklee.nyc/blog/lessons-learned-from-dabbling-in-the-stock-market/</link>
+      <description>&lt;p&gt;I&#39;ve dabbled in investing in the past but over the last two years I&#39;ve really gotten involved heavily with managing my portfolio. I&#39;m still a complete amateur but I did pick up some very valuable lessons:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;I&#39;ve started to attach probabilities to events way more than I used to. This has the benefit of helping me think about potential events more objectively.&lt;/li&gt;
 &lt;li&gt;There is a zen to riding the highs and lows of the market. It takes confidence in a long term game plan, diversification, and some good ole detachment in order to psychologically bear the swings.&lt;/li&gt;
@@ -791,14 +796,15 @@ you&#39;ll have to abide.
 &lt;/li&gt;
 &lt;li&gt;Companies rise and fall on a regular basis. What seems like a juggernaut one year may implode the next. Same for companies that seem to be worthless can be turned around and brought back from the grave.&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>I should have learned more bash sooner</title>
-    <link href="https://patricklee.nyc/blog/i-should-have-learned-more-bash-sooner/"/>
-    <updated>2021-12-26T00:00:00Z</updated>
-    <id>https://patricklee.nyc/blog/i-should-have-learned-more-bash-sooner/</id>
-    <content xml:lang="en" type="html">&lt;p&gt;Bash tools are super powerful once you get a hang of using it. This whole blog is pretty much &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/&quot;&gt;a bunch of scripts and Pandoc&lt;/a&gt;. Its pretty cool what you can build once you get over the learning curve.&lt;/p&gt;
+</description>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <dc:creator>Patrick Lee</dc:creator>
+      <guid>https://patricklee.nyc/blog/lessons-learned-from-dabbling-in-the-stock-market/</guid>
+    </item>
+    <item>
+      <title>I should have learned more bash sooner</title>
+      <link>https://patricklee.nyc/blog/i-should-have-learned-more-bash-sooner/</link>
+      <description>&lt;p&gt;Bash tools are super powerful once you get a hang of using it. This whole blog is pretty much &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/&quot;&gt;a bunch of scripts and Pandoc&lt;/a&gt;. Its pretty cool what you can build once you get over the learning curve.&lt;/p&gt;
 &lt;p&gt;I&#39;m a few years into my career now and I&#39;ve only really used shell scripts when working with CI. I&#39;ve never felt totally comfortable with it, maybe it&#39;s because it feels like casting spells by uttering some obscure incantations? I mean look at one of the lines I put together to sort an array for this blog:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;IFS=$&#39;\n&#39; SORTED_POSTS=( $(for j in &amp;quot;${POSTS[@]}&amp;quot;; do echo $j; done | sort -t &amp;quot;;&amp;quot; -k 1 -nr) )
 &lt;/code&gt;&lt;/pre&gt;
@@ -833,14 +839,15 @@ you&#39;ll have to abide.
 &lt;li&gt;If you find yourself reaching to some programming language to do something, try doing it in bash first.&lt;/li&gt;
 &lt;li&gt;Don&#39;t bother with anything complicated interactively. Create a script file and execute it if its anything more than a one liner.&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Lessons learned from starting a business while working full time.</title>
-    <link href="https://patricklee.nyc/blog/lessons-learned-from-starting-a-business-while-working-full-time/"/>
-    <updated>2017-08-19T00:00:00Z</updated>
-    <id>https://patricklee.nyc/blog/lessons-learned-from-starting-a-business-while-working-full-time/</id>
-    <content xml:lang="en" type="html">&lt;p&gt;I started working on &lt;a href=&quot;http://collatenotes.com/&quot;&gt;Collate&lt;/a&gt; in December of 2016. I was dissatisfied with the note taking apps on the market and wanted a tool that would work for my needs. I had been toying with the idea and finally started writing code over the Christmas holiday. I had a basic prototype built with Electron, bootstrap and jQuery by February, then rebuilt it with Electron, Vue.js and Bulma from scratch because the code base was terrible. Today, Collate is profitable, has a couple hundred users, was featured on &lt;a href=&quot;http://lifehacker.com/collate-is-a-privacy-focused-evernote-style-notes-app-1794500652&quot;&gt;Lifehacker&lt;/a&gt; and is doing well by my standards. Here are some hard learned lessons from the last 8 months of working on Collate while maintaining a full time job:&lt;/p&gt;
+</description>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+      <dc:creator>Patrick Lee</dc:creator>
+      <guid>https://patricklee.nyc/blog/i-should-have-learned-more-bash-sooner/</guid>
+    </item>
+    <item>
+      <title>Lessons learned from starting a business while working full time.</title>
+      <link>https://patricklee.nyc/blog/lessons-learned-from-starting-a-business-while-working-full-time/</link>
+      <description>&lt;p&gt;I started working on &lt;a href=&quot;http://collatenotes.com/&quot;&gt;Collate&lt;/a&gt; in December of 2016. I was dissatisfied with the note taking apps on the market and wanted a tool that would work for my needs. I had been toying with the idea and finally started writing code over the Christmas holiday. I had a basic prototype built with Electron, bootstrap and jQuery by February, then rebuilt it with Electron, Vue.js and Bulma from scratch because the code base was terrible. Today, Collate is profitable, has a couple hundred users, was featured on &lt;a href=&quot;http://lifehacker.com/collate-is-a-privacy-focused-evernote-style-notes-app-1794500652&quot;&gt;Lifehacker&lt;/a&gt; and is doing well by my standards. Here are some hard learned lessons from the last 8 months of working on Collate while maintaining a full time job:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Have a tight scope — I made the mistake of saying yes to everything and pretty soon Collate began heading in a direction I wasn’t happy with. Users will ask for features, it’s only natural. It’s extremely easy to bloat the scope of your project if you say yes to everything. Having an extremely tight scope of what your project does and provides is essential to focus the small amount of time you have to devote to the project. I’m working on the next iteration of Collate and it will be extremely pared down.&lt;/li&gt;
 &lt;li&gt;Use what you know — Use technology you know like the back of your hand. This advice is given a lot and for good reason. If you need to spend time learning a new piece of tech, it’s time away from making your product more stable. I use Wordpress in my day job, so it’s only natural I use it for my product’s site. It’s not sexy but it works.&lt;/li&gt;
@@ -852,14 +859,15 @@ you&#39;ll have to abide.
 &lt;li&gt;Pace yourself — I wish I had learned this lesson sooner. I worked on Collate furiously for the first six months, pumping out feature after feature and release after release. I was putting in close to 40 hours a week on nights and weekends working on Collate after work for a while. I got so burnt out that I had to step away from the project and try working on something else (and even not working on anything!). I’m back on it now, but working on it at a much slower pace. Take the time to decompress each day, get exercise and make sure to sleep.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Side projects while working full time are a lot of work but also very rewarding. The best part for me was building something from scratch that I’m passionate about building, something that I don’t get at my day job. It’s also pretty great to build something and then watch other people get excited about it.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From Community College to Columbia</title>
-    <link href="https://patricklee.nyc/blog/from-community-college-to-columbia/"/>
-    <updated>2016-12-12T00:00:00Z</updated>
-    <id>https://patricklee.nyc/blog/from-community-college-to-columbia/</id>
-    <content xml:lang="en" type="html">&lt;p&gt;I dropped out of college at twenty. The next few years were spent at various jobs until I ended up as a legal assistant at a law firm. The firm was filled with fax machines, typewriters, and massive paper files. What was the norm in 1988 was still the norm in the legal industry at the time. It was a slow moving beast, mired in paper and yesterday’s technology. I wanted to work with modern technology and be part of the future but there was no future for an aimless college dropout. I couldn’t see a way forward, so I went back.&lt;/p&gt;
+</description>
+      <pubDate>Sat, 19 Aug 2017 00:00:00 +0000</pubDate>
+      <dc:creator>Patrick Lee</dc:creator>
+      <guid>https://patricklee.nyc/blog/lessons-learned-from-starting-a-business-while-working-full-time/</guid>
+    </item>
+    <item>
+      <title>From Community College to Columbia</title>
+      <link>https://patricklee.nyc/blog/from-community-college-to-columbia/</link>
+      <description>&lt;p&gt;I dropped out of college at twenty. The next few years were spent at various jobs until I ended up as a legal assistant at a law firm. The firm was filled with fax machines, typewriters, and massive paper files. What was the norm in 1988 was still the norm in the legal industry at the time. It was a slow moving beast, mired in paper and yesterday’s technology. I wanted to work with modern technology and be part of the future but there was no future for an aimless college dropout. I couldn’t see a way forward, so I went back.&lt;/p&gt;
 &lt;h3&gt;The Borough of Manhattan Community College&lt;/h3&gt;
 &lt;p&gt;Community college was an eye-opening experience. On one hand you had the highly motivated students, usually older, who had experienced life first hand. Many had full time jobs, kids, and experience working low wage jobs. Most of the ones I met worked in retail or dead end jobs, and college for them was a ticket out of their daily struggle and into a comfortable future. On the other hand, you had the unmotivated students, usually younger and straight out of high school. Most treated it as an extension of high school, 13th and 14th grade, as a way to defer working for a little bit. While I could sympathize with them, I fell into the former group of students. I was motivated, but I lacked a clear picture of where I wanted to be. My idea of dreaming big was a degree from the local four year college and a modest job doing something better than what I had been doing at the law firm. At this point, I was doing well in school, working my way through a business management degree, content with my potential future. Who knew that taking a mandatory speech class, and randomly choosing a time slot that worked well with my schedule would land me with a professor that would change my life?&lt;/p&gt;
 &lt;p&gt;My Speech 101 professor, Dr. Poster, is a long time teacher and administrator at the Borough of Manhattan Community College (BMCC). She has a reputation of being a tough teacher, who expects a lot from her students and will hold them to a high standard. While plenty of her colleagues passed students who handed in sub par work, she held firm and expected quality work. She has an uncanny ability to see the best in her students, and to push them hard to realize their potential. Which is what she did with me. She brought me into her office one day and asked me about my plans for the future, what I wanted to do with my life, and where I saw myself going after I finished at BMCC. I gave her the rough layout of my college and career goals. Then she dropped a bomb on me.&lt;/p&gt;
@@ -875,6 +883,10 @@ you&#39;ll have to abide.
 &lt;h3&gt;Post Columbia&lt;/h3&gt;
 &lt;p&gt;I graduated. It surprised me much more than it should have. In hindsight it wasn’t all just studying and stress, there were plenty of good times along with the bad. I met a lot of great people during my time, many who have gone on to do some impressive things. I had worked my way through two and a half years and landed an internship which eventually turned into a job. From there, I transitioned to my current role as a Data Analyst at Penguin Random House, the largest book publisher in the US. Without my education from Columbia, data analytics would be a complete mystery to me. Putting in the hours and studying outside of work isn’t a chore as it would have been prior to going back to school. An example of that is that since graduating, I’ve been able to teach myself programming. I had attempted to do so in the past but had never pushed through the tedious parts, always getting stuck. Also, thanks to the fundamental math and economic education I received, I find working with large data sets much easier.&lt;/p&gt;
 &lt;p&gt;Looking back at it now, I can appreciate the rigor and the intensity of the work. Columbia helped push my boundaries and helped me realize what I’m capable of doing. Just three years prior, I matriculated from BMCC, content with a future that was just slightly better than the one I left. However, I would never have even thought to reach so high had Dr. Poster not seen something in me and pushed me to apply. It’s truly amazing what an effect one person can have on the trajectory of another person’s life and I’m grateful to her for what she’s done for me. She made me promise that I would never remove BMCC from my resume, to show others what students from a community college could achieve. I leave it on there for her, and to remind myself of my roots.&lt;/p&gt;
-</content>
-  </entry>
-</feed>
+</description>
+      <pubDate>Mon, 12 Dec 2016 00:00:00 +0000</pubDate>
+      <dc:creator>Patrick Lee</dc:creator>
+      <guid>https://patricklee.nyc/blog/from-community-college-to-columbia/</guid>
+    </item>
+  </channel>
+</rss>
