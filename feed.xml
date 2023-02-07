@@ -4,12 +4,71 @@
   <subtitle>Software engineer</subtitle>
   <link href="https://patricklee.nyc/feed.xml" rel="self"/>
   <link href="https://patricklee.nyc/"/>
-  <updated>2023-01-27T00:00:00Z</updated>
+  <updated>2023-02-07T00:00:00Z</updated>
   <id>https://patricklee.nyc/</id>
   <author>
     <name>Patrick Lee</name>
     <email>me@patricklee.nyc</email>
   </author>
+  <entry>
+    <title>How I use Obsidian</title>
+    <link href="https://patricklee.nyc/blog/how-i-use-obsidian/"/>
+    <updated>2023-02-07T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/how-i-use-obsidian/</id>
+    <content xml:lang="en" type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://obsidian.md/&quot;&gt;Obsidian&lt;/a&gt; is all the rage right now in the productivity tool market, especially with software engineers. Similar to my note-taking app &lt;a href=&quot;https://github.com/collateapp&quot;&gt;Collate Notes&lt;/a&gt; which I built in 2016 it utilizes a Markdown file format with a YAML &amp;quot;front matter&amp;quot; section on top (a-la &lt;a href=&quot;https://jekyllrb.com/docs/front-matter/&quot;&gt;Jekyll&#39;s doc format&lt;/a&gt;) to handle document metadata.&lt;/p&gt;
+&lt;p&gt;This local-file first approach means that your data is durable, since it&#39;s just markdown files in a folder structure. Even if Obsidian goes out of business, the data is still there and easily usable.&lt;/p&gt;
+&lt;p&gt;It also means that you need to develop your own way of using it. The tool does not dictate how you organize your data, you need to come up with your own system.&lt;/p&gt;
+&lt;h2&gt;My System&lt;/h2&gt;
+&lt;h3&gt;Keeping it simple&lt;/h3&gt;
+&lt;p&gt;There are a lot of systems out there like the &lt;a href=&quot;https://fortelabs.com/blog/para/&quot;&gt;PARA Method&lt;/a&gt; which have several folders to organize your data depending on the context of the information. PARA requires an Archive, Projects, Areas, and Resources folder and has rules on where to store specific kinds of information.&lt;/p&gt;
+&lt;p&gt;I tried it for a while and realized that more often than not I would spend time trying to figure out if something was an Area, or Resource, or Project. It&#39;s not worth the mental overhead. I want a super simple system that just stays out of my way.&lt;/p&gt;
+&lt;h3&gt;Organizing Knowledge&lt;/h3&gt;
+&lt;p&gt;I have two &amp;quot;areas&amp;quot; in my note-taking system. An &amp;quot;Inbox&amp;quot; where I keep anything active that I&#39;m currently working on or need access to, which is the root of the vault. And a &lt;code&gt;Knowledge&lt;/code&gt; folder inside that where I put everything when I&#39;m done with it. That&#39;s it.&lt;/p&gt;
+&lt;p&gt;It looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;!Knowledge/
+&amp;lt;everything else&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The workflow looks like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I want to write something down.&lt;/li&gt;
+&lt;li&gt;I create a new file in the root of the folder and write it down.&lt;/li&gt;
+&lt;li&gt;If I want to group stuff together, I create a folder.&lt;/li&gt;
+&lt;li&gt;Once I&#39;m no longer working on this thing, or I don&#39;t need it anymore. Move it to the Knowledge folder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The Knowledge folder has subfolders, that help me organize information into smaller buckets. I have buckets for things like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;My Home&lt;/li&gt;
+&lt;li&gt;Business Ideas&lt;/li&gt;
+&lt;li&gt;Finance&lt;/li&gt;
+&lt;li&gt;Fitness&lt;/li&gt;
+&lt;li&gt;Health&lt;/li&gt;
+&lt;li&gt;Knowledge Management&lt;/li&gt;
+&lt;li&gt;Work&lt;/li&gt;
+&lt;li&gt;Software Engineering&lt;/li&gt;
+&lt;li&gt;Writing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The main purpose of the Knowledge folder is to keep information around if I need it, but just tuck it away out of sight, so I can focus on the important stuff.&lt;/p&gt;
+&lt;h3&gt;Task Management&lt;/h3&gt;
+&lt;p&gt;The other piece of my system is task management. I&#39;ve tried all sorts of apps out there to manage tasks, and this one is the simplest and keeps tasks close to knowledge.&lt;/p&gt;
+&lt;p&gt;For example, if I&#39;m working in a document where I&#39;m ideating, collecting information from various sources, or writing thoughts, it is handy to be able to drop tasks into the same document.&lt;/p&gt;
+&lt;p&gt;I use the &lt;a href=&quot;https://obsidian-tasks-group.github.io/obsidian-tasks/&quot;&gt;Tasks Plugin&lt;/a&gt; to aggregate my tasks from across my whole vault, and tags to add context to tasks.&lt;/p&gt;
+&lt;p&gt;A task looks like this (Emojis are used by the &lt;a href=&quot;https://obsidian-tasks-group.github.io/obsidian-tasks/&quot;&gt;tasks plugin&lt;/a&gt; to add metadata).&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- [ ] Take out the garbage 🔼 📅 2023-02-08 #personal
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I have a &lt;code&gt;Tasks&lt;/code&gt; note where I aggregate all my tasks using a &lt;a href=&quot;https://obsidian-tasks-group.github.io/obsidian-tasks/queries/&quot;&gt;query&lt;/a&gt; and ensure it&#39;s grouped by tags.&lt;/p&gt;
+&lt;pre&gt;
+```tasks
+(not done) OR (done date is today)
+group by tags
+sort by urgency
+short mode
+```
+&lt;/pre&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;That&#39;s the system that&#39;s currently working for me. Everyone comes up with their own system based on their preferences, so do what feels right for you. This is how I&#39;m currently managing things, and I&#39;ll use it as long as it &lt;a href=&quot;https://patricklee.nyc/blog/note-taking-hell/&quot;&gt;sticks&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>I&#39;m your manager, now what?</title>
     <link href="https://patricklee.nyc/blog/i-m-your-manager-now-what/"/>
@@ -410,8 +469,8 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then I updated my header to use this shortcode under the &lt;code&gt;og:image&lt;/code&gt; and &lt;code&gt;twitter:image&lt;/code&gt; tags &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/blob/56e675dd7d94121337a91924dc72eec5bbfab084/_includes/layouts/header.liquid#L13&quot;&gt;like so&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!-- header.liquid --&amp;gt;
-&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675304807979&amp;quot; /&amp;gt;
-&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675304807980&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675782096957&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675782096957&amp;quot; /&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;That&#39;s all it takes!&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
