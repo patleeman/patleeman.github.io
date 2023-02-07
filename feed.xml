@@ -469,8 +469,8 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then I updated my header to use this shortcode under the &lt;code&gt;og:image&lt;/code&gt; and &lt;code&gt;twitter:image&lt;/code&gt; tags &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/blob/56e675dd7d94121337a91924dc72eec5bbfab084/_includes/layouts/header.liquid#L13&quot;&gt;like so&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!-- header.liquid --&amp;gt;
-&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675782096957&amp;quot; /&amp;gt;
-&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675782096957&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675782263188&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1675782263188&amp;quot; /&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;That&#39;s all it takes!&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
@@ -651,6 +651,7 @@ END
     <updated>2022-05-20T00:00:00Z</updated>
     <id>https://patricklee.nyc/blog/note-taking-hell/</id>
     <content xml:lang="en" type="html">&lt;h2&gt;Note taking hell&lt;/h2&gt;
+&lt;p&gt;Update(Feb 7, 2023): I&#39;ve written down how &lt;a href=&quot;https://patricklee.nyc/blog/how-i-use-obsidian&quot;&gt;I&#39;m currently using Obsidian&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I have a hard time sticking with a note taking system. I think at this point I&#39;ve tested all the major note taking tools:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Evernote&lt;/li&gt;
@@ -701,6 +702,7 @@ Do I want a dashboard that I can keep up all day to jot down notes, see my meeti
 &lt;li&gt;Bookmarking: Raindrop.io&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;I think leveraging a tool like raindrop.io will help me keep all these various notes organized in a central location... at least until I get bored of maintaining it...&lt;/p&gt;
+&lt;p&gt;Update(Feb 7, 2023): I&#39;ve written down how &lt;a href=&quot;https://patricklee.nyc/blog/how-i-use-obsidian&quot;&gt;I&#39;m currently using Obsidian&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
