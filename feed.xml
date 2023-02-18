@@ -469,8 +469,8 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then I updated my header to use this shortcode under the &lt;code&gt;og:image&lt;/code&gt; and &lt;code&gt;twitter:image&lt;/code&gt; tags &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/blob/56e675dd7d94121337a91924dc72eec5bbfab084/_includes/layouts/header.liquid#L13&quot;&gt;like so&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!-- header.liquid --&amp;gt;
-&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1676056423160&amp;quot; /&amp;gt;
-&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1676056423160&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1676753026619&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1676753026619&amp;quot; /&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;That&#39;s all it takes!&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
@@ -894,6 +894,156 @@ you&#39;ll have to abide.
 &lt;li&gt;If you find yourself reaching to some programming language to do something, try doing it in bash first.&lt;/li&gt;
 &lt;li&gt;Don&#39;t bother with anything complicated interactively. Create a script file and execute it if its anything more than a one liner.&lt;/li&gt;
 &lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>2018 Reading List and Look Back</title>
+    <link href="https://patricklee.nyc/blog/2018-reading-list-and-look-back/"/>
+    <updated>2019-01-01T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/2018-reading-list-and-look-back/</id>
+    <content xml:lang="en" type="html">&lt;h2&gt;Changes in 2018&lt;/h2&gt;
+&lt;p&gt;Last year I left Penguin Random House in April to work at Noom. I’m normally a utility reader and don’t do much reading for entertainment. During my entire 2.5 years at Penguin Random House, I think read at most a handful of books.&lt;/p&gt;
+&lt;p&gt;The culture at Noom really embraces reading and encourages it, so this year I got some recommendations from my colleagues and began reading. This list is all business-y books that I have annotated with some thoughts. For the most part, they were all useful in their own way and once internalized, have helped me be more thoughtful and analytical.&lt;/p&gt;
+&lt;h2&gt;Patrick’s 2018 Reading List&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The Goal - Eliyahu M. Goldratt&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Phoenix Project - Gene Kim, Kevin Behr, George Spafford&lt;/p&gt;
+&lt;p&gt;The Phoenix Project is based on The Goal and references it often. Both weren’t particularly well written but they do give an interesting look at how manufacturing principals can be applied to modern office style work. An interesting way to think about how to structure teams and organize work.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The High Growth Handbook - Elad Gil&lt;/p&gt;
+&lt;p&gt;Quite a comprehensive look into what it takes to build and grow startups. A lot of good information for startup newbies like me. I wasn’t too into the interviews but I can see myself going back and re-reading this every so often.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Powerful - Patty McCord &lt;strong&gt;*Recommended&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A look into how Netflix does things. I am still reading it but it’s quite a good read. Structured more as a guide for how to run a company the Netflix way than a tell all.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Power of Habit - Charles Duhigg &lt;strong&gt;*Recommended&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Interesting book on the psychology of habits, how to change them and how to re-wire our reward mechanisms. Not sure if I’ll try to apply any of the concepts to myself but it’s good information to internalize.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Clean Code - Robert C. Martin &lt;strong&gt;*Recommended&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The only software development book I read this year. Classic advice for writing maintainable code.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ReWork - Jason Fried and David Hansson&lt;/p&gt;
+&lt;p&gt;A compilation of what seem like blog posts. A lot of advice on various things. I wasn’t too impressed by it, but it’s a quick read.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Health and Fitness</title>
+    <link href="https://patricklee.nyc/blog/health-and-fitness/"/>
+    <updated>2018-12-29T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/health-and-fitness/</id>
+    <content xml:lang="en" type="html">&lt;p&gt;I&#39;ve been on quite the fitness journey these last few months. Here&#39;s my story.&lt;/p&gt;
+&lt;h2&gt;How it started&lt;/h2&gt;
+&lt;p&gt;I didn’t grow up athletic. I didn’t play any sports, exercise, or spend much time outdoors as a kid. I enjoyed indoor activities like video games, legos and computers. When I got into my 20s, I got into cycling and rode with friends for fun and as a way to commute to work. It was hobby first with beneficial exercise as a side effects.&lt;/p&gt;
+&lt;p&gt;Eventually I stopped cycling. I began eating more and more junk food and started gaining weight. My attention wasn’t on my health and over time the negatives began to manifest. I got fat, which caused back pain when I would sit for hours on end at work. My poor posture also exasperated any issues, and compounded any back pain. At night I would be listless, staying up late and waking up early for work. Overall the effect was just generally feeling crappy, lethargic, and moody. It was subtle, not huge changes to how I felt, which was the most insidious part. Getting unhealthy was a long drawn out process that became a normal part of my life.&lt;/p&gt;
+&lt;h2&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;I realized the benefits of being fit far outweighed the startup and maintenance cost of getting the habit in place. I was partly inspired by Wes Bos and Scott Tolinski in &lt;a href=&quot;https://syntax.fm/show/084/fitness-for-developers&quot;&gt;an episode of their developer focused podcast, Syntax&lt;/a&gt; where they discuss the benefits of working out and living a healthier lifestyle. At the same time, I also began to realize that there was a relationship between obesity and the impact it could potentially have on career opportunities in the future.&lt;/p&gt;
+&lt;p&gt;I realized that being overweight can be a negative signal in the professional world. There is a negatively skewed bias against overweight individuals in society where people associate poor self control, discipline, and other negative traits with obesity while subconsciously associating positive traits to fitter individuals. This led me to a theory which I call the “No Fat CEOs” theory (which is completely unsubstantiated and not backed up by any facts) where corporations are more frequently led by individuals who are not overweight. Being overweight and unhealthy in my opinion is a liability to my career and I wanted to turn my fitness from a liability to an asset (or at the very least have no effect).&lt;/p&gt;
+&lt;p&gt;As I slid into my 30s, I began noticing aches and pains and a general lethargy as I gained weight. Frankly, I felt like garbage. Walking up stairs would get me winded, bending over wasn’t easy. My body felt and looked like crap. The impact of being overweight on both my health and my psyche compounded the more overweight I became. It was easy to get stuck in a loop where I ate crap, felt like crap and looked like crap. I needed to break out the cycle.&lt;/p&gt;
+&lt;h2&gt;Getting help&lt;/h2&gt;
+&lt;p&gt;I had never set foot in a gym before and for a newbie like me, it can be quite a scary experience. I had no idea what exercises to do, how to do them and even where to start. I had learned recently that if you’re not an expert in something, the fastest and easiest way to obtain knowledge is to get help. So I hired a personal trainer and started going to a training session once a week.&lt;/p&gt;
+&lt;p&gt;My trainer talked to me about my fitness goals, created a program for me, taught me the exercises, and has kept me accountable. She helped me overcome my fear of going to the gym. Once I was comfortable, I set a goal of going to the gym at least 3 times a week. I made time during my week and treat going to the gym as a top priority in life.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Since undertaking this fitness journey, I’ve noticed numerous benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I haven’t lost weight but I have lost fat and gained a lot of muscle.&lt;/li&gt;
+&lt;li&gt;My back doesn’t hurt any more.&lt;/li&gt;
+&lt;li&gt;I sleep better at night. Im going to bed earlier, sleep well, and wake up feeling rested.&lt;/li&gt;
+&lt;li&gt;I noticed I’m more productive at work, I feel more focused.&lt;/li&gt;
+&lt;li&gt;My posture is much better.&lt;/li&gt;
+&lt;li&gt;Overall I feel strong and healthy.&lt;/li&gt;
+&lt;li&gt;The feeling of accomplishment after a good session at the gym is itself a great reward and motivator.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is a startup and maintenance cost to investing in my fitness and health, but I’ve already started collecting the dividends.&lt;/p&gt;
+&lt;video height=&quot;300&quot; controls=&quot;&quot;&gt;
+    &lt;source src=&quot;https://patricklee.nyc/public/blog/20181229_health_and_fitness.md/lift.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;p&gt;Deadlift 1 rep max at 300lbs with a goal of 400lbs by the end of 2019.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Things to keep in mind while writing a VS Code extension.</title>
+    <link href="https://patricklee.nyc/blog/things-to-keep-in-mind-while-writing-a-vs-code-extension/"/>
+    <updated>2017-11-07T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/things-to-keep-in-mind-while-writing-a-vs-code-extension/</id>
+    <content xml:lang="en" type="html">&lt;p&gt;This article was originally posted on &lt;a href=&quot;https://medium.com/patrickleenyc/things-to-keep-in-mind-while-writing-a-vs-code-extension-9f2a3369b799&quot;&gt;medium&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;VS Code&lt;/a&gt; is a great editor platform. I tried my hand at creating an extension
+and although the documentation is fairly complete and thorough. I still
+ran into some issues. I’m documenting them here for other extension
+authors.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/604/1*mUhuk-TkDPdDBcE2vep5BA.png&quot; alt=&quot;https://miro.medium.com/max/604/1*mUhuk-TkDPdDBcE2vep5BA.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;VS Code functionality takes the form of commands in the command palette.&lt;/p&gt;
+&lt;h2&gt;Promises&lt;/h2&gt;
+&lt;p&gt;If you’re used to the ES6 Promise style then VS Code’s promise style may
+throw you off. Here is the newer style way to handle errors in promises
+by chaining a &lt;code&gt;catch&lt;/code&gt; method after a &lt;code&gt;then&lt;/code&gt; method:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// ES6 PromisedoPromise().then(val =&amp;gt; {  handleValue(val)}).catch(err =&amp;gt; {  handleError(err)})
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;VS Code’s Thenable style promise &lt;code&gt;then&lt;/code&gt; method takes two params.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Success handler&lt;/li&gt;
+&lt;li&gt;Error handler&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;// Thenable style promisesdoPromise().then(  val =&amp;gt; { handleValue(val) },   err =&amp;gt; { handleError(err) })
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Make sure to handle these errors correctly or you’re going to have a bad time.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Microsoft/vscode/issues/11693?source=post_page-----9f2a3369b799----------------------&quot;&gt;WARNING: Promise with no error callback:3 · Issue #11693 · Microsoft/vscodeVSCode Version: 1.4.0 OS Version: 10.10.5 I&#39;m developing an extension where I&#39;m using Promises (bluebird in this case)…github.com&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Settings&lt;/h2&gt;
+&lt;p&gt;It wasn’t immediately clear how to add settings to my extension. Turns
+out, I was looking for the wrong word. Settings are actually call
+configurations and are located within contributions. &lt;a href=&quot;https://code.visualstudio.com/docs/extensionAPI/extension-points#_contributesconfiguration&quot;&gt;Here is a direct link to the documentation.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To add a setting to your extension, you need to add a key to your extension’s package.json file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;quot;contributes&amp;quot;: {    &amp;quot;configuration&amp;quot;: ...}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This configuration section takes a JSON schema that describes what your
+setting should be. Basically what data type it takes, a default value
+and a description.&lt;/p&gt;
+&lt;p&gt;It also wasn’t immediately clear how to implement a setting that takes an array of objects. You need to utilize the &lt;code&gt;items&lt;/code&gt; key to describe nested values. Here is an example from my extension VSNotes:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Activation Events&lt;/h2&gt;
+&lt;p&gt;If you have multiple commands you will need to make sure to include them in the &lt;code&gt;activationEvents&lt;/code&gt; portion of your package.json. This tells vscode to execute the activate function in extension.js.&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;quot;activationEvents&amp;quot;: [    &amp;quot;onCommand:extension.newNote&amp;quot;,    &amp;quot;onCommand:extension.listNotes&amp;quot;,    &amp;quot;onCommand:extension.setupNotes&amp;quot;,    &amp;quot;onCommand:extension.openNoteFolder&amp;quot;],&amp;quot;commands&amp;quot;: [    {        &amp;quot;command&amp;quot;: &amp;quot;extension.newNote&amp;quot;,        &amp;quot;title&amp;quot;: &amp;quot;VSNotes: New Note&amp;quot;    },    {        &amp;quot;command&amp;quot;: &amp;quot;extension.listNotes&amp;quot;,        &amp;quot;title&amp;quot;: &amp;quot;VSNotes: List recent notes&amp;quot;    },    {        &amp;quot;command&amp;quot;: &amp;quot;extension.setupNotes&amp;quot;,        &amp;quot;title&amp;quot;: &amp;quot;VSNotes: Run setup&amp;quot;    },    {        &amp;quot;command&amp;quot;: &amp;quot;extension.openNoteFolder&amp;quot;,        &amp;quot;title&amp;quot;: &amp;quot;VSNotes: Open Note Folder&amp;quot;    }],
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It may not be necessary to put all your commands into the activation event depending on how you architect your application. This could be a
+potential issue if commands fail to show up.&lt;/p&gt;
+&lt;h2&gt;Complex commands&lt;/h2&gt;
+&lt;p&gt;I have no idea &lt;a href=&quot;https://code.visualstudio.com/docs/extensionAPI/vscode-api-commands&quot;&gt;what most of these do or why they are separate from the regular API&lt;/a&gt;. Could be because they are helper functions? Anyways, I used one to open a folder &lt;code&gt;vscode.openFolder&lt;/code&gt; and it took a bit of time to figure out how to actually open a folder. If some functionality you need isn’t in the &lt;a href=&quot;https://code.visualstudio.com/docs/extensionAPI/vscode-api&quot;&gt;regular namespace API&lt;/a&gt; check the &lt;a href=&quot;https://code.visualstudio.com/docs/extensionAPI/vscode-api-commands&quot;&gt;complex commands&lt;/a&gt; first.&lt;/p&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;Overall it was really painless to write a &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;VS Code&lt;/a&gt; extension. The &lt;a href=&quot;https://code.visualstudio.com/docs/extensions/yocode&quot;&gt;Yeoman scaffolding&lt;/a&gt; they provide really speeds up development time and makes the whole process much easier. &lt;a href=&quot;https://code.visualstudio.com/docs/extensions/publish-extension&quot;&gt;Publishing is well documented and easy with the provided CLI tool&lt;/a&gt;. Overall a pleasant experience.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/patleeman/VSNotes&quot;&gt;Check out the extension I wrote: VSNotes&lt;/a&gt;. It’s a quick way to set a note folder and create markdown notes right
+from VS Code. It’s quick and painless and lets you leverage VS Code’s
+extensions for your note taking workflow. &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=patricklee.vsnotes&quot;&gt;Grab it from the marketplace&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>A Website’s Life</title>
+    <link href="https://patricklee.nyc/blog/a-website-s-life/"/>
+    <updated>2017-08-30T00:00:00Z</updated>
+    <id>https://patricklee.nyc/blog/a-website-s-life/</id>
+    <content xml:lang="en" type="html">&lt;p&gt;Imagine your job is to run a website.&lt;/p&gt;
+&lt;p&gt;You build it, get it running, promote it and people start using it. Things are going well! After this initial rush you settle down into maintenance and growth mode. There is no more mad scramble to add new features or scale the site. Users like your content and slowly tell their friends. Things are growing, albeit slowly.&lt;/p&gt;
+&lt;p&gt;First you add some site analytics because you want to see who’s doing what on your site. Great, now you have a bit of insight into user behavior. You hear that buying ads on Facebook is effective to drive traffic, so you set that up and install their tracking code on your site. Easy peasy! You spend a couple bucks here and there, a/b test some things and do a couple of small test ad-buys. It turns out that its pretty difficult to get users to click on your Facebook ads, so you try Twitter, Pinterest, Instagram, and Google Adwords, to test things out. Some things work but you’re seeing sporadic results. Meanwhile, your marketing manager is complaining that the site has too many tags and that you need to add a tag manager. Your site’s header looks like somebody fired a shotgun of bad code at it, so you listen and install a tag manager. Awesome, that made things a bit neater and now you can easily install tags with the click of a mouse!&lt;/p&gt;
+&lt;p&gt;The internet has been buzzing about exit intent and how its the new hotness. You &lt;em&gt;need&lt;/em&gt; to capitalize it to retain users! It’s so easy to sign up for another AdTech company and install their JavaScript snippet in your tag manager, so there’s not even a second thought. Now when a user tries to do anything on your site, it will show them a popup modal and ask them to sign up for their email list. If they just want access to your content, they’ll have to click on a snarky cancel message. Haha! “No, you don’t want awesome content?”, they’ll &lt;em&gt;love&lt;/em&gt; that! Oh yeah, while you were installing exit intent popups, it turns out that email lists are the best way of contacting your users according to an article you read in Fast Company. So you sign up for Mail Chimp and begin cranking out emails. They say it doesn’t matter what its about, just that its on a consistent schedule. Let’s get that content flowing!&lt;/p&gt;
+&lt;p&gt;People love your content and sometimes post about it on social media. Awesome! New marketing channels! So you create a Facebook page, a Twitter account, a Pinterest board, an Instagram account, a Snapchat account and whatever else the kids are dooting on these days. Well it turns out managing five social media accounts is a lot of work! Good thing there’s a SAAS out there to solve your problem, so you sign up for one and start dooting to your users. Oh, in the mean time, wouldn’t it be cool for people to be able to doot to links to your content to their friends? So you add some social media links to your site so they can easily share content! &lt;em&gt;Brilliant&lt;/em&gt;!&lt;/p&gt;
+&lt;p&gt;Your boss comes by and wants to create more of a community feeling to your site, so you add a comments section with the leading comment section SAAS provider out there. It’s better than installing your own comment section because now users can sign up with Facebook or Twitter! Except they inject ads onto your site unless you pay them, so you pony up the monthly fee and pay them to host comments. Users begin commenting! Sweet!&lt;/p&gt;
+&lt;p&gt;Uh oh, people begin commenting on random pages that the site is really slow and doesn’t load well on mobile! Well crap, what can we do about that? Well, there’s this thing called Google Accelerated Mobile Pages that you heard about on CNET, let’s try that out. So your developer makes your site AMP enabled and you begin serving content via Google AMP. Now when users search for content on Google, they get a cached version of your site. Uh oh, but it also means they’re sharing mangled URLs on social media now. Well, we’ll deal with this later, we have more pressing matters right now.&lt;/p&gt;
+&lt;p&gt;Turns out you left some ads running on an obscure ad network and you racked up a couple thousand dollars in charges. Well that sucks, things must have gotten lost in the shuffle when you were testing ad platforms. You turn it off and go through each ad network to check for running ads. After ensuring no new ad campaigns are running, time to solve some other problems. Your last email campaign had an abysmal open rate, so you’ll need to troubleshoot that, but first you need to schedule some doots on social media. You start troubleshooting your email campaigns and it turns out your emails are going straight to the spam folder. Probably because people don’t like getting multiple emails per week from your site, explains the high unsubscribe rate too. You don’t understand, people are really engaged with your content! They’re commenting and sharing links… right?&lt;/p&gt;
+&lt;p&gt;Well…&lt;/p&gt;
+&lt;p&gt;The handy social sharing links you installed have only been clicked a handful of times. The fancy comments section is full of unrelated and low effort comments. Nobody seems to be talking to each other, just using it as a place to air their grievances about the slow load times and the incessant nagging exit intent modal. They still love your content, however it’s getting more and more difficult to reach it.&lt;/p&gt;
+&lt;p&gt;The site experience is starting to get bad, the console starts spitting out JavaScript errors because some of the SAAS services you installed went out of business. Browser updates begin breaking your site functionality (or so your developer tells you, it’s actually terribly written code). Things are beginning to grind to a halt so you do what any sane person does, decide to throw it all away and start fresh with a newly redesigned website.&lt;/p&gt;
+&lt;p&gt;You hire a top tier web agency to build the site (priced accordingly). They come highly recommended by the team in your sister company that just went through this process. They agile their way into a beautifully designed work of art, complete with full bleed high resolution images, quirky and cool widgets hidden in off-grid locations, carousels for days and a revamped homepage with megabytes on megabytes of images. &lt;strong&gt;It’s beautiful!&lt;/strong&gt; The work is complete and they hand the site over to you and your team.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Imagine your job is to run this website…&lt;/em&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>

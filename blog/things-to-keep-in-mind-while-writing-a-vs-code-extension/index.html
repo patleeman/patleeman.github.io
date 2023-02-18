@@ -1,0 +1,274 @@
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Primary Meta Tags -->
+  <title>Patrick Lee | Things to keep in mind while writing a VS Code extension.</title>
+  <meta name="description" content="Patrick Lee, software engineer, engineering manager, and all around cool dude">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://patricklee.nyc/blog/things-to-keep-in-mind-while-writing-a-vs-code-extension/">
+  <meta property="og:title" content="Patrick Lee | Things to keep in mind while writing a VS Code extension.">
+  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Fthings-to-keep-in-mind-while-writing-a-vs-code-extension%2F/opengraph/_1676753026848">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://patricklee.nyc/blog/things-to-keep-in-mind-while-writing-a-vs-code-extension/">
+  <meta property="twitter:title" content="Patrick Lee | Things to keep in mind while writing a VS Code extension.">
+  <meta property="twitter:description" content="Patrick Lee, software engineer, engineering manager, and all around cool dude">
+  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Fthings-to-keep-in-mind-while-writing-a-vs-code-extension%2F/opengraph/_1676753026848">
+
+  <link rel="canonical" href="https://patricklee.nyc" />
+
+  <!-- Icons -->
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/public/apple-touch-icon.png">
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/public/favicon-32x32.png">
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="/public/favicon-16x16.png">
+  <link rel="manifest" href="/public/site.webmanifest">
+  <link
+    rel="mask-icon"
+    href="/public/safari-pinned-tab.svg"
+    color="#5bbad5">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/public/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/public/styles/styles.css" />
+  <script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_P6ZpFufATQBcd9GAZbwg5mwgjcVbVxuOanHWOLXgEE1',{api_host:'https://app.posthog.com'})
+</script>
+</head>
+
+  <body>
+    <script>
+  document.addEventListener("DOMContentLoaded", () => {
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(
+    document.querySelectorAll(".navbar-burger"),
+    0
+  );
+
+  // Check if there are any navbar burgers
+  if ($navbarBurgers.length > 0) {
+    // Add a click event on each of them
+    $navbarBurgers.forEach((el) => {
+      el.addEventListener("click", () => {
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle("is-active");
+        $target.classList.toggle("is-active");
+      });
+    });
+  }
+});
+</script>
+
+<div class="hero-head bg-squares">
+  <nav
+    class="navbar bg-squares"
+    role="navigation"
+    aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item nav-logo" href="/">
+        Patrick Lee
+      </a>
+
+      <a
+        role="button"
+        class="navbar-burger"
+        data-target="navMenu"
+        aria-label="menu"
+        aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navMenu" class="navbar-menu bg-squares">
+      <div class="navbar-end">
+        <a class="navbar-item" href="/blog">
+          Writing
+        </a>
+
+        <a class="navbar-item" href="/about">
+          About
+        </a>
+
+        <a class="navbar-item" href="/uses">
+          Uses
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+    <section class="hero is-small bg-squares">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="title-box">
+        <h1 class="title">Things to keep in mind while writing a VS Code extension.</h1>
+        <p class="subtitle"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="section main">
+      <div class="container">
+        <div class="content">
+          <section class="section main">
+  <div class="container">
+    
+      <div class="date">
+        <p class="is-7">
+          <strong>Nov 7, 2017</strong>
+        </p>
+      </div>
+    
+
+    <div class="content">
+      <p>This article was originally posted on <a href="https://medium.com/patrickleenyc/things-to-keep-in-mind-while-writing-a-vs-code-extension-9f2a3369b799">medium</a>.</p>
+<p><a href="https://code.visualstudio.com/">VS Code</a> is a great editor platform. I tried my hand at creating an extension
+and although the documentation is fairly complete and thorough. I still
+ran into some issues. I’m documenting them here for other extension
+authors.</p>
+<p><img src="https://miro.medium.com/max/604/1*mUhuk-TkDPdDBcE2vep5BA.png" alt="https://miro.medium.com/max/604/1*mUhuk-TkDPdDBcE2vep5BA.png"></p>
+<p>VS Code functionality takes the form of commands in the command palette.</p>
+<h2>Promises</h2>
+<p>If you’re used to the ES6 Promise style then VS Code’s promise style may
+throw you off. Here is the newer style way to handle errors in promises
+by chaining a <code>catch</code> method after a <code>then</code> method:</p>
+<pre><code>// ES6 PromisedoPromise().then(val =&gt; {  handleValue(val)}).catch(err =&gt; {  handleError(err)})
+</code></pre>
+<p>VS Code’s Thenable style promise <code>then</code> method takes two params.</p>
+<ol>
+<li>Success handler</li>
+<li>Error handler</li>
+</ol>
+<pre><code>// Thenable style promisesdoPromise().then(  val =&gt; { handleValue(val) },   err =&gt; { handleError(err) })
+</code></pre>
+<p>Make sure to handle these errors correctly or you’re going to have a bad time.</p>
+<p><a href="https://github.com/Microsoft/vscode/issues/11693?source=post_page-----9f2a3369b799----------------------">WARNING: Promise with no error callback:3 · Issue #11693 · Microsoft/vscodeVSCode Version: 1.4.0 OS Version: 10.10.5 I'm developing an extension where I'm using Promises (bluebird in this case)…github.com</a></p>
+<h2>Settings</h2>
+<p>It wasn’t immediately clear how to add settings to my extension. Turns
+out, I was looking for the wrong word. Settings are actually call
+configurations and are located within contributions. <a href="https://code.visualstudio.com/docs/extensionAPI/extension-points#_contributesconfiguration">Here is a direct link to the documentation.</a></p>
+<p>To add a setting to your extension, you need to add a key to your extension’s package.json file.</p>
+<pre><code>&quot;contributes&quot;: {    &quot;configuration&quot;: ...}
+</code></pre>
+<p>This configuration section takes a JSON schema that describes what your
+setting should be. Basically what data type it takes, a default value
+and a description.</p>
+<p>It also wasn’t immediately clear how to implement a setting that takes an array of objects. You need to utilize the <code>items</code> key to describe nested values. Here is an example from my extension VSNotes:</p>
+<pre><code>
+</code></pre>
+<h2>Activation Events</h2>
+<p>If you have multiple commands you will need to make sure to include them in the <code>activationEvents</code> portion of your package.json. This tells vscode to execute the activate function in extension.js.</p>
+<p>For example:</p>
+<pre><code>&quot;activationEvents&quot;: [    &quot;onCommand:extension.newNote&quot;,    &quot;onCommand:extension.listNotes&quot;,    &quot;onCommand:extension.setupNotes&quot;,    &quot;onCommand:extension.openNoteFolder&quot;],&quot;commands&quot;: [    {        &quot;command&quot;: &quot;extension.newNote&quot;,        &quot;title&quot;: &quot;VSNotes: New Note&quot;    },    {        &quot;command&quot;: &quot;extension.listNotes&quot;,        &quot;title&quot;: &quot;VSNotes: List recent notes&quot;    },    {        &quot;command&quot;: &quot;extension.setupNotes&quot;,        &quot;title&quot;: &quot;VSNotes: Run setup&quot;    },    {        &quot;command&quot;: &quot;extension.openNoteFolder&quot;,        &quot;title&quot;: &quot;VSNotes: Open Note Folder&quot;    }],
+</code></pre>
+<p>It may not be necessary to put all your commands into the activation event depending on how you architect your application. This could be a
+potential issue if commands fail to show up.</p>
+<h2>Complex commands</h2>
+<p>I have no idea <a href="https://code.visualstudio.com/docs/extensionAPI/vscode-api-commands">what most of these do or why they are separate from the regular API</a>. Could be because they are helper functions? Anyways, I used one to open a folder <code>vscode.openFolder</code> and it took a bit of time to figure out how to actually open a folder. If some functionality you need isn’t in the <a href="https://code.visualstudio.com/docs/extensionAPI/vscode-api">regular namespace API</a> check the <a href="https://code.visualstudio.com/docs/extensionAPI/vscode-api-commands">complex commands</a> first.</p>
+<h1>Conclusion</h1>
+<p>Overall it was really painless to write a <a href="https://code.visualstudio.com/">VS Code</a> extension. The <a href="https://code.visualstudio.com/docs/extensions/yocode">Yeoman scaffolding</a> they provide really speeds up development time and makes the whole process much easier. <a href="https://code.visualstudio.com/docs/extensions/publish-extension">Publishing is well documented and easy with the provided CLI tool</a>. Overall a pleasant experience.</p>
+<p><strong><a href="https://github.com/patleeman/VSNotes">Check out the extension I wrote: VSNotes</a>. It’s a quick way to set a note folder and create markdown notes right
+from VS Code. It’s quick and painless and lets you leverage VS Code’s
+extensions for your note taking workflow. <a href="https://marketplace.visualstudio.com/items?itemName=patricklee.vsnotes">Grab it from the marketplace</a>.</strong></p>
+
+    </div>
+
+    <div class="tags">
+      
+        
+      
+        
+          <span class="tag is-info">
+            <a href="/tags/programming">programming</a>
+          </span>
+        
+      
+    </div>
+
+    <div class="">
+      <nav class="level">
+  <div class="level-left">
+    <div class="level-item">
+      <a
+        id="share-with"
+        href="/blog/things-to-keep-in-mind-while-writing-a-vs-code-extension/"
+        target="_blank"
+        title="Permalink">🔗 Permalink</a>
+    </div>
+    <div class="level-item">
+      <a
+        id="email-feedback"
+        href=""
+        target="_blank"
+        title="Send me some feedback">
+        📧  Send Feedback</a>
+    </div>
+  </div>
+</nav>
+    </div>
+  </div>
+</section>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg-squares">
+  <div class="content has-text-centered">
+    <span class="logo">
+      <a href="https://github.com/patleeman" target="_blank">
+        <img src="/public/github.png" alt="Github" />
+      </a>
+    </span>
+    <span class="logo">
+      <a href="https://www.linkedin.com/in/patrickleenyc/" target="_blank">
+        <img src="/public/linkedin.png" alt="Linkedin" />
+      </a>
+    </span>
+    <span class="logo">
+      <a
+        href="/feed.xml"
+        target="_blank"
+        title="RSS feed">
+        <img
+          src="/public/rss.png"
+          alt="RSS feed"
+          class="rss-icon" />
+      </a>
+    </span>
+  </div>
+
+  <div class="content has-text-centered">© 2016-2023 Patrick Lee</div>
+</footer>
+  </body>
+</html>
