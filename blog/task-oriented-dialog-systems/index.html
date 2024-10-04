@@ -11,14 +11,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://patricklee.nyc/blog/task-oriented-dialog-systems/">
   <meta property="og:title" content="Patrick Lee | Task Oriented Dialog Systems">
-  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Ftask-oriented-dialog-systems%2F/opengraph/_1728061354611">
+  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Ftask-oriented-dialog-systems%2F/opengraph/_1728063674641">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://patricklee.nyc/blog/task-oriented-dialog-systems/">
   <meta property="twitter:title" content="Patrick Lee | Task Oriented Dialog Systems">
   <meta property="twitter:description" content="Patrick Lee, software engineer, engineering manager, and all around cool dude">
-  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Ftask-oriented-dialog-systems%2F/opengraph/_1728061354611">
+  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Ftask-oriented-dialog-systems%2F/opengraph/_1728063674641">
 
   <link rel="canonical" href="https://patricklee.nyc" />
 
@@ -162,7 +162,7 @@ Generation with Large Language Models</a>. During the last year, I haven't seen 
 <h2>What is a Task-Oriented Dialog (TOD) System?</h2>
 <p>From my understanding, a TOD:</p>
 <ul>
-<li>Is a conversational system that helps users <strong>do</strong> something (achieve a goal).</li>
+<li>Is a <em>conversational system</em> that helps users <strong>do</strong> something (achieve a goal).</li>
 <li>Interprets the user's intent through baked-in assumptions or through workflows to disambiguate requests.</li>
 <li>Manages the conversation state and has logic to complete workflows (to achieve a goal).</li>
 </ul>
@@ -171,9 +171,9 @@ Generation with Large Language Models</a>. During the last year, I haven't seen 
 <p>Fun Fact: In NLP, they use the term utterance to refer to a single unit of human speech or text. It's the basic unit of communication in NLP systems.</p>
 </blockquote>
 <h2>What's an example?</h2>
-<p>Take, for example, a voice assistant like Amazon's Alexa or Apple's Siri. A user may provide the following utterance:</p>
-<p>User: Siri, what's the weather today?
-Assistant: The weather today in New York is 74 degrees Fahrenheit.</p>
+<p>Take, for example, an assistant like <a href="https://www.amazon.science/blog/new-alexa-research-on-task-oriented-dialogue-systems">Amazon's Alexa</a> or Apple's Siri. A user may provide the following utterance:</p>
+<p><strong>User:</strong> Siri, what's the weather today?</p>
+<p><strong>Assistant:</strong> The weather today in New York is 74 degrees Fahrenheit.</p>
 <p>How does the system go from the user asking what the weather is to it responding with the weather? This Task-Oriented Dialog system requires several major components:</p>
 <ol>
 <li>Figure out what the user is trying to achieve: &quot;The user would like to know the weather&quot;</li>
@@ -200,10 +200,6 @@ def program():
 <p>That's a lot of different systems for a relatively &quot;simple&quot; request!</p>
 <h2>Why aren't they more popular?</h2>
 <p>This is a question I've asked myself time and time again over the last year. The approach is fairly solid, and with large language models, NLP is so much easier than it used to be. So why isn't it more popular?</p>
-<p>First, let's look at what is popular.</p>
-<h3>Alternative: Function Calling / Tool Use</h3>
-<p>For those of us coming into the NLP and TOD space from the outside, we encounter <a href="https://platform.openai.com/docs/guides/function-calling">function calling</a> or tool use. Function calling is a popular feature implemented in many large LLM services that allow LLMs to &quot;use tools&quot; or reach out to external APIs or to call code.</p>
-<p>These are good tools if you're using an LLM as a conversational partner and to enable the LLM to achieve more, but for a TOD system, function calling requires embedding all your business logic into LLM prompts. Ultimately, this means less controllability of a highly non-deterministic system, and ultimately decision-making is left to the LLM. Letting an LLM control your business logic is <strong>not good</strong>! You want full control and accountability of your system!</p>
 <h3>Anatomy of a basic TOD system</h3>
 <p>First, let's look at what we need for a basic TOD system:</p>
 <ol>
@@ -255,6 +251,13 @@ def program():
 <li>LLMs are not AGI</li>
 </ol>
 <p>I think it's important to re-iterate that LLMs are not general intelligence. Leaving the ability for an LLM to make decisions is akin to letting users roll a weighted die on how to achieve their goal. It may work most of the time, but it can also blow up in their faces.</p>
+<h3>So why aren't they more popular?</h3>
+<p>Ultimately, I think they're just hard to build. Large companies have the resources to invest into NLP experts and teams of developers to build out complicated systems and main them. Smaller companies that want to &quot;implement AI&quot; are just trying to find low hanging fruit and build their entire workflows around LLMs.</p>
+<p>There is also a fatigue around &quot;chat bots&quot; happening now. Lots of chat focused applications are thin wrappers over LLMs and they've shown their functionality to be quite limited. There has been a push to integrate LLMs in other ways into products like copilots or agents.</p>
+<p>If you have a different theory, I would <strong>love</strong> to hear it though!</p>
+<h2>Alternative: Function Calling / Tool Use</h2>
+<p>For those of us coming into the NLP and TOD space from the outside, we encounter <a href="https://platform.openai.com/docs/guides/function-calling">function calling</a> or tool use. Function calling is a popular feature implemented in many large LLM services that allow LLMs to &quot;use tools&quot; or reach out to external APIs or to call code.</p>
+<p>These are good tools if you're using an LLM as a conversational partner and to enable the LLM to achieve more, but for a TOD system, function calling requires embedding all your business logic into LLM prompts. Ultimately, this means less controllability of a highly non-deterministic system, and ultimately decision-making is left to the LLM. Letting an LLM control your business logic is <strong>not good</strong>! You want full control and accountability of your system!</p>
 <h2>Just use Python</h2>
 <p>Why create your own language when you can use an existing language like Python? The model already knows how to write Python.</p>
 <p>Yes, that's true. We looked into this and you run into two main problems.</p>
@@ -267,7 +270,8 @@ Second, you run into the issue of the model trying to use its vast knowledge of 
 <p>Well, I'm sorry to tell you that the reports of fine-tuning's demise are greatly exaggerated. RAG and in-context learning are powerful, yes, but you're still paying per token for model input!</p>
 <p>You're also beholden to high latencies with external services! You can fine-tune an 8B model for a specific purpose with much lower per-token latencies than using a larger general model.</p>
 <h1>Conclusion</h1>
-<p>So this is what I understand of the current state of the world from my very limited point of view as a web developer trying to figure out how to incorporate LLMs into an existing product. TOD systems and function calling are both tools that leverage LLMs, but each comes with distinct trade-offs.</p>
+<p>So this is what I understand of the current state of the world from my very limited point of view as a web developer trying to figure out how to incorporate LLMs into an existing product.</p>
+<p>I would love to learn more about Task Oriented Dialog systems and get a better sense of the environment in which they exist. Please reach out! I'd love to hear from you if you've worked on systems like this before.</p>
 <h1>Other Resources</h1>
 <p><a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00333/96470/Task-Oriented-Dialogue-as-Dataflow-Synthesis">Task-Oriented Dialogue as Dataflow Synthesis</a>
 <a href="https://arxiv.org/abs/2305.19234">Grammar Prompting for Domain-Specific Language Generation with Large Language Models</a>
@@ -276,7 +280,8 @@ Second, you run into the issue of the model trying to use its vast knowledge of 
 <a href="https://arxiv.org/abs/2212.09939">AnyTOD</a>
 <a href="https://github.com/google-research/task-oriented-dialogue?tab=readme-ov-file">google-research/task-oriented-dialogue</a>
 <a href="https://github.com/budzianowski/multiwoz">budzianowski/multiwoz</a>
-<a href="https://www.cs.princeton.edu/courses/archive/spring20/cos598C/">Princeton COS598C</a> <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec16-task-oriented-dialogue.pdf">Lecture Notes on TOD</a></p>
+<a href="https://www.cs.princeton.edu/courses/archive/spring20/cos598C/">Princeton COS598C</a> <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec16-task-oriented-dialogue.pdf">Lecture Notes on TOD</a>
+<a href="https://www.amazon.science/alexa-prize/proceedings/making-something-out-of-nothing-building-robust-task-oriented-dialogue-systems-from-scratch">Making Something out of Nothing: Building Robust Task-oriented Dialogue Systems from Scratch</a></p>
 
     </div>
 

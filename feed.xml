@@ -25,7 +25,7 @@ Generation with Large Language Models&lt;/a&gt;. During the last year, I haven&#
 &lt;h2&gt;What is a Task-Oriented Dialog (TOD) System?&lt;/h2&gt;
 &lt;p&gt;From my understanding, a TOD:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Is a conversational system that helps users &lt;strong&gt;do&lt;/strong&gt; something (achieve a goal).&lt;/li&gt;
+&lt;li&gt;Is a &lt;em&gt;conversational system&lt;/em&gt; that helps users &lt;strong&gt;do&lt;/strong&gt; something (achieve a goal).&lt;/li&gt;
 &lt;li&gt;Interprets the user&#39;s intent through baked-in assumptions or through workflows to disambiguate requests.&lt;/li&gt;
 &lt;li&gt;Manages the conversation state and has logic to complete workflows (to achieve a goal).&lt;/li&gt;
 &lt;/ul&gt;
@@ -34,9 +34,9 @@ Generation with Large Language Models&lt;/a&gt;. During the last year, I haven&#
 &lt;p&gt;Fun Fact: In NLP, they use the term utterance to refer to a single unit of human speech or text. It&#39;s the basic unit of communication in NLP systems.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;What&#39;s an example?&lt;/h2&gt;
-&lt;p&gt;Take, for example, a voice assistant like Amazon&#39;s Alexa or Apple&#39;s Siri. A user may provide the following utterance:&lt;/p&gt;
-&lt;p&gt;User: Siri, what&#39;s the weather today?
-Assistant: The weather today in New York is 74 degrees Fahrenheit.&lt;/p&gt;
+&lt;p&gt;Take, for example, an assistant like &lt;a href=&quot;https://www.amazon.science/blog/new-alexa-research-on-task-oriented-dialogue-systems&quot;&gt;Amazon&#39;s Alexa&lt;/a&gt; or Apple&#39;s Siri. A user may provide the following utterance:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;User:&lt;/strong&gt; Siri, what&#39;s the weather today?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Assistant:&lt;/strong&gt; The weather today in New York is 74 degrees Fahrenheit.&lt;/p&gt;
 &lt;p&gt;How does the system go from the user asking what the weather is to it responding with the weather? This Task-Oriented Dialog system requires several major components:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Figure out what the user is trying to achieve: &amp;quot;The user would like to know the weather&amp;quot;&lt;/li&gt;
@@ -63,10 +63,6 @@ def program():
 &lt;p&gt;That&#39;s a lot of different systems for a relatively &amp;quot;simple&amp;quot; request!&lt;/p&gt;
 &lt;h2&gt;Why aren&#39;t they more popular?&lt;/h2&gt;
 &lt;p&gt;This is a question I&#39;ve asked myself time and time again over the last year. The approach is fairly solid, and with large language models, NLP is so much easier than it used to be. So why isn&#39;t it more popular?&lt;/p&gt;
-&lt;p&gt;First, let&#39;s look at what is popular.&lt;/p&gt;
-&lt;h3&gt;Alternative: Function Calling / Tool Use&lt;/h3&gt;
-&lt;p&gt;For those of us coming into the NLP and TOD space from the outside, we encounter &lt;a href=&quot;https://platform.openai.com/docs/guides/function-calling&quot;&gt;function calling&lt;/a&gt; or tool use. Function calling is a popular feature implemented in many large LLM services that allow LLMs to &amp;quot;use tools&amp;quot; or reach out to external APIs or to call code.&lt;/p&gt;
-&lt;p&gt;These are good tools if you&#39;re using an LLM as a conversational partner and to enable the LLM to achieve more, but for a TOD system, function calling requires embedding all your business logic into LLM prompts. Ultimately, this means less controllability of a highly non-deterministic system, and ultimately decision-making is left to the LLM. Letting an LLM control your business logic is &lt;strong&gt;not good&lt;/strong&gt;! You want full control and accountability of your system!&lt;/p&gt;
 &lt;h3&gt;Anatomy of a basic TOD system&lt;/h3&gt;
 &lt;p&gt;First, let&#39;s look at what we need for a basic TOD system:&lt;/p&gt;
 &lt;ol&gt;
@@ -118,6 +114,13 @@ def program():
 &lt;li&gt;LLMs are not AGI&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;I think it&#39;s important to re-iterate that LLMs are not general intelligence. Leaving the ability for an LLM to make decisions is akin to letting users roll a weighted die on how to achieve their goal. It may work most of the time, but it can also blow up in their faces.&lt;/p&gt;
+&lt;h3&gt;So why aren&#39;t they more popular?&lt;/h3&gt;
+&lt;p&gt;Ultimately, I think they&#39;re just hard to build. Large companies have the resources to invest into NLP experts and teams of developers to build out complicated systems and main them. Smaller companies that want to &amp;quot;implement AI&amp;quot; are just trying to find low hanging fruit and build their entire workflows around LLMs.&lt;/p&gt;
+&lt;p&gt;There is also a fatigue around &amp;quot;chat bots&amp;quot; happening now. Lots of chat focused applications are thin wrappers over LLMs and they&#39;ve shown their functionality to be quite limited. There has been a push to integrate LLMs in other ways into products like copilots or agents.&lt;/p&gt;
+&lt;p&gt;If you have a different theory, I would &lt;strong&gt;love&lt;/strong&gt; to hear it though!&lt;/p&gt;
+&lt;h2&gt;Alternative: Function Calling / Tool Use&lt;/h2&gt;
+&lt;p&gt;For those of us coming into the NLP and TOD space from the outside, we encounter &lt;a href=&quot;https://platform.openai.com/docs/guides/function-calling&quot;&gt;function calling&lt;/a&gt; or tool use. Function calling is a popular feature implemented in many large LLM services that allow LLMs to &amp;quot;use tools&amp;quot; or reach out to external APIs or to call code.&lt;/p&gt;
+&lt;p&gt;These are good tools if you&#39;re using an LLM as a conversational partner and to enable the LLM to achieve more, but for a TOD system, function calling requires embedding all your business logic into LLM prompts. Ultimately, this means less controllability of a highly non-deterministic system, and ultimately decision-making is left to the LLM. Letting an LLM control your business logic is &lt;strong&gt;not good&lt;/strong&gt;! You want full control and accountability of your system!&lt;/p&gt;
 &lt;h2&gt;Just use Python&lt;/h2&gt;
 &lt;p&gt;Why create your own language when you can use an existing language like Python? The model already knows how to write Python.&lt;/p&gt;
 &lt;p&gt;Yes, that&#39;s true. We looked into this and you run into two main problems.&lt;/p&gt;
@@ -130,7 +133,8 @@ Second, you run into the issue of the model trying to use its vast knowledge of 
 &lt;p&gt;Well, I&#39;m sorry to tell you that the reports of fine-tuning&#39;s demise are greatly exaggerated. RAG and in-context learning are powerful, yes, but you&#39;re still paying per token for model input!&lt;/p&gt;
 &lt;p&gt;You&#39;re also beholden to high latencies with external services! You can fine-tune an 8B model for a specific purpose with much lower per-token latencies than using a larger general model.&lt;/p&gt;
 &lt;h1&gt;Conclusion&lt;/h1&gt;
-&lt;p&gt;So this is what I understand of the current state of the world from my very limited point of view as a web developer trying to figure out how to incorporate LLMs into an existing product. TOD systems and function calling are both tools that leverage LLMs, but each comes with distinct trade-offs.&lt;/p&gt;
+&lt;p&gt;So this is what I understand of the current state of the world from my very limited point of view as a web developer trying to figure out how to incorporate LLMs into an existing product.&lt;/p&gt;
+&lt;p&gt;I would love to learn more about Task Oriented Dialog systems and get a better sense of the environment in which they exist. Please reach out! I&#39;d love to hear from you if you&#39;ve worked on systems like this before.&lt;/p&gt;
 &lt;h1&gt;Other Resources&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00333/96470/Task-Oriented-Dialogue-as-Dataflow-Synthesis&quot;&gt;Task-Oriented Dialogue as Dataflow Synthesis&lt;/a&gt;
 &lt;a href=&quot;https://arxiv.org/abs/2305.19234&quot;&gt;Grammar Prompting for Domain-Specific Language Generation with Large Language Models&lt;/a&gt;
@@ -139,7 +143,8 @@ Second, you run into the issue of the model trying to use its vast knowledge of 
 &lt;a href=&quot;https://arxiv.org/abs/2212.09939&quot;&gt;AnyTOD&lt;/a&gt;
 &lt;a href=&quot;https://github.com/google-research/task-oriented-dialogue?tab=readme-ov-file&quot;&gt;google-research/task-oriented-dialogue&lt;/a&gt;
 &lt;a href=&quot;https://github.com/budzianowski/multiwoz&quot;&gt;budzianowski/multiwoz&lt;/a&gt;
-&lt;a href=&quot;https://www.cs.princeton.edu/courses/archive/spring20/cos598C/&quot;&gt;Princeton COS598C&lt;/a&gt; &lt;a href=&quot;https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec16-task-oriented-dialogue.pdf&quot;&gt;Lecture Notes on TOD&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://www.cs.princeton.edu/courses/archive/spring20/cos598C/&quot;&gt;Princeton COS598C&lt;/a&gt; &lt;a href=&quot;https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec16-task-oriented-dialogue.pdf&quot;&gt;Lecture Notes on TOD&lt;/a&gt;
+&lt;a href=&quot;https://www.amazon.science/alexa-prize/proceedings/making-something-out-of-nothing-building-robust-task-oriented-dialogue-systems-from-scratch&quot;&gt;Making Something out of Nothing: Building Robust Task-oriented Dialogue Systems from Scratch&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -650,8 +655,8 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then I updated my header to use this shortcode under the &lt;code&gt;og:image&lt;/code&gt; and &lt;code&gt;twitter:image&lt;/code&gt; tags &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/blob/56e675dd7d94121337a91924dc72eec5bbfab084/_includes/layouts/header.liquid#L13&quot;&gt;like so&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!-- header.liquid --&amp;gt;
-&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1728061353641&amp;quot; /&amp;gt;
-&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1728061353641&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1728063674471&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1728063674471&amp;quot; /&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;That&#39;s all it takes!&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
