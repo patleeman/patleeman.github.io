@@ -7,6 +7,139 @@
     <description>Software engineer</description>
     <language>en</language>
     <item>
+      <title>Task Oriented Dialog Systems</title>
+      <link>https://patricklee.nyc/blog/task-oriented-dialog-systems/</link>
+      <description>&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;During my time at Clockwise, &lt;a href=&quot;https://www.linkedin.com/pulse/building-prism-how-we-developed-our-domain-specific-patrick-lerhaupt-uinvc/&quot;&gt;I worked on Prism&lt;/a&gt;, a calendar management product that leverages AI to interpret user commands to execute actions on their calendar. I won&#39;t go too deep into my work at Clockwise, but I will explore the concept of using domain-specific languages with LLMs to achieve a goal.&lt;/p&gt;
+&lt;p&gt;I stumbled across this concept when I found &lt;a href=&quot;https://arxiv.org/pdf/2305.19234&quot;&gt;Grammar Prompting for Domain-Specific Language
+Generation with Large Language Models&lt;/a&gt;. During the last year, I haven&#39;t seen much discourse on domain-specific languages in conjunction with large language models, and I&#39;ve been trying to wrap my head around why. I&#39;m not an expert in machine learning or natural language processing (NLP), so I have incomplete knowledge.&lt;/p&gt;
+&lt;p&gt;This post is a collection of insights I&#39;ve gathered over the past year. If you&#39;re well-versed in Task-Oriented Dialog (TOD) systems, I&#39;d love to connect and learn more from you!&lt;/p&gt;
+&lt;h1&gt;Task-oriented dialog systems&lt;/h1&gt;
+&lt;p&gt;From what I&#39;ve gathered, the approach we used is a subset of NLP known as Task-Oriented Dialog (TOD) Systems.&lt;/p&gt;
+&lt;h2&gt;What is a Task-Oriented Dialog (TOD) System?&lt;/h2&gt;
+&lt;p&gt;From my understanding, a TOD:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Is a conversational system that helps users &lt;strong&gt;do&lt;/strong&gt; something (achieve a goal).&lt;/li&gt;
+&lt;li&gt;Interprets the user&#39;s intent through baked-in assumptions or through workflows to disambiguate requests.&lt;/li&gt;
+&lt;li&gt;Manages the conversation state and has logic to complete workflows (to achieve a goal).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In a nutshell, it&#39;s a system that interprets a user&#39;s intent (their utterance), resolves ambiguity, and then formulates a plan for execution.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Fun Fact: In NLP, they use the term utterance to refer to a single unit of human speech or text. It&#39;s the basic unit of communication in NLP systems.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;What&#39;s an example?&lt;/h2&gt;
+&lt;p&gt;Take, for example, a voice assistant like Amazon&#39;s Alexa or Apple&#39;s Siri. A user may provide the following utterance:&lt;/p&gt;
+&lt;p&gt;User: Siri, what&#39;s the weather today?
+Assistant: The weather today in New York is 74 degrees Fahrenheit.&lt;/p&gt;
+&lt;p&gt;How does the system go from the user asking what the weather is to it responding with the weather? This Task-Oriented Dialog system requires several major components:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Figure out what the user is trying to achieve: &amp;quot;The user would like to know the weather&amp;quot;&lt;/li&gt;
+&lt;li&gt;Remove ambiguity, such as the user&#39;s location: &amp;quot;The user would like to know the weather in their location&amp;quot;&lt;/li&gt;
+&lt;li&gt;Create a plan to execute: &amp;quot;Get the weather in their location and return that to the user&amp;quot;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Even breaking down this system into smaller pieces results in quite a bit of complexity!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The system needs a way to turn the user&#39;s request into a plan (a program).&lt;/li&gt;
+&lt;li&gt;The system needs a way to figure out the user&#39;s location.&lt;/li&gt;
+&lt;li&gt;The system needs a way to output this result to the user.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In order to get a machine to interpret the user&#39;s intent, the intent must be translated into a machine-readable plan. This is where a representation of complex ideas comes into play (a domain-specific language maybe?):&lt;/p&gt;
+&lt;p&gt;For example, what if our plan was a Python program?&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def get_user_location():
+  &#39;&#39;&#39;Gets the user location from previously stored user information or via device gps&#39;&#39;&#39;
+
+def get_weather(location):
+  &#39;&#39;&#39;Query an external weather API to get the weather in the user&#39;s location&#39;&#39;&#39;
+
+def program():
+  return get_weather(get_user_location())
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That&#39;s a lot of different systems for a relatively &amp;quot;simple&amp;quot; request!&lt;/p&gt;
+&lt;h2&gt;Why aren&#39;t they more popular?&lt;/h2&gt;
+&lt;p&gt;This is a question I&#39;ve asked myself time and time again over the last year. The approach is fairly solid, and with large language models, NLP is so much easier than it used to be. So why isn&#39;t it more popular?&lt;/p&gt;
+&lt;p&gt;First, let&#39;s look at what is popular.&lt;/p&gt;
+&lt;h3&gt;Alternative: Function Calling / Tool Use&lt;/h3&gt;
+&lt;p&gt;For those of us coming into the NLP and TOD space from the outside, we encounter &lt;a href=&quot;https://platform.openai.com/docs/guides/function-calling&quot;&gt;function calling&lt;/a&gt; or tool use. Function calling is a popular feature implemented in many large LLM services that allow LLMs to &amp;quot;use tools&amp;quot; or reach out to external APIs or to call code.&lt;/p&gt;
+&lt;p&gt;These are good tools if you&#39;re using an LLM as a conversational partner and to enable the LLM to achieve more, but for a TOD system, function calling requires embedding all your business logic into LLM prompts. Ultimately, this means less controllability of a highly non-deterministic system, and ultimately decision-making is left to the LLM. Letting an LLM control your business logic is &lt;strong&gt;not good&lt;/strong&gt;! You want full control and accountability of your system!&lt;/p&gt;
+&lt;h3&gt;Anatomy of a basic TOD system&lt;/h3&gt;
+&lt;p&gt;First, let&#39;s look at what we need for a basic TOD system:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;We need a way to turn a user&#39;s utterance into some kind of structured data that we can then interpret.&lt;/li&gt;
+&lt;li&gt;We need a way to train some model to output this structured data.&lt;/li&gt;
+&lt;li&gt;We need to then take the output plan and &amp;quot;run&amp;quot; it on our systems to execute actions to achieve a goal.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;How this looks in the system we built at Clockwise was:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;We generated user utterances and domain-specific language conversations synthetically using a larger model.&lt;/li&gt;
+&lt;li&gt;We fine-tuned an open-source model using this data.&lt;/li&gt;
+&lt;li&gt;We built an interpreter that would &amp;quot;run&amp;quot; this DSL and execute actions to achieve the user&#39;s goal and connected it to existing internal APIs.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It was a &lt;strong&gt;ton&lt;/strong&gt; of work! It took me and a team of backend engineers a year to get a stable working system!&lt;/p&gt;
+&lt;h3&gt;Downsides of TOD systems&lt;/h3&gt;
+&lt;p&gt;So why aren&#39;t TOD systems more popular in this age of a massive influx of AI companies? In my opinion:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;They just don&#39;t know about it.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Many people, myself included, enter the space with little to no prior knowledge or experience in NLP systems. We became interested with the popularization of LLMs and wanted to build things with this new LLM technology.&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;TODs are complex and hard to build!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It takes a lot of work to build a TOD system. Just the basic system I outlined required:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Creating a domain-specific language&lt;/li&gt;
+&lt;li&gt;Creating an interpreter for this custom domain-specific language&lt;/li&gt;
+&lt;li&gt;Generating a dataset to teach a model how to output this domain-specific language&lt;/li&gt;
+&lt;li&gt;Making sure this dataset was clean and didn&#39;t have issues like hallucinated keywords, or syntax errors&lt;/li&gt;
+&lt;li&gt;Doing the actual model training and tweaking hyperparameters&lt;/li&gt;
+&lt;li&gt;Serving the model on some kind of GPU-enabled infrastructure&lt;/li&gt;
+&lt;li&gt;Creating an eval dataset and setting up a way to test model output to control quality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&#39;s a lot of complex components and takes a long time even if you have a team of highly experienced engineers.&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;It takes a lot of work to create custom datasets to train a model on your domain-specific language.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you create a custom DSL, any trained model will have no context on that language since it doesn&#39;t appear in its training data. That means that you need to provide documentation and examples for how to use the DSL, and in turn, that means you need to have a deep understanding of the different use cases and appropriate actions the model can take.&lt;/p&gt;
+&lt;h3&gt;Upsides of a TOD system&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Control&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;With a TOD system, it is much easier to control the LLM output, constraining it to whatever is do-able by your domain-specific language. You can also keep your business logic out of the prompt for the model. Essentially your &amp;quot;plans&amp;quot; or programs in your DSL is your business logic and it can be expressed in some intermediate representation.&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Auditability&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;With some intermediate representation of the user&#39;s intent, you can easily audit this plan or present it to the user for confirmation prior to executing the actions. This is very important to ensure the user experience is both reproducible and controllable. You don&#39;t want an LLM making decisions in some black box that you can&#39;t debug or explain to the user why it did what it did. You certainly don&#39;t want to let an LLM make potentially damaging changes to users&#39; data without their explicit confirmation!&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;LLMs are not AGI&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I think it&#39;s important to re-iterate that LLMs are not general intelligence. Leaving the ability for an LLM to make decisions is akin to letting users roll a weighted die on how to achieve their goal. It may work most of the time, but it can also blow up in their faces.&lt;/p&gt;
+&lt;h2&gt;Just use Python&lt;/h2&gt;
+&lt;p&gt;Why create your own language when you can use an existing language like Python? The model already knows how to write Python.&lt;/p&gt;
+&lt;p&gt;Yes, that&#39;s true. We looked into this and you run into two main problems.&lt;/p&gt;
+&lt;p&gt;First, you need to figure out how to sandbox Python and be sure there are no leaks anywhere; otherwise, you create a major security hole.
+Second, you run into the issue of the model trying to use its vast knowledge of Python to do all sorts of stuff.&lt;/p&gt;
+&lt;p&gt;When we experimented with Python output, the model tended to try to import packages, both from the core library and third party. This opens up another vector for attack.&lt;/p&gt;
+&lt;p&gt;Finally, Python is fairly verbose, and the more verbose your language, the more tokens it takes to generate an output, the slower your overall system will be.&lt;/p&gt;
+&lt;h2&gt;Isn&#39;t fine-tuning dead?&lt;/h2&gt;
+&lt;p&gt;Why are you fine-tuning models? Didn&#39;t you know that &lt;a href=&quot;https://christianjmills.com/posts/mastering-llms-course-notes/conference-talk-009/&quot;&gt;fine-tuning is dead?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Well, I&#39;m sorry to tell you that the reports of fine-tuning&#39;s demise are greatly exaggerated. RAG and in-context learning are powerful, yes, but you&#39;re still paying per token for model input!&lt;/p&gt;
+&lt;p&gt;You&#39;re also beholden to high latencies with external services! You can fine-tune an 8B model for a specific purpose with much lower per-token latencies than using a larger general model.&lt;/p&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;So this is what I understand of the current state of the world from my very limited point of view as a web developer trying to figure out how to incorporate LLMs into an existing product. TOD systems and function calling are both tools that leverage LLMs, but each comes with distinct trade-offs.&lt;/p&gt;
+&lt;h1&gt;Other Resources&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00333/96470/Task-Oriented-Dialogue-as-Dataflow-Synthesis&quot;&gt;Task-Oriented Dialogue as Dataflow Synthesis&lt;/a&gt;
+&lt;a href=&quot;https://arxiv.org/abs/2305.19234&quot;&gt;Grammar Prompting for Domain-Specific Language Generation with Large Language Models&lt;/a&gt;
+&lt;a href=&quot;https://arxiv.org/abs/2306.03460&quot;&gt;Natural Language Commanding via Program Synthesis&lt;/a&gt;
+&lt;a href=&quot;https://arxiv.org/abs/2308.02323&quot;&gt;Dataflow Dialogue Generation&lt;/a&gt;
+&lt;a href=&quot;https://arxiv.org/abs/2212.09939&quot;&gt;AnyTOD&lt;/a&gt;
+&lt;a href=&quot;https://github.com/google-research/task-oriented-dialogue?tab=readme-ov-file&quot;&gt;google-research/task-oriented-dialogue&lt;/a&gt;
+&lt;a href=&quot;https://github.com/budzianowski/multiwoz&quot;&gt;budzianowski/multiwoz&lt;/a&gt;
+&lt;a href=&quot;https://www.cs.princeton.edu/courses/archive/spring20/cos598C/&quot;&gt;Princeton COS598C&lt;/a&gt; &lt;a href=&quot;https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec16-task-oriented-dialogue.pdf&quot;&gt;Lecture Notes on TOD&lt;/a&gt;&lt;/p&gt;
+</description>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <dc:creator>Patrick Lee</dc:creator>
+      <guid>https://patricklee.nyc/blog/task-oriented-dialog-systems/</guid>
+    </item>
+    <item>
       <title>Moving onto a new chapter</title>
       <link>https://patricklee.nyc/blog/moving-onto-a-new-chapter/</link>
       <description>&lt;h1&gt;Moving onto a new chapter&lt;/h1&gt;
@@ -516,8 +649,8 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then I updated my header to use this shortcode under the &lt;code&gt;og:image&lt;/code&gt; and &lt;code&gt;twitter:image&lt;/code&gt; tags &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/blob/56e675dd7d94121337a91924dc72eec5bbfab084/_includes/layouts/header.liquid#L13&quot;&gt;like so&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!-- header.liquid --&amp;gt;
-&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1725626163617&amp;quot; /&amp;gt;
-&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1725626163617&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1728061353641&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1728061353641&amp;quot; /&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;That&#39;s all it takes!&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;

@@ -1,0 +1,345 @@
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Primary Meta Tags -->
+  <title>Patrick Lee | Task Oriented Dialog Systems</title>
+  <meta name="description" content="Patrick Lee, software engineer, engineering manager, and all around cool dude">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://patricklee.nyc/blog/task-oriented-dialog-systems/">
+  <meta property="og:title" content="Patrick Lee | Task Oriented Dialog Systems">
+  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Ftask-oriented-dialog-systems%2F/opengraph/_1728061354611">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://patricklee.nyc/blog/task-oriented-dialog-systems/">
+  <meta property="twitter:title" content="Patrick Lee | Task Oriented Dialog Systems">
+  <meta property="twitter:description" content="Patrick Lee, software engineer, engineering manager, and all around cool dude">
+  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Ftask-oriented-dialog-systems%2F/opengraph/_1728061354611">
+
+  <link rel="canonical" href="https://patricklee.nyc" />
+
+  <!-- Icons -->
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/public/apple-touch-icon.png">
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/public/favicon-32x32.png">
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="/public/favicon-16x16.png">
+  <link rel="manifest" href="/public/site.webmanifest">
+  <link
+    rel="mask-icon"
+    href="/public/safari-pinned-tab.svg"
+    color="#5bbad5">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/public/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/public/styles/styles.css" />
+  <script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_P6ZpFufATQBcd9GAZbwg5mwgjcVbVxuOanHWOLXgEE1',{api_host:'https://app.posthog.com'})
+</script>
+</head>
+
+  <body>
+    <script>
+  document.addEventListener("DOMContentLoaded", () => {
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(
+    document.querySelectorAll(".navbar-burger"),
+    0
+  );
+
+  // Check if there are any navbar burgers
+  if ($navbarBurgers.length > 0) {
+    // Add a click event on each of them
+    $navbarBurgers.forEach((el) => {
+      el.addEventListener("click", () => {
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle("is-active");
+        $target.classList.toggle("is-active");
+      });
+    });
+  }
+});
+</script>
+
+<div class="hero-head bg-squares">
+  <nav
+    class="navbar bg-squares"
+    role="navigation"
+    aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item nav-logo" href="/">
+        Patrick Lee
+      </a>
+
+      <a
+        role="button"
+        class="navbar-burger"
+        data-target="navMenu"
+        aria-label="menu"
+        aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navMenu" class="navbar-menu bg-squares">
+      <div class="navbar-end">
+        <a class="navbar-item" href="/blog">
+          Writing
+        </a>
+
+        <a class="navbar-item" href="/about">
+          About
+        </a>
+
+        <a class="navbar-item" href="/uses">
+          Uses
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+    <section class="hero is-small bg-squares">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="title-box">
+        <h1 class="title">Task Oriented Dialog Systems</h1>
+        <p class="subtitle"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="section main">
+      <div class="container">
+        <div class="content">
+          <section class="section main">
+  <div class="container">
+    
+      <div class="date">
+        <p class="is-7">
+          <strong>Oct 4, 2024</strong>
+        </p>
+      </div>
+    
+
+    <div class="content">
+      <h1>Introduction</h1>
+<p>During my time at Clockwise, <a href="https://www.linkedin.com/pulse/building-prism-how-we-developed-our-domain-specific-patrick-lerhaupt-uinvc/">I worked on Prism</a>, a calendar management product that leverages AI to interpret user commands to execute actions on their calendar. I won't go too deep into my work at Clockwise, but I will explore the concept of using domain-specific languages with LLMs to achieve a goal.</p>
+<p>I stumbled across this concept when I found <a href="https://arxiv.org/pdf/2305.19234">Grammar Prompting for Domain-Specific Language
+Generation with Large Language Models</a>. During the last year, I haven't seen much discourse on domain-specific languages in conjunction with large language models, and I've been trying to wrap my head around why. I'm not an expert in machine learning or natural language processing (NLP), so I have incomplete knowledge.</p>
+<p>This post is a collection of insights I've gathered over the past year. If you're well-versed in Task-Oriented Dialog (TOD) systems, I'd love to connect and learn more from you!</p>
+<h1>Task-oriented dialog systems</h1>
+<p>From what I've gathered, the approach we used is a subset of NLP known as Task-Oriented Dialog (TOD) Systems.</p>
+<h2>What is a Task-Oriented Dialog (TOD) System?</h2>
+<p>From my understanding, a TOD:</p>
+<ul>
+<li>Is a conversational system that helps users <strong>do</strong> something (achieve a goal).</li>
+<li>Interprets the user's intent through baked-in assumptions or through workflows to disambiguate requests.</li>
+<li>Manages the conversation state and has logic to complete workflows (to achieve a goal).</li>
+</ul>
+<p>In a nutshell, it's a system that interprets a user's intent (their utterance), resolves ambiguity, and then formulates a plan for execution.</p>
+<blockquote>
+<p>Fun Fact: In NLP, they use the term utterance to refer to a single unit of human speech or text. It's the basic unit of communication in NLP systems.</p>
+</blockquote>
+<h2>What's an example?</h2>
+<p>Take, for example, a voice assistant like Amazon's Alexa or Apple's Siri. A user may provide the following utterance:</p>
+<p>User: Siri, what's the weather today?
+Assistant: The weather today in New York is 74 degrees Fahrenheit.</p>
+<p>How does the system go from the user asking what the weather is to it responding with the weather? This Task-Oriented Dialog system requires several major components:</p>
+<ol>
+<li>Figure out what the user is trying to achieve: &quot;The user would like to know the weather&quot;</li>
+<li>Remove ambiguity, such as the user's location: &quot;The user would like to know the weather in their location&quot;</li>
+<li>Create a plan to execute: &quot;Get the weather in their location and return that to the user&quot;</li>
+</ol>
+<p>Even breaking down this system into smaller pieces results in quite a bit of complexity!</p>
+<ol>
+<li>The system needs a way to turn the user's request into a plan (a program).</li>
+<li>The system needs a way to figure out the user's location.</li>
+<li>The system needs a way to output this result to the user.</li>
+</ol>
+<p>In order to get a machine to interpret the user's intent, the intent must be translated into a machine-readable plan. This is where a representation of complex ideas comes into play (a domain-specific language maybe?):</p>
+<p>For example, what if our plan was a Python program?</p>
+<pre><code class="language-python">def get_user_location():
+  '''Gets the user location from previously stored user information or via device gps'''
+
+def get_weather(location):
+  '''Query an external weather API to get the weather in the user's location'''
+
+def program():
+  return get_weather(get_user_location())
+</code></pre>
+<p>That's a lot of different systems for a relatively &quot;simple&quot; request!</p>
+<h2>Why aren't they more popular?</h2>
+<p>This is a question I've asked myself time and time again over the last year. The approach is fairly solid, and with large language models, NLP is so much easier than it used to be. So why isn't it more popular?</p>
+<p>First, let's look at what is popular.</p>
+<h3>Alternative: Function Calling / Tool Use</h3>
+<p>For those of us coming into the NLP and TOD space from the outside, we encounter <a href="https://platform.openai.com/docs/guides/function-calling">function calling</a> or tool use. Function calling is a popular feature implemented in many large LLM services that allow LLMs to &quot;use tools&quot; or reach out to external APIs or to call code.</p>
+<p>These are good tools if you're using an LLM as a conversational partner and to enable the LLM to achieve more, but for a TOD system, function calling requires embedding all your business logic into LLM prompts. Ultimately, this means less controllability of a highly non-deterministic system, and ultimately decision-making is left to the LLM. Letting an LLM control your business logic is <strong>not good</strong>! You want full control and accountability of your system!</p>
+<h3>Anatomy of a basic TOD system</h3>
+<p>First, let's look at what we need for a basic TOD system:</p>
+<ol>
+<li>We need a way to turn a user's utterance into some kind of structured data that we can then interpret.</li>
+<li>We need a way to train some model to output this structured data.</li>
+<li>We need to then take the output plan and &quot;run&quot; it on our systems to execute actions to achieve a goal.</li>
+</ol>
+<p>How this looks in the system we built at Clockwise was:</p>
+<ol>
+<li>We generated user utterances and domain-specific language conversations synthetically using a larger model.</li>
+<li>We fine-tuned an open-source model using this data.</li>
+<li>We built an interpreter that would &quot;run&quot; this DSL and execute actions to achieve the user's goal and connected it to existing internal APIs.</li>
+</ol>
+<p>It was a <strong>ton</strong> of work! It took me and a team of backend engineers a year to get a stable working system!</p>
+<h3>Downsides of TOD systems</h3>
+<p>So why aren't TOD systems more popular in this age of a massive influx of AI companies? In my opinion:</p>
+<ol>
+<li>They just don't know about it.</li>
+</ol>
+<p>Many people, myself included, enter the space with little to no prior knowledge or experience in NLP systems. We became interested with the popularization of LLMs and wanted to build things with this new LLM technology.</p>
+<ol start="2">
+<li>TODs are complex and hard to build!</li>
+</ol>
+<p>It takes a lot of work to build a TOD system. Just the basic system I outlined required:</p>
+<ul>
+<li>Creating a domain-specific language</li>
+<li>Creating an interpreter for this custom domain-specific language</li>
+<li>Generating a dataset to teach a model how to output this domain-specific language</li>
+<li>Making sure this dataset was clean and didn't have issues like hallucinated keywords, or syntax errors</li>
+<li>Doing the actual model training and tweaking hyperparameters</li>
+<li>Serving the model on some kind of GPU-enabled infrastructure</li>
+<li>Creating an eval dataset and setting up a way to test model output to control quality</li>
+</ul>
+<p>It's a lot of complex components and takes a long time even if you have a team of highly experienced engineers.</p>
+<ol start="3">
+<li>It takes a lot of work to create custom datasets to train a model on your domain-specific language.</li>
+</ol>
+<p>If you create a custom DSL, any trained model will have no context on that language since it doesn't appear in its training data. That means that you need to provide documentation and examples for how to use the DSL, and in turn, that means you need to have a deep understanding of the different use cases and appropriate actions the model can take.</p>
+<h3>Upsides of a TOD system</h3>
+<ol>
+<li>Control</li>
+</ol>
+<p>With a TOD system, it is much easier to control the LLM output, constraining it to whatever is do-able by your domain-specific language. You can also keep your business logic out of the prompt for the model. Essentially your &quot;plans&quot; or programs in your DSL is your business logic and it can be expressed in some intermediate representation.</p>
+<ol start="2">
+<li>Auditability</li>
+</ol>
+<p>With some intermediate representation of the user's intent, you can easily audit this plan or present it to the user for confirmation prior to executing the actions. This is very important to ensure the user experience is both reproducible and controllable. You don't want an LLM making decisions in some black box that you can't debug or explain to the user why it did what it did. You certainly don't want to let an LLM make potentially damaging changes to users' data without their explicit confirmation!</p>
+<ol start="3">
+<li>LLMs are not AGI</li>
+</ol>
+<p>I think it's important to re-iterate that LLMs are not general intelligence. Leaving the ability for an LLM to make decisions is akin to letting users roll a weighted die on how to achieve their goal. It may work most of the time, but it can also blow up in their faces.</p>
+<h2>Just use Python</h2>
+<p>Why create your own language when you can use an existing language like Python? The model already knows how to write Python.</p>
+<p>Yes, that's true. We looked into this and you run into two main problems.</p>
+<p>First, you need to figure out how to sandbox Python and be sure there are no leaks anywhere; otherwise, you create a major security hole.
+Second, you run into the issue of the model trying to use its vast knowledge of Python to do all sorts of stuff.</p>
+<p>When we experimented with Python output, the model tended to try to import packages, both from the core library and third party. This opens up another vector for attack.</p>
+<p>Finally, Python is fairly verbose, and the more verbose your language, the more tokens it takes to generate an output, the slower your overall system will be.</p>
+<h2>Isn't fine-tuning dead?</h2>
+<p>Why are you fine-tuning models? Didn't you know that <a href="https://christianjmills.com/posts/mastering-llms-course-notes/conference-talk-009/">fine-tuning is dead?</a></p>
+<p>Well, I'm sorry to tell you that the reports of fine-tuning's demise are greatly exaggerated. RAG and in-context learning are powerful, yes, but you're still paying per token for model input!</p>
+<p>You're also beholden to high latencies with external services! You can fine-tune an 8B model for a specific purpose with much lower per-token latencies than using a larger general model.</p>
+<h1>Conclusion</h1>
+<p>So this is what I understand of the current state of the world from my very limited point of view as a web developer trying to figure out how to incorporate LLMs into an existing product. TOD systems and function calling are both tools that leverage LLMs, but each comes with distinct trade-offs.</p>
+<h1>Other Resources</h1>
+<p><a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00333/96470/Task-Oriented-Dialogue-as-Dataflow-Synthesis">Task-Oriented Dialogue as Dataflow Synthesis</a>
+<a href="https://arxiv.org/abs/2305.19234">Grammar Prompting for Domain-Specific Language Generation with Large Language Models</a>
+<a href="https://arxiv.org/abs/2306.03460">Natural Language Commanding via Program Synthesis</a>
+<a href="https://arxiv.org/abs/2308.02323">Dataflow Dialogue Generation</a>
+<a href="https://arxiv.org/abs/2212.09939">AnyTOD</a>
+<a href="https://github.com/google-research/task-oriented-dialogue?tab=readme-ov-file">google-research/task-oriented-dialogue</a>
+<a href="https://github.com/budzianowski/multiwoz">budzianowski/multiwoz</a>
+<a href="https://www.cs.princeton.edu/courses/archive/spring20/cos598C/">Princeton COS598C</a> <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec16-task-oriented-dialogue.pdf">Lecture Notes on TOD</a></p>
+
+    </div>
+
+    <div class="tags">
+      
+        
+      
+    </div>
+
+    <div class="">
+      <nav class="level">
+  <div class="level-left">
+    <div class="level-item">
+      <a
+        id="share-with"
+        href="/blog/task-oriented-dialog-systems/"
+        target="_blank"
+        title="Permalink">🔗 Permalink</a>
+    </div>
+    <div class="level-item">
+      <a
+        id="email-feedback"
+        href="mailto:hellofrompatrickleenyc@patricklee.nyc?subject=Website%20outreach"
+        target="_blank"
+        title="Send me some feedback">
+        📧  Send Feedback</a>
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </div>
+</section>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg-squares">
+  <div class="content has-text-centered">
+    <span class="logo">
+      <a href="https://github.com/patleeman" target="_blank">
+        <img src="/public/github.png" alt="Github" />
+      </a>
+    </span>
+    <span class="logo">
+      <a href="https://www.linkedin.com/in/patrickleenyc/" target="_blank">
+        <img src="/public/linkedin.png" alt="Linkedin" />
+      </a>
+    </span>
+    <span class="logo">
+      <a
+        href="/feed.xml"
+        target="_blank"
+        title="RSS feed">
+        <img
+          src="/public/rss.png"
+          alt="RSS feed"
+          class="rss-icon" />
+      </a>
+    </span>
+  </div>
+
+  <div class="content has-text-centered">© 2016-2023 Patrick Lee</div>
+</footer>
+  </body>
+</html>
