@@ -130,15 +130,17 @@ Second, you run into the issue of the model trying to use its vast knowledge of 
 &lt;p&gt;So this is what I understand of the current state of the world from my very limited point of view as a web developer trying to figure out how to incorporate LLMs into an existing product.&lt;/p&gt;
 &lt;p&gt;I would love to learn more about Task Oriented Dialog systems and get a better sense of the environment in which they exist. Please reach out! I&#39;d love to hear from you if you&#39;ve worked on systems like this before.&lt;/p&gt;
 &lt;h1&gt;Other Resources&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00333/96470/Task-Oriented-Dialogue-as-Dataflow-Synthesis&quot;&gt;Task-Oriented Dialogue as Dataflow Synthesis&lt;/a&gt;
-&lt;a href=&quot;https://arxiv.org/abs/2305.19234&quot;&gt;Grammar Prompting for Domain-Specific Language Generation with Large Language Models&lt;/a&gt;
-&lt;a href=&quot;https://arxiv.org/abs/2306.03460&quot;&gt;Natural Language Commanding via Program Synthesis&lt;/a&gt;
-&lt;a href=&quot;https://arxiv.org/abs/2308.02323&quot;&gt;Dataflow Dialogue Generation&lt;/a&gt;
-&lt;a href=&quot;https://arxiv.org/abs/2212.09939&quot;&gt;AnyTOD&lt;/a&gt;
-&lt;a href=&quot;https://github.com/google-research/task-oriented-dialogue?tab=readme-ov-file&quot;&gt;google-research/task-oriented-dialogue&lt;/a&gt;
-&lt;a href=&quot;https://github.com/budzianowski/multiwoz&quot;&gt;budzianowski/multiwoz&lt;/a&gt;
-&lt;a href=&quot;https://www.cs.princeton.edu/courses/archive/spring20/cos598C/&quot;&gt;Princeton COS598C&lt;/a&gt; &lt;a href=&quot;https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec16-task-oriented-dialogue.pdf&quot;&gt;Lecture Notes on TOD&lt;/a&gt;
-&lt;a href=&quot;https://www.amazon.science/alexa-prize/proceedings/making-something-out-of-nothing-building-robust-task-oriented-dialogue-systems-from-scratch&quot;&gt;Making Something out of Nothing: Building Robust Task-oriented Dialogue Systems from Scratch&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00333/96470/Task-Oriented-Dialogue-as-Dataflow-Synthesis&quot;&gt;Task-Oriented Dialogue as Dataflow Synthesis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2305.19234&quot;&gt;Grammar Prompting for Domain-Specific Language Generation with Large Language Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2306.03460&quot;&gt;Natural Language Commanding via Program Synthesis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2308.02323&quot;&gt;Dataflow Dialogue Generation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2212.09939&quot;&gt;AnyTOD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/google-research/task-oriented-dialogue?tab=readme-ov-file&quot;&gt;google-research/task-oriented-dialogue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/budzianowski/multiwoz&quot;&gt;budzianowski/multiwoz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cs.princeton.edu/courses/archive/spring20/cos598C/&quot;&gt;Princeton COS598C&lt;/a&gt; &lt;a href=&quot;https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec16-task-oriented-dialogue.pdf&quot;&gt;Lecture Notes on TOD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.amazon.science/alexa-prize/proceedings/making-something-out-of-nothing-building-robust-task-oriented-dialogue-systems-from-scratch&quot;&gt;Making Something out of Nothing: Building Robust Task-oriented Dialogue Systems from Scratch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
       <dc:creator>Patrick Lee</dc:creator>
@@ -654,8 +656,8 @@ eleventyConfig.addShortcode(&amp;quot;openGraphScreenshotURL&amp;quot;, function
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then I updated my header to use this shortcode under the &lt;code&gt;og:image&lt;/code&gt; and &lt;code&gt;twitter:image&lt;/code&gt; tags &lt;a href=&quot;https://github.com/patleeman/patricklee.nyc/blob/56e675dd7d94121337a91924dc72eec5bbfab084/_includes/layouts/header.liquid#L13&quot;&gt;like so&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!-- header.liquid --&amp;gt;
-&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1728063674471&amp;quot; /&amp;gt;
-&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1728063674471&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1728070925785&amp;quot; /&amp;gt;
+&amp;lt;meta property=&amp;quot;twitter:image&amp;quot; content=&amp;quot;https://v1.screenshot.11ty.dev/https%3A%2F%2Fpatricklee.nyc%2Fsocial%2Fblog%2Feasy-dynamic-social-sharing-image-with-eleventy%2F/opengraph/_1728070925785&amp;quot; /&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;That&#39;s all it takes!&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
